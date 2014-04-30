@@ -228,7 +228,7 @@ a:hover {
 .listWindow {
 	counter-reset: li; /* Initiate a counter */
 	width: 230px;
-	background-color: #fcfcfc;
+	background-color: #FCFCFC;
 	color: black;
 	border-radius: 2px;
 	display: inline-block;
@@ -249,9 +249,11 @@ a:hover {
 
 .adWindow {
 	width: 234px;
-	background-color: black;
+	background-color: #000000;
 	margin-left: 2px;
 	margin-right: 0;
+	margin-bottom: 0;
+	margin-top: 0;
 	border-radius: 0;
 }
 
