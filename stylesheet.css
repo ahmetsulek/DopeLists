@@ -1,0 +1,449 @@
+/*http://meyerweb.com/eric/tools/css/reset/ */
+/*v2.0 | 20110126 */
+/*License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	background: none;
+	line-height: normal;
+}
+
+/*HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+nav ul {
+	list-style:none
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+	font-family: 'clear_sansbold';
+	src: url('fonts/ClearSans-Bold-webfont.eot');
+	src: url('fonts/ClearSans-Bold-webfont.eot?.iefix') format('embedded-opentype'),
+		 url('fonts/ClearSans-Bold-webfont.woff') format('woff'),
+		 url('fonts/ClearSans-Bold-webfont.ttf') format('truetype'),
+		 url('fonts/ClearSans-Bold-webfont.svg.clear_sansbold') format('svg');
+	font-weight: normal;
+	font-style: normal;}
+
+@font-face {
+	font-family: 'clear_sansitalic';
+	src: url('fonts/ClearSans-Italic-webfont.eot');
+	src: url('fonts/ClearSans-Italic-webfont.eot?.iefix') format('embedded-opentype'),
+		 url('fonts/ClearSans-Italic-webfont.woff') format('woff'),
+		 url('fonts/ClearSans-Italic-webfont.ttf') format('truetype'),
+		 url('fonts/ClearSans-Italic-webfont.svg.clear_sansitalic') format('svg');
+	font-weight: normal;
+	font-style: normal;}
+
+@font-face {
+	font-family: 'clear_sans_lightregular';
+	src: url('fonts/ClearSans-Light-webfont.eot');
+	src: url('fonts/ClearSans-Light-webfont.eot?.iefix') format('embedded-opentype'),
+		 url('fonts/ClearSans-Light-webfont.woff') format('woff'),
+		 url('fonts/ClearSans-Light-webfont.ttf') format('truetype'),
+		 url('fonts/ClearSans-Light-webfont.svg.clear_sans_lightregular') format('svg');
+	font-weight: normal;
+	font-style: normal;}
+
+@font-face {
+	font-family: 'clear_sansregular';
+	src: url('fonts/ClearSans-Regular-webfont.eot');
+	src: url('fonts/ClearSans-Regular-webfont.eot?.iefix') format('embedded-opentype'),
+		 url('fonts/ClearSans-Regular-webfont.woff') format('woff'),
+		 url('fonts/ClearSans-Regular-webfont.ttf') format('truetype'),
+		 url('fonts/ClearSans-Regular-webfont.svg.clear_sansregular') format('svg');
+	font-weight: normal;
+	font-style: normal;}
+
+
+/* STYLE */
+
+body {
+	background-color: #0e0e0e;
+	background-repeat: repeat-x;
+	background-position: top left;
+	font-family: clear_sansregular, sans-serif;
+	color: white;
+	overflow-y: scroll;
+}
+
+strong {
+	font-family: clear_sansbold, sans-serif;
+}
+
+em {
+	font-family: clear_sansitalic, sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.accordionHeader:focus {
+	outline: none;
+}
+
+.localGalaxyGroup {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* HEADER */
+
+.headerContainer {
+	display: inline-block;
+	width: 100%;
+}
+
+.headerTitle {
+	float: left;
+	font-family: clear_sansbold, sans-serif;
+	font-size: 60px;
+}
+
+.headerTitleSmall {
+	font-family: clear_sansregular, sans-serif;
+	font-size: 15px;
+}
+
+/* NAVIGATION */
+
+.categoryContainer {
+	float: right;	
+	text-align: right;
+	cursor: pointer;
+	font-family: clear_sansregular, sans-serif;
+	font-size: 32px;
+	position: relative;
+	margin-top: 33px;
+	padding-bottom: 15px;
+}
+
+.currentCategory {
+	opacity: 0;
+}
+
+.triangle {
+	margin-left: 8px;
+	margin-right: 3px;
+	opacity: 0.5;
+}
+
+.categorySlider {
+	width: 200px;
+	line-height: 32px;
+	border: 2px solid #E0E0E0;
+	border-top: none;
+	display: none;
+	opacity: 0.95;
+	position: absolute;
+	top: 52px;
+	right: 0;
+	background-color: #FFFFFF;
+	border-radius: 0 0 2px 2px;
+	z-index: 100;
+}
+
+.categorySlider > a, .categorySlider > strong {
+	display: block;
+	color: #777777;
+	font-size: 22px;
+	border-bottom: 1px solid #E0E0E0;
+	padding: 5px 12px 5px 30px;
+}
+
+.categorySlider > strong {
+	color: black;
+	cursor: default;
+}
+
+.categoryElement:last-of-type {
+	border: none;
+}
+
+.categoryElement:hover {
+	color: black;
+}
+
+/* CONTENT */
+
+.contentContainer {
+	display: block;
+	margin: 0 auto;
+	margin-top: -2px;
+}
+
+@-moz-document url-prefix() {
+	.contentContainer {
+		margin-top: -5px;
+	}
+
+}
+
+.listWindow {
+	counter-reset: li; /* Initiate a counter */
+	width: 230px;
+	background-color: #fcfcfc;
+	color: black;
+	border-radius: 2px;
+	display: inline-block;
+	float: left;
+	margin: 0 5px 10px 5px;
+}
+
+.listWindow > .title {
+	line-height: 24px;
+	height: 24px;
+	text-align: center;
+	font-family: clear_sansbold, sans-serif;
+	font-size: 15px;
+	background: url('img/titlebg.png');
+	border-radius: 2px 2px 0 0;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.adWindow {
+	width: 234px;
+	background-color: black;
+	margin-left: 2px;
+	margin-right: 0;
+	border-radius: 0;
+}
+
+.accordionHeader {
+	height: 26px;
+	overflow: hidden;
+}
+
+.accordionElement {
+	position: relative; /* Create a positioning context */
+	list-style: none; /* Disable the normal item numbering */
+	border-bottom: 1px solid #E0E0E0;
+	display: block;
+	clear: both;
+}
+
+.accordionElement:before {
+	content: counter(li); /* Use the counter as content */
+	counter-increment: li; /* Increment the counter by 1 */
+	float: right;
+	padding: 5px 7px 0 0;
+	font-size: 13px;
+	color: #AAAAAA;
+}
+
+.accordionElement:last-of-type {
+	border: 0;
+}
+
+.siteIcon {
+	width: 16px;
+	height: 16px;
+	padding: 5px 5px 5px 5px;
+	float: left;
+}
+
+.siteIconNoExpander {
+	width: 16px;
+	height: 16px;
+	padding: 5px 5px 5px 5px;
+	float: left;
+}
+
+.siteTitle {
+	width: 180px;
+	height: 22px;
+	overflow: hidden;
+	font-size: 14px;
+	padding: 4px 30px 0 0;
+	position: absolute;
+	left: 25px;
+	top: 0;
+	color: #000000;
+}
+
+.siteTitle:hover {
+	font-family: clear_sansbold, sans-serif;
+	padding-top: 3px;
+	text-decoration: none;
+}
+
+@-moz-document url-prefix() {
+	.siteTitle {
+		padding-top: 3px;
+	}
+
+	.siteTitle:hover {
+		padding-top: 2px;
+	}
+}
+
+.siteTitle:visited {
+	color: #6D6D6D;
+}
+
+.accordionExpander {
+	font-size: 12px;
+	width: 216px;
+	position: absolute;
+	color: #ddd;
+	background-color: #0e0e0e;
+	z-index: 200;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+	padding-right: 7px;
+	opacity: 0.95;
+}
+
+.accordionExpander > span {
+	font-family: clear_sans_lightregular, sans-serif;
+}
+
+/* FOOTER */
+
+.footerContainer {
+	margin-top: 0;
+	padding-left: 5px;
+}
+
+.footerDefinition {
+	font-family: clear_sansbold, sans-serif;
+	margin-bottom: 10px;
+}
+
+.footerDefinition > p {
+	font-family: clear_sansitalic, sans-serif;
+	text-indent: 30px;
+	font-size: 14px;
+}
+
+.footerAbout {
+	margin-top: 5px;
+	font-family: clear_sans_lightregular, sans-serif;
+	font-size: 13px;
+	color: #626262;
+	line-height: 18px;
+	margin-bottom: 10px;
+}
+
+.footerAbout a {
+	color: #929292;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1220px) {
+	.localGalaxyGroup {
+		max-width: 960px;
+	}
+	.footerContainer {
+		margin: 0 10px 15px 10px;
+	}
+	.footerAbout {
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 980px) {
+	.localGalaxyGroup {
+		max-width: 720px;
+	}
+}
+
+@media (max-width: 740px) {
+	.localGalaxyGroup {
+		max-width: 480px;
+	}
+	.categoryContainer {
+		margin-top: 8px;
+	}
+	.categorySlider {
+		width: 235px;
+		border-top-left-radius: 2px;
+		border-top-right-radius: 2px;
+	}
+}
+
+@media (max-width: 500px) {
+	.localGalaxyGroup {
+		max-width: 240px;
+	}
+	.headerTitle {
+		font-size: 40px;
+		margin-top: 13px;
+	}
+	.categoryContainer {
+		margin-top: 22px;
+	}
+	.categorySlider {
+		width: 236px;
+	}
+}
+/* Leftovers from accordion which doesn't work properly with Masonry
+
+.accordionExpander {
+	font-size: 12px;
+	line-height: 13px;
+	color: #404040;
+	padding: 5px 7px 5px 7px;
+	width: 216px;
+	cursor: pointer;
+	background-color: #E0E0E0;
+	overflow: hidden;
+}
+
+.accordionExpander > img {
+	float: left;
+	margin-right: 5px;
+}
+
+.accordionExpander > span {
+	font-family: clear_sans_lightregular, sans-serif;
+	line-height: 13px;
+}
+
+.accordionExpander a {
+	color: #929292;
+	line-height: 13px;
+}
+*/
