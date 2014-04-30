@@ -101,6 +101,12 @@ body {
 	overflow-y: scroll;
 }
 
+::selection {
+	color: white;
+	background: #FF7F50;
+}
+
+
 strong {
 	font-family: clear_sansbold, sans-serif;
 }
