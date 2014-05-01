@@ -237,6 +237,13 @@ a:hover {
 	margin: 0 5px 10px 5px;
 }
 
+.adWindow {
+	width: 234px;
+	background-color: #000000;
+	margin: 0 0 0 2px;
+	border-radius: 0;
+}
+
 .listWindow > .title {
 	line-height: 24px;
 	height: 24px;
@@ -246,16 +253,6 @@ a:hover {
 	background: url('img/titlebg.png');
 	border-radius: 2px 2px 0 0;
 	border-bottom: 1px solid #E0E0E0;
-}
-
-.adWindow {
-	width: 234px;
-	background-color: #000000;
-	margin-left: 2px;
-	margin-right: 0;
-	margin-bottom: 0;
-	margin-top: 0;
-	border-radius: 0;
 }
 
 .accordionHeader {

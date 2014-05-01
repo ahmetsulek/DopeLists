@@ -62,8 +62,7 @@ $(document).ready(function(){
 	   //});
 	});
 
-	//Leftovers from accordion which doesn't work properly with Masonry
-	/*
+	/* Leftovers from accordion which doesn't work properly with Masonry
 	$(".accordionElement").each(function() {
 		var $dropdown = $(this);
 
@@ -74,13 +73,10 @@ $(document).ready(function(){
 			$(".accordionExpander").not($div).slideUp(100);
 			return false;
 		});
-
 	});
-	
 	$("html").click(function(){
 		$(".accordionExpander").slideUp(100);
 	});
-
 	$(".siteTitle").click(function(){
 		event.stopPropagation();
 	});
