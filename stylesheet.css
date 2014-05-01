@@ -165,10 +165,11 @@ a:hover {
 }
 
 .currentCategory {
+	display: inline;
 	opacity: 0;
 }
 
-.triangle {
+.hamburger {
 	margin-left: 8px;
 	margin-right: 3px;
 	opacity: 0.5;

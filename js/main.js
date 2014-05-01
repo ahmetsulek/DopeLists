@@ -1,4 +1,12 @@
 $(document).ready(function(){
+	
+	//Google Analytics
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-49779109-1', 'dopelists.com');
+	  ga('send', 'pageview');
 
 	//Navigation - category slider
 	$(".categoryContainer").click(function(){
@@ -7,13 +15,13 @@ $(document).ready(function(){
 
 	$(".categoryHover").mouseenter(function(){
 		$(".currentCategory").fadeTo(100,1);
-		$(".triangle").fadeTo(100,1);
+		$(".hamburger").fadeTo(100,1);
 
 	});
 
 	$(".categoryHover").mouseleave(function(){
 		$(".currentCategory").fadeTo(100,0);
-		$(".triangle").fadeTo(100,0.5);
+		$(".hamburger").fadeTo(100,0.5);
 		$(".categorySlider").slideUp(100);
 	});
 
