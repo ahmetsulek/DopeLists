@@ -42,28 +42,116 @@
 	<meta name="copyright" content="dominikserafin.pl">
 	<meta name="description" content="Dope websites and cool things categorized by various fields of interest.">
 	<meta name="robots" content="all">
+
+<style>
+	.headerMain {
+		display: block;
+		margin-top: 80px;
+		margin-left: 40px;
+		margin-bottom: 10px;
+		font-family: clear_sansbold;
+		font-size: 100px;
+		text-align: center;
+	}
+
+	.categoriesMain {
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+	.categoriesMain > a {
+		font-family: clear_sans_lightregular;
+		font-size: 35px;
+		margin: 50px;
+		line-height: 100px;
+		color: #fff;
+		border-radius: 2px;
+		border: 2px solid #fff;
+		padding: 5px 20px;
+  		white-space: nowrap;
+  		opacity: 0.8;
+	}
+
+	.categoriesMain > a:hover {
+		background-color: #333;
+		text-decoration: none;
+		opacity: 1;
+	}
+
+	.categoriesMain > .wip {
+		opacity: 0.1;
+	}
+
+	.footerContainer {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.blue {
+		background-image: url('./img/headerbg_blue.png');
+	}
+
+	.red {
+		background-image: url('./img/headerbg_red.png');
+	}
+
+	.gold {
+		background-image: url('./img/headerbg_gold.png');
+	}
+
+	.green {
+		background-image: url('./img/headerbg_green.png');
+	}
+
+	.purple {
+		background-image: url('./img/headerbg_purple.png');
+	}
+
+	.contentContainer {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	@media (max-width: 740px) {
+		.headerMain {
+			font-size: 60px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			margin-left: 0;
+		}
+	}
+
+	@media (max-width: 500px) {
+		.headerMain {
+			font-size: 30px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			margin-left: 0;
+		}
+		.categoriesMain > a {
+			margin: 0;
+			font-size: 20px;
+			line-height: 50px;
+		}
+	}
+
+</style>
 </head>
 
-<body style="background-image: url('./img/headerbg_gray.png');"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<body><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <div class="localGalaxyGroup">
 	
-	<div class="headerContainer">
-		<a href="http://dopelists.com" title="Dope websites and cool things categorized by various fields of interest.">
-			<div class="headerTitle">DOPELISTS<span class="headerTitleSmall">.COM</span></div>
-		</a>
-		<div class="categoryHover">
-			<div class="categoryContainer" title="Choose a category.">
-			<div class="currentCategory" style="opacity: 0.5;">categories</div><img src="./img/hamburger.png" class="hamburger">
-				<div class="categorySlider">
-					<a href="./webdesign" title="Best things about webdesign, webdevelopment &amp; general design.">webdesign</a>
-					<a href="./afterformat" title="Don't know what to install after format?">after format</a>	
-					<a href="./free2play" title="Games that are free to play." style="color: #eee;">free 2 play</a>
-					<a href="./indiegames" title="Indie gaming at its finest." style="color: #eee;">indie games</a>
-					<a href="./browsergames" title="Quite good games that you can play in your browser." style="color: #eee;">browser games</a>				
-					<a href="./stoner" title="High, I'm hi." style="color: #eee;">stoner</a>
-				</div>
-			</div>
-		</div>
+	<div class="headerMain">DOPELISTS<span class="headerTitleSmall">.COM</span></div>
+
+	<div class="categoriesMain">
+		<a class="blue" href="./webdesign" title="Best things about webdesign, webdevelopment &amp; general design.">webdesign</a>
+		<a class="red" href="./afterformat" title="Don't know what to install after format?">after format</a>	
+		<a class="green wip" href="./free2play" title="Games that are free to play.">free 2 play</a>
+		<a class="gold wip" href="./indiegames" title="Indie gaming at its finest.">indie games</a>
+		<a class="green wip" href="./browsergames" title="Quite good games that you can play in your browser.">browser games</a>				
+		<a class="purple wip" href="./stoner" title="High, I'm hi.">stoner</a>
 	</div>
 
 	<div class="contentContainer">
