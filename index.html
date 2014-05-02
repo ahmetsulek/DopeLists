@@ -139,12 +139,23 @@
 		line-height: 0;
 	}
 
+
+	.shareaholic-canvas {
+		height: 50px;
+		margin-top: -80px;
+		margin-bottom: 100px;
+	}
+
 	@media (max-width: 740px) {
 		.headerMain {
 			font-size: 60px;
 			margin-top: 30px;
 			margin-bottom: 30px;
 			margin-left: 0;
+		}
+		.shareaholic-canvas {
+			margin-top: -20px;
+			margin-bottom: 30px;
 		}
 	}
 
@@ -169,9 +180,32 @@
 			font-size: 10px;
 			margin-bottom: 5px;
 		}
+		.shareaholic-canvas {
+			margin-top: 0px;
+			margin-bottom: 30px;
+		}
 	}
 
 </style>
+
+<script type="text/javascript">
+//<![CDATA[
+  (function() {
+    var shr = document.createElement('script');
+    shr.setAttribute('data-cfasync', 'false');
+    shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+    shr.type = 'text/javascript'; shr.async = 'true';
+    shr.onload = shr.onreadystatechange = function() {
+      var rs = this.readyState;
+      if (rs && rs != 'complete' && rs != 'loaded') return;
+      var site_id = 'da85df15c2d6fef0cb3be72d602f2f65';
+      try { Shareaholic.init(site_id); } catch (e) {}
+    };
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(shr, s);
+  })();
+//]]>
+</script>
 </head>
 
 <body>
@@ -192,7 +226,9 @@
 <div class="localGalaxyGroup">
 	
 
-	<div class="headerMain">DOPELISTS<span class="headerTitleSmall">.COM</span></div>
+	<div class="headerMain">DOPELISTS<span class="headerTitleSmall">.COM</span>
+		<div class='shareaholic-canvas' data-app='share_buttons' data-app-id='6553068'></div>
+	</div>
 
 	<div class="categoriesMain">
 		
