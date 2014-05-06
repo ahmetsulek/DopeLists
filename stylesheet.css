@@ -140,6 +140,11 @@ a:hover {
 	width: 100%;
 }
 
+.fbLike {
+	float: left;
+	margin: 25px 0 0 -31px;
+}
+
 .headerTitle {
 	float: left;
 	font-family: clear_sansbold, sans-serif;
@@ -413,13 +418,17 @@ a:hover {
 	}
 	.headerTitle {
 		font-size: 40px;
-		margin-top: 13px;
+		margin-top: 0;
 	}
 	.categoryContainer {
 		margin-top: 22px;
 	}
 	.categorySlider {
 		width: 236px;
+	}
+	.fbLike {
+		float: left;
+		margin: -5px 0 0 0px;
 	}
 }
 
