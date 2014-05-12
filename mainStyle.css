@@ -524,6 +524,10 @@ body {
 }
 
 @media (max-width: 420px) {
+.donateText {
+	font-size: 14px;
+}
+
 .headerLogo {
 	margin-top: 30px;
 	width: 280px;
@@ -541,12 +545,13 @@ body {
 	opacity: 1;
 }
 
+.categoryName {
+	font-size: 36px;
+}
+
 .categorySharingIcons > a:hover {
 	width: 20px;
 	height: 20px;
 	opacity: 1;
-}
-.donateText {
-	font-size: 14px;
 }
 }
