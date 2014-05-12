@@ -8,6 +8,25 @@ $(document).ready(function(){
 	  ga('create', 'UA-49779109-1', 'dopelists.com');
 	  ga('send', 'pageview');
 	  
+	//Facebook Like
+	(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.0";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+
+	//Twitter Follow
+	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+	//GooglePlus Follow
+	(function() {
+	var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+	po.src = 'https://apis.google.com/js/platform.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	})();
+
 	//Navigation - category slider
 	$(".categoryContainer").click(function(){
 		$(".categorySlider").slideToggle(100);
@@ -16,7 +35,6 @@ $(document).ready(function(){
 	$(".categoryHover").mouseenter(function(){
 		$(".currentCategory").fadeTo(100,1);
 		$(".hamburger").fadeTo(100,1);
-
 	});
 
 	$(".categoryHover").mouseleave(function(){
@@ -25,7 +43,7 @@ $(document).ready(function(){
 		$(".categorySlider").slideUp(100);
 	});
 
-	//Link descrption on hover
+	//Link description on hover
 	$(".accordionElement").mouseenter(function(){
 		$(this).children(".accordionExpander").slideDown(0);
 	});
