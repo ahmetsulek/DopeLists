@@ -75,9 +75,12 @@ a:hover {
 }
 
 sup {
+	border-radius: 2px;
+	padding: 0 3px;
+	color: white;
 	vertical-align: super;
 	line-height: 0;
-	font-size: 12px;
+	font-size: 9px;
 	margin-left: 4px;
 	font-family: clear_sansbold;
 }
