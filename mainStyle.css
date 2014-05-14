@@ -110,18 +110,10 @@ body {
 	overflow: hidden;
 }
 
-.left {
+.topLeft {
 	width: 800px;
 	height: 29px;
 	text-align: left;
-	display: inline-block;
-	vertical-align: top;
-}
-
-.right {
-	width: 400px;
-	height: 29px;
-	text-align: right;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -149,10 +141,10 @@ body {
 	height: 29px;
 	background: url(./img/social_facebookWhite.png) 50% no-repeat;
 	background-size: 10px 20px;
-	transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
+	transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -webkit-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
 }
 
 .twitterPage {
@@ -161,10 +153,10 @@ body {
 	height: 29px;
 	background: url(./img/social_twitterWhite.png) 50% no-repeat;
 	background-size: 20px 20px;
-	transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
+	transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -webkit-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
 }
 
 .googlePage {
@@ -173,10 +165,10 @@ body {
 	height: 29px;
 	background: url(./img/social_googleplusWhite.png) 50% no-repeat;
 	background-size: 20px 20px;
-	transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
+	transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -webkit-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
 }
 
 .facebookPage:hover {
@@ -198,22 +190,39 @@ body {
 	margin-right: 31px;
 }
 
-.donateText {
-	font-family: clear_sansbold;
+.topRight {
+	font-family: clear_sansregular;
+	width: 400px;
+	height: 29px;
+	text-align: right;
 	font-size: 16px;
 	color: white;
-	height: 29px;
 	line-height: 29px;
-	transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.donateText {
+	display: inline-block;
+	font-family: clear_sansbold;
+	height: 29px;
+	transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -webkit-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
 }
 
 .donateText:hover {
 	background: ;
 	color: #f1c40f;
 	text-decoration: none;
+}
+
+.flattrButton {
+	position: relative;
+	top: 4px;
+	margin-left: 3px;
+	display: inline-block;
 }
 
 /* CONTENT */
@@ -263,6 +272,8 @@ body {
 	display: inline-block;
 	margin-bottom: 20px;
 	color: white;
+	border-radius: 3px;
+	overflow: hidden;
 }
 
 .categoryBoxWrapper {
@@ -285,9 +296,14 @@ body {
 
 .categoryBox:hover {
 	text-decoration: none;
-	opacity: 0.85;
 }
 
+#boxWebdesign {background-color: #024959} #boxWebdesign:hover {background-color: #03738c}
+#boxAfterformat {background-color: #953336} #boxAfterformat:hover {background-color: #c74448}
+#boxIndiegames {background-color: #a88827} #boxIndiegames:hover {background-color: #dbb132}
+#boxFree2play {background-color: #009066} #boxFree2play:hover {background-color: #00c288}
+#boxBrowsergames {background-color: #105c13} #boxBrowsergames:hover {background-color: #188f1c}
+#boxStoner {background-color: #4c355e} #boxStoner:hover {background-color: #765191}
 
 .lastUpdate {
 	margin: 8px 0 0 0;
@@ -450,12 +466,12 @@ body {
 	height: 60px;
 }
 
-.left {
+.topLeft {
 	width: 800px;
 	text-align: center;
 }
 
-.right {
+.topRight {
 	width: 800px;
 	text-align: center;
 }
@@ -466,13 +482,13 @@ body {
 	height: 110px;
 }
 
-.left {
+.topLeft {
 	width: 100%;
 	height: 80px;
 	text-align: center;
 }
 
-.right {
+.topRight {
 	width: 100%;
 	text-align: center;
 }
@@ -483,10 +499,6 @@ body {
 
 .sFElementWrapper:nth-of-type(2), .sFElementWrapper:nth-of-type(3) {
 	margin-top: -7px;
-}
-
-.donateText {
-	display: block;
 }
 
 .localGalaxyGroup {
@@ -524,10 +536,6 @@ body {
 }
 
 @media (max-width: 420px) {
-.donateText {
-	font-size: 14px;
-}
-
 .headerLogo {
 	margin-top: 30px;
 	width: 280px;

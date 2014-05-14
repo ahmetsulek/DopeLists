@@ -7,10 +7,11 @@
 <!--                         `-._ -  -  - |                                                  -->
 <!--                             `————————'                                                 -->
 <!--                                                                                       -->
-<!DOCTYPE html><html xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"><!--[if lte IE 9]><script src="../js/html5shiv.js"></script><![endif]-->
+<!DOCTYPE html><html><!--[if lte IE 9]><script src="../js/html5shiv.js"></script><![endif]-->
+
 <head>
 	<meta charset="utf-8">
-	<title>Dopelists.com — after format</title>
+	<title>DopeLists.com — After Format</title>
 
 	<link rel="shortcut icon" href="../img/icon_red/favicon.ico">
 	<link rel="apple-touch-icon" sizes="57x57" href="../img/icon_red/apple-touch-icon-57x57.png">
@@ -30,62 +31,109 @@
 	<meta name="msapplication-TileImage" content="../img/icon_red/mstile-144x144.png">
 	<meta name="msapplication-config" content="../img/icon_red/browserconfig.xml">
 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link type="text/css" rel="stylesheet" href="../reset.css">
+	<link type="text/css" rel="stylesheet" href="../listStyle.css">
+
+	<style>
+	.linkTitle:hover {color: #c00000;}
+	.highlightElement:hover {background-color: #c00000;}
+	.headerWrapper {background-image: url('../img/headerbg_red.png');}
+	</style>
+
 	<script src="../js/jquery.min.js"></script>
 	<script src="../js/masonry.pkgd.min.js"></script>
 	<script src="../js/main.js"></script>
 
-	<link type="text/css" rel="stylesheet" href="../stylesheet.css">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<meta name="author" content="dominikserafin.pl">
-	<meta name="copyright" content="dominikserafin.pl">
+	<meta name="author" content="DominikSerafin.pl">
+	<meta name="copyright" content="DominikSerafin.pl">
 	<meta name="description" content="Don't know what to install after format?">
 	<meta name="robots" content="all">
 
-	<meta property="og:site_name" content="Dopelists.com" />
-	<meta property="og:title" content="Dopelists.com — after format" />
-	<meta property="og:description" content="Don't know what to install after format?" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://Dopelists.com/afterformat/" />
-	<meta property="og:image" content="http://dopelists.com/img/ogImage.png" />
+	<meta property="og:site_name" content="DopeLists.com">
+	<meta property="og:title" content="Dopelists.com — After Format">
+	<meta property="og:description" content="Don't know what to install after format?">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://DopeLists.com/afterformat/">
+	<meta property="og:image" content="http://DopeLists.com/img/ogImage.png">
+	<!--<meta property="fb:admins" content="446985282103566">-->
 
-	<style>
-	.siteTitle:hover {
-		color: #f10f0f;
-	}
-	</style>
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@DopeLists">
+	<meta name="twitter:creator" content="@SerafinDominik">
+	<meta name="twitter:title" content="DopeLists.com">
+	<meta name="twitter:domain" content="http://DopeLists.com/">
+	<meta name="twitter:description" content="Don't know what to install after format?">
+	<meta name="twitter:image:src" content="http://DopeLists.com/img/ogImage.png">
 </head>
 
-<body style="background-image: url('../img/headerbg_red.png');"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><div class="preload" style="display:none"><img src="../img/magnifier.png"></div>
-<div class="localGalaxyGroup">
+<body><div class="preload" style="display:none"><img src="../img/magnifier.png"><img src="../img/hamburgerActive.png"></div>
 
-	<div class="headerContainer">
-		<a href="http://dopelists.com" title="Dope websites and cool things categorized by various fields of interest.">
-			<div class="headerTitle">DOPELISTS<span class="headerTitleSmall">.COM</span></div>
-		</a>
+	<div class="topWrapper">
 
-		<div class="fbLike">
-			<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fdopelists&amp;width=130&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:130px; height:21px;" allowTransparency="true"></iframe>
-		</div>
-		
-		<div class="categoryHover">
-			<div class="categoryContainer" title="Don't know what to install after format?">
-				<div class="currentCategory">after format</div><img src="../img/hamburger.png" class="hamburger">
-				<div class="categorySlider">
-					<a href="http://Dopelists.com" title="Curated repositories of high quality useful sites."><strong>Main Page</strong></a>
-					<a href="../webdesign" title="Best things about webdesign, webdevelopment &amp; general design.">web design</a>
-					<a href="../afterformat" title="Don't know what to install after format?">after format</a>	
-					<a href="../free2play" title="Games that are free to play." style="color: #eee;">free 2 play</a>
-					<a href="../indiegames" title="Indie gaming at its finest." style="color: #eee;">indie games</a>
-					<a href="../browsergames" title="Quite good games that you can play in your browser." style="color: #eee;">browser games</a>				
-					<a href="../stoner" title="High, I'm hi." style="color: #eee;">stoner</a>
+		<div class="topLeft">
+			<div class="socialFollows">
+				<div class="sFElementWrapper">
+					<a class="facebookPage" href="http://facebook.com/dopelists"></a>
+					<div class="facebookButton">
+						<div id="fb-root"></div><div class="fb-like" data-href="https://facebook.com/dopelists" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false">Like</div>
+					</div>
+				</div>
+				<div class="sFElementWrapper">
+					<a class="twitterPage" href="https://twitter.com/DopeLists"></a>
+					<div class="twitterButton">
+						<a href="https://twitter.com/DopeLists" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow</a>
+					</div>
+				</div>
+				<div class="sFElementWrapper">
+					<a class="googlePage" href="https://plus.google.com/111234662108402116360" rel="publisher"></a>
+					<div class="googleButton">
+						<div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/111234662108402116360" data-rel="publisher">Follow</div>
+					</div>
 				</div>
 			</div>
 		</div>
+		<div class="topRight">
+			<a class="donateText" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=727DR9ZWZELQ2" title="Help fund my coffee addiction" target="_blank">Donate</a> or
+			<div class="flattrButton">
+				<script id='fb3j3qm'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=Dominikdsgnr&button=compact&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fb3j3qm');</script>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="headerWrapper">
+
+		<a class="headerLeft" href="http://DopeLists.com/">
+			<div class="headerLogo" alt="DopeLists.com logo"></div>
+			<div class="headerCategoryName">after format</div>
+		</a>
+		<div class="headerRight">
+			<div class="navigationHover">
+				<div class="frankensteinHamburger">
+					<div class="navigationSliderWrapper">
+						<div class="navigationSliderTriangle"></div>
+						<div class="navigationSlider">
+							<a href="http://Dopelists.com" title="Curated repositories of high quality useful sites.">START</a>
+							<a href="../webdesign" title="Best things about webdesign, webdevelopment &amp; general design.">web design</a>
+							<a href="../afterformat" title="Don't know what to install after format?">after format</a>	
+							<a href="../indiegames" title="Indie gaming at its finest.">indie games</a>
+							<a href="../free2play" title="Games that are free to play.">free 2 play</a>
+							<a href="../browsergames" title="Quite good games that you can play in your browser.">browser games</a>				
+							<a href="../stoner" title="High, I'm hi.">stoner</a>
+							<a href="#1" title="Why I created this site.">ABOUT</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</div>
 
 	<div class="adContainer">
+
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- Responsive white -->
 		<ins class="adsbygoogle"
 		     style="display:block"
@@ -95,546 +143,570 @@
 		<script>
 		(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
+
+	</div>
+
+<div class="localGalaxyGroup">
+
+	<div class="highlightWrapper">
+		<div class="highlightTitle">GO TO CATEGORY —</div>
+		<a class="highlightElement" id="A1" href="#B1">Useful sites</a>
+		<a class="highlightElement" id="A2" href="#B2">Browsers</a>
+		<a class="highlightElement" id="A3" href="#B3">Security</a>
+		<a class="highlightElement" id="A4" href="#B4">Utilities</a>
+		<a class="highlightElement" id="A5" href="#B5">Pictures</a>
+		<a class="highlightElement" id="A6" href="#B6">Audio</a>
+		<a class="highlightElement" id="A7" href="#B7">Video</a>
+		<a class="highlightElement" id="A8" href="#B8">Other</a>
+		<a class="highlightElement" id="A9" href="#B9">Runtimes</a>
+		<a class="highlightElement" id="A10" href="#B10">Compression</a>
+		<a class="highlightElement" id="A11" href="#B11">Documents</a>
+		<a class="highlightElement" id="A12" href="#B12">Developer software</a>
+		<a class="highlightElement" id="A13" href="#B13">Communication</a>
+		<a class="highlightElement" id="A14" href="#B14">File Sharing</a>
+		<a class="highlightElement" id="A15" href="#B15">Online storage</a>
 	</div>
 
 	<div class="contentContainer">
 
-		<ol class="listWindow"><div class="title">Useful sites</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://ninite.com/favicon.ico">
-					<a class="siteTitle" href="http://ninite.com">Ninite</a></div>
-				<div class="accordionExpander" style="display: none;">
+		<ol class="listWindow" id="B1"><div class="listTitle">Useful sites</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://ninite.com/favicon.ico">
+					<a class="linkTitle" href="http://ninite.com">Ninite</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Install &amp; update all at once.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://allmyapps.com/images/allmyapps/favicon.ico">
-					<a class="siteTitle" href="http://allmyapps.com/instant-setup">PC Essentials</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://allmyapps.com/images/allmyapps/favicon.ico">
+					<a class="linkTitle" href="http://allmyapps.com/instant-setup">PC Essentials</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>"Quickly setup your pc with our selection of best windows apps."</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://portableapps.com/sites/all/themes/portableappsnew/favicon.ico">
-					<a class="siteTitle" href="http://portableapps.com/">Portable Apps</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://portableapps.com/sites/all/themes/portableappsnew/favicon.ico">
+					<a class="linkTitle" href="http://portableapps.com/">Portable Apps</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Portable software for USB, portable and cloud drives.</span>
 				</div>
 			</li>
 		</ol>
 
-		<ol class="listWindow"><div class="title">Browsers</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="https://www.google.com/images/icons/product/chrome-32.png">
-					<a class="siteTitle" href="https://www.google.com/chrome">Google Chrome</a></div>
+		<ol class="listWindow" id="B2"><div class="listTitle">Browsers</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="https://www.google.com/images/icons/product/chrome-32.png">
+					<a class="linkTitle" href="https://www.google.com/chrome">Google Chrome</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://mozorg.cdn.mozilla.net/media/img/firefox/favicon.ico?2013-08">
-					<a class="siteTitle" href="http://www.mozilla.org/firefox">Mozilla Firefox</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://mozorg.cdn.mozilla.net/media/img/firefox/favicon.ico?2013-08">
+					<a class="linkTitle" href="http://www.mozilla.org/firefox">Mozilla Firefox</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.opera.com/favicon.ico">
-					<a class="siteTitle" href="http://www.opera.com">Opera</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.opera.com/favicon.ico">
+					<a class="linkTitle" href="http://www.opera.com">Opera</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://res1.windows.microsoft.com/resources/4.2/wol/shared/images/favicon.ico">
-					<a class="siteTitle" href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">Internet Explorer</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://res1.windows.microsoft.com/resources/4.2/wol/shared/images/favicon.ico">
+					<a class="linkTitle" href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">Internet Explorer</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="https://www.apple.com/favicon.ico">
-					<a class="siteTitle" href="https://www.apple.com/safari">Safari</a></div>
-			</li>
-		</ol>
-		
-		<ol class="listWindow"><div class="title">Security</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://res1.windows.microsoft.com/resources/4.2/wol/shared/images/favicon.ico">
-					<a class="siteTitle" href="http://windows.microsoft.com/en-us/windows/security-essentials-download">MS Security Essentials</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.avira.com/favicon.ico">
-					<a class="siteTitle" href="http://www.avira.com/en/avira-free-antivirus">Avira Free Antivirus</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.avast.com/favicon.ico">
-					<a class="siteTitle" href="http://www.avast.com">avast! Free Antivirus</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://free.avg.com/etc/designs/avg/us/en/favicon.ico">
-					<a class="siteTitle" href="http://free.avg.com/us-en/free-antivirus-download">AVG AntiVirus FREE</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.lavasoft.com/favicon.ico">
-					<a class="siteTitle" href="http://www.lavasoft.com/products/ad_aware.php">Ad-Aware</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="https://www.malwarebytes.org/favicon.ico">
-					<a class="siteTitle" href="https://www.malwarebytes.org">Malwarebytes</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.safer-networking.org/wp-content/themes/spybot/favicon.ico">
-					<a class="siteTitle" href="http://www.safer-networking.org/dl/">Spybot</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.superantispyware.com/favicon.ico">
-					<a class="siteTitle" href="http://www.superantispyware.com">SUPERAntiSpyware</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="https://www.apple.com/favicon.ico">
+					<a class="linkTitle" href="https://www.apple.com/safari">Safari</a></div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Utilities</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.imgburn.com/favicon.ico">
-					<a class="siteTitle" href="http://www.imgburn.com/index.php?act=download">ImgBurn</a></div>
-				<div class="accordionExpander" style="display: none;">
+		<ol class="listWindow" id="B3"><div class="listTitle">Security</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://res1.windows.microsoft.com/resources/4.2/wol/shared/images/favicon.ico">
+					<a class="linkTitle" href="http://windows.microsoft.com/en-us/windows/security-essentials-download">MS Security Essentials</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.avira.com/favicon.ico">
+					<a class="linkTitle" href="http://www.avira.com/en/avira-free-antivirus">Avira Free Antivirus</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.avast.com/favicon.ico">
+					<a class="linkTitle" href="http://www.avast.com">avast! Free Antivirus</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://free.avg.com/etc/designs/avg/us/en/favicon.ico">
+					<a class="linkTitle" href="http://free.avg.com/us-en/free-antivirus-download">AVG AntiVirus FREE</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.lavasoft.com/favicon.ico">
+					<a class="linkTitle" href="http://www.lavasoft.com/products/ad_aware.php">Ad-Aware</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="https://www.malwarebytes.org/favicon.ico">
+					<a class="linkTitle" href="https://www.malwarebytes.org">Malwarebytes</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.safer-networking.org/wp-content/themes/spybot/favicon.ico">
+					<a class="linkTitle" href="http://www.safer-networking.org/dl/">Spybot</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.superantispyware.com/favicon.ico">
+					<a class="linkTitle" href="http://www.superantispyware.com">SUPERAntiSpyware</a></div>
+			</li>
+		</ol>
+		
+		<ol class="listWindow" id="B4"><div class="listTitle">Utilities</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.imgburn.com/favicon.ico">
+					<a class="linkTitle" href="http://www.imgburn.com/index.php?act=download">ImgBurn</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Free disc burner with good features.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="https://cdburnerxp.se/favicon.ico">
-					<a class="siteTitle" href="https://cdburnerxp.se/en/download">CDBurnerXP</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="https://cdburnerxp.se/favicon.ico">
+					<a class="linkTitle" href="https://cdburnerxp.se/en/download">CDBurnerXP</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Disc burner.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://infrarecorder.org/images/favicon.png">
-					<a class="siteTitle" href="http://infrarecorder.org/?page_id=5">InfraRecorder</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://infrarecorder.org/images/favicon.png">
+					<a class="linkTitle" href="http://infrarecorder.org/?page_id=5">InfraRecorder</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Disc burner.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.teamviewer.com/favicon.ico">
-					<a class="siteTitle" href="http://www.teamviewer.com/en/download/windows.aspx">TeamViewer</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.teamviewer.com/favicon.ico">
+					<a class="linkTitle" href="http://www.teamviewer.com/en/download/windows.aspx">TeamViewer</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Remote control access to any computer.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="https://www.realvnc.com/favicon.ico">
-					<a class="siteTitle" href="https://www.realvnc.com/download">RealVNC</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="https://www.realvnc.com/favicon.ico">
+					<a class="linkTitle" href="https://www.realvnc.com/download">RealVNC</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Remote control access to any computer.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.truecrypt.org/favicon.ico">
-					<a class="siteTitle" href="http://www.truecrypt.org/downloads">TrueCrypt</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.truecrypt.org/favicon.ico">
+					<a class="linkTitle" href="http://www.truecrypt.org/downloads">TrueCrypt</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Data encryption tool.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://codesector.com/img/favicon.png">
-					<a class="siteTitle" href="http://codesector.com/teracopy">TeraCopy</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://codesector.com/img/favicon.png">
+					<a class="linkTitle" href="http://codesector.com/teracopy">TeraCopy</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Alternative to default file copy software.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.voidtools.com/favicon.ico">
-					<a class="siteTitle" href="http://www.voidtools.com/download.htm">Everything</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.voidtools.com/favicon.ico">
+					<a class="linkTitle" href="http://www.voidtools.com/download.htm">Everything</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Local file search engine.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://keepass.info/favicon.ico">
-					<a class="siteTitle" href="http://keepass.info/download.html">KeePass</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://keepass.info/favicon.ico">
+					<a class="linkTitle" href="http://keepass.info/download.html">KeePass</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Password manager.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="https://lastpass.com/favicon.ico">
-					<a class="siteTitle" href="https://lastpass.com/misc_download.php">LastPass</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="https://lastpass.com/favicon.ico">
+					<a class="linkTitle" href="https://lastpass.com/misc_download.php">LastPass</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Password manager.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.revouninstaller.com/favicon.ico">
-					<a class="siteTitle" href="http://www.revouninstaller.com/revo_uninstaller_free_download.html">Revo</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.revouninstaller.com/favicon.ico">
+					<a class="linkTitle" href="http://www.revouninstaller.com/revo_uninstaller_free_download.html">Revo</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Software installer/uninstaller.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.auslogics.com/favicon.ico">
-					<a class="siteTitle" href="http://www.auslogics.com/en/">Auslogics</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.auslogics.com/favicon.ico">
+					<a class="linkTitle" href="http://www.auslogics.com/en/">Auslogics</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Disk defrag.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.glarysoft.com/favicon.ico">
-					<a class="siteTitle" href="http://www.glarysoft.com/">Glary</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.glarysoft.com/favicon.ico">
+					<a class="linkTitle" href="http://www.glarysoft.com/">Glary</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>System utilities.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="https://windirstat.info/favicon.ico">
-					<a class="siteTitle" href="https://windirstat.info/download.html">WinDirStat</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="https://windirstat.info/favicon.ico">
+					<a class="linkTitle" href="https://windirstat.info/download.html">WinDirStat</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Disk usage statistics.</span>
 				</div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Pictures</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.irfanview.com/favicon.png">
-					<a class="siteTitle" href="http://www.irfanview.com">IrfanView</a></div>
+		<ol class="listWindow" id="B5"><div class="listTitle">Pictures</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.irfanview.com/favicon.png">
+					<a class="linkTitle" href="http://www.irfanview.com">IrfanView</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://picasa.google.com">Picasa</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://picasa.google.com">Picasa</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.faststone.org/favicon.ico">
-					<a class="siteTitle" href="http://www.faststone.org">FastStone</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.faststone.org/favicon.ico">
+					<a class="linkTitle" href="http://www.faststone.org">FastStone</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.xnview.com/assets/ico/favicon.ico">
-					<a class="siteTitle" href="http://www.xnview.com/en/xnview/#downloads">XnView</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.xnview.com/assets/ico/favicon.ico">
+					<a class="linkTitle" href="http://www.xnview.com/en/xnview/#downloads">XnView</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.gimp.org/images/wilber16.png">
-					<a class="siteTitle" href="http://www.gimp.org/downloads/">Gimp</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.gimp.org/images/wilber16.png">
+					<a class="linkTitle" href="http://www.gimp.org/downloads/">Gimp</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Best free image editing software.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.getpaint.net/favicon.ico">
-					<a class="siteTitle" href="http://www.getpaint.net/download.html">Paint.NET</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.getpaint.net/favicon.ico">
+					<a class="linkTitle" href="http://www.getpaint.net/download.html">Paint.NET</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.inkscape.org/design/images/inkscape-logo.png">
-					<a class="siteTitle" href="http://www.inkscape.org/en/download/">Inkscape</a></div>
-			</li>
-		</ol>
-		
-		<ol class="listWindow"><div class="title">Audio</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="https://www.spotify.com/favicon.ico">
-					<a class="siteTitle" href="https://www.spotify.com">Spotify</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.foobar2000.org/favicon.ico">
-					<a class="siteTitle" href="http://www.foobar2000.org/download">Foobar2000</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.winamp.com/favicon.ico">
-					<a class="siteTitle" href="http://www.winamp.com">Winamp</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="https://www.apple.com/favicon.ico">
-					<a class="siteTitle" href="https://www.apple.com/itunes/download/">iTunes</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.aimp.ru/favicon.ico">
-					<a class="siteTitle" href="http://www.aimp.ru/index.php?do=download">AIMP</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://audacity.sourceforge.net/favicon.ico">
-					<a class="siteTitle" href="http://audacity.sourceforge.net/download/">Audacity</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.inkscape.org/design/images/inkscape-logo.png">
-					<a class="siteTitle" href="http://www.inkscape.org">Inkscape</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.inkscape.org/design/images/inkscape-logo.png">
+					<a class="linkTitle" href="http://www.inkscape.org/en/download/">Inkscape</a></div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Video</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://images.videolan.org/images/favicon.ico">
-					<a class="siteTitle" href="http://www.videolan.org/vlc/#download">VLC</a></div>
+		<ol class="listWindow" id="B6"><div class="listTitle">Audio</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="https://www.spotify.com/favicon.ico">
+					<a class="linkTitle" href="https://www.spotify.com">Spotify</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.foobar2000.org/favicon.ico">
+					<a class="linkTitle" href="http://www.foobar2000.org/download">Foobar2000</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.winamp.com/favicon.ico">
+					<a class="linkTitle" href="http://www.winamp.com">Winamp</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="https://www.apple.com/favicon.ico">
+					<a class="linkTitle" href="https://www.apple.com/itunes/download/">iTunes</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.aimp.ru/favicon.ico">
+					<a class="linkTitle" href="http://www.aimp.ru/index.php?do=download">AIMP</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://audacity.sourceforge.net/favicon.ico">
+					<a class="linkTitle" href="http://audacity.sourceforge.net/download/">Audacity</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.inkscape.org/design/images/inkscape-logo.png">
+					<a class="linkTitle" href="http://www.inkscape.org">Inkscape</a></div>
+			</li>
+		</ol>
+		
+		<ol class="listWindow" id="B7"><div class="listTitle">Video</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://images.videolan.org/images/favicon.ico">
+					<a class="linkTitle" href="http://www.videolan.org/vlc/#download">VLC</a></div>
 			</li>				
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="https://secure.netflix.com/us/icons/nficon.ico">
-					<a class="siteTitle" href="https://www.netflix.com">Netflix</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="https://secure.netflix.com/us/icons/nficon.ico">
+					<a class="linkTitle" href="https://www.netflix.com">Netflix</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.hulu.com/favicon.ico">
-					<a class="siteTitle" href="http://www.hulu.com">Hulu</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.hulu.com/favicon.ico">
+					<a class="linkTitle" href="http://www.hulu.com">Hulu</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://cdn.kmplayer.com/KMP/images/global/favicon.ico">
-					<a class="siteTitle" href="http://www.kmplayer.com">KMPlayer</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://cdn.kmplayer.com/KMP/images/global/favicon.ico">
+					<a class="linkTitle" href="http://www.kmplayer.com">KMPlayer</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.gomlab.com/img/p_favicon.ico">
-					<a class="siteTitle" href="http://www.gomlab.com">GOM</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.gomlab.com/img/p_favicon.ico">
+					<a class="linkTitle" href="http://www.gomlab.com">GOM</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="https://www.apple.com/favicon.ico">
-					<a class="siteTitle" href="http://www.apple.com/quicktime/download/">QuickTime</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="https://www.apple.com/favicon.ico">
+					<a class="linkTitle" href="http://www.apple.com/quicktime/download/">QuickTime</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.cccp-project.net/favicon.ico">
-					<a class="siteTitle" href="http://www.cccp-project.net/">CCCP</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.cccp-project.net/favicon.ico">
+					<a class="linkTitle" href="http://www.cccp-project.net/">CCCP</a></div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Other</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.nvaccess.org/wp-content/themes/newaccess/img/favicon.ico">
-					<a class="siteTitle" href="http://www.nvaccess.org/download">NVDA screen reader</a></div>
-				<div class="accordionExpander" style="display: none;">
+		<ol class="listWindow" id="B8"><div class="listTitle">Other</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.nvaccess.org/wp-content/themes/newaccess/img/favicon.ico">
+					<a class="linkTitle" href="http://www.nvaccess.org/download">NVDA screen reader</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Screen reader for blind.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://store.steampowered.com/favicon.ico">
-					<a class="siteTitle" href="http://store.steampowered.com/about">Steam</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://store.steampowered.com/favicon.ico">
+					<a class="linkTitle" href="http://store.steampowered.com/about">Steam</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.desura.com/favicon.ico">
-					<a class="siteTitle" href="http://www.desura.com">Desura</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.desura.com/favicon.ico">
+					<a class="linkTitle" href="http://www.desura.com">Desura</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="https://evernote.com/favicon.ico">
-					<a class="siteTitle" href="https://evernote.com/evernote">Evernote</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="https://evernote.com/favicon.ico">
+					<a class="linkTitle" href="https://evernote.com/evernote">Evernote</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/favicon.ico">
-					<a class="siteTitle" href="http://www.google.com/earth/download/ge/agree.html">Google Earth</a></div>
-			</li>
-		</ol>
-		
-		<ol class="listWindow"><div class="title">Runtimes</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://wwwimages.adobe.com/www.adobe.com/include/img/favicon.ico">
-					<a class="siteTitle" href="http://www.adobe.com/products/flashplayer.html">Flash Player</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://wwwimages.adobe.com/www.adobe.com/include/img/favicon.ico">
-					<a class="siteTitle" href="http://get.adobe.com/shockwave/">Shockwave Player</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://wwwimages.adobe.com/www.adobe.com/include/img/favicon.ico">
-					<a class="siteTitle" href="https://get.adobe.com/air/‎">Air</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.microsoft.com/silverlight/favicon.ico">
-					<a class="siteTitle" href="http://www.microsoft.com/silverlight/‎">MS Silverlight</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.java.com//favicon.ico">
-					<a class="siteTitle" href="http://www.java.com">Java</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.microsoft.com/favicon.ico">
-					<a class="siteTitle" href="http://www.microsoft.com/en-us/download/details.aspx?id=17851">MS .NET Framework</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/favicon.ico">
+					<a class="linkTitle" href="http://www.google.com/earth/download/ge/agree.html">Google Earth</a></div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Compression</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://www.7-zip.org">7-zip</a></div>
+		<ol class="listWindow" id="B9"><div class="listTitle">Runtimes</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://wwwimages.adobe.com/www.adobe.com/include/img/favicon.ico">
+					<a class="linkTitle" href="http://www.adobe.com/products/flashplayer.html">Flash Player</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.win-rar.com/favicon.ico">
-					<a class="siteTitle" href="http://www.win-rar.com">WinRAR</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://wwwimages.adobe.com/www.adobe.com/include/img/favicon.ico">
+					<a class="linkTitle" href="http://get.adobe.com/shockwave/">Shockwave Player</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://peazip.com/wp-content/themes/parnassa/images/favicon.ico">
-					<a class="siteTitle" href="http://peazip.com">PeaZip</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://wwwimages.adobe.com/www.adobe.com/include/img/favicon.ico">
+					<a class="linkTitle" href="https://get.adobe.com/air/‎">Air</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.microsoft.com/silverlight/favicon.ico">
+					<a class="linkTitle" href="http://www.microsoft.com/silverlight/‎">MS Silverlight</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.java.com//favicon.ico">
+					<a class="linkTitle" href="http://www.java.com">Java</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.microsoft.com/favicon.ico">
+					<a class="linkTitle" href="http://www.microsoft.com/en-us/download/details.aspx?id=17851">MS .NET Framework</a></div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Documents</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://office.microsoft.com/favicon.ico">
-					<a class="siteTitle" href="http://office.microsoft.com">MS Office</a></div>
+		<ol class="listWindow" id="B10"><div class="listTitle">Compression</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://www.7-zip.org">7-zip</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="https://www.openoffice.org/favicon.ico">
-					<a class="siteTitle" href="http://www.openoffice.org/download">Apache OpenOffice</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.win-rar.com/favicon.ico">
+					<a class="linkTitle" href="http://www.win-rar.com">WinRAR</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.libreoffice.org/themes/libreofficenew/favicon.ico">
-					<a class="siteTitle" href="http://www.libreoffice.org">LibreOffice</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://peazip.com/wp-content/themes/parnassa/images/favicon.ico">
+					<a class="linkTitle" href="http://peazip.com">PeaZip</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://wwwimages.adobe.com/www.adobe.com/include/img/favicon.ico">
-					<a class="siteTitle" href="http://get.adobe.com/reader/">Reader</a></div>
+		</ol>
+		
+		<ol class="listWindow" id="B11"><div class="listTitle">Documents</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://office.microsoft.com/favicon.ico">
+					<a class="linkTitle" href="http://office.microsoft.com">MS Office</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.foxitsoftware.com/favicon.ico">
-					<a class="siteTitle" href="http://www.foxitsoftware.com/downloads">Foxit Reader</a></div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.cutepdf.com/images/favicon.ico">
-					<a class="siteTitle" href="http://www.cutepdf.com">CutePDF</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="https://www.openoffice.org/favicon.ico">
+					<a class="linkTitle" href="http://www.openoffice.org/download">Apache OpenOffice</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.libreoffice.org/themes/libreofficenew/favicon.ico">
+					<a class="linkTitle" href="http://www.libreoffice.org">LibreOffice</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://wwwimages.adobe.com/www.adobe.com/include/img/favicon.ico">
+					<a class="linkTitle" href="http://get.adobe.com/reader/">Reader</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.foxitsoftware.com/favicon.ico">
+					<a class="linkTitle" href="http://www.foxitsoftware.com/downloads">Foxit Reader</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.cutepdf.com/images/favicon.ico">
+					<a class="linkTitle" href="http://www.cutepdf.com">CutePDF</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Print documents as PDF files.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.pdfforge.org/misc/favicon.ico">
-					<a class="siteTitle" href="http://www.pdfforge.org/download">PDFCreator</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.pdfforge.org/misc/favicon.ico">
+					<a class="linkTitle" href="http://www.pdfforge.org/download">PDFCreator</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Print documents as PDF files.</span>
 				</div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Developer software</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.sublimetext.com/favicon.ico">
-					<a class="siteTitle" href="http://www.sublimetext.com">Sublime Text</a></div>
-				<div class="accordionExpander" style="display: none;">
+		<ol class="listWindow" id="B12"><div class="listTitle">Developer software</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.sublimetext.com/favicon.ico">
+					<a class="linkTitle" href="http://www.sublimetext.com">Sublime Text</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>This site was written in this! Best to use with <a href="https://sublime.wbond.net">Package Control</a>.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="https://filezilla-project.org/favicon.ico">
-					<a class="siteTitle" href="https://filezilla-project.org">FileZilla</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="https://filezilla-project.org/favicon.ico">
+					<a class="linkTitle" href="https://filezilla-project.org">FileZilla</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Best free open source FTP client/server.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://notepad-plus-plus.org/assets/images/favicon.ico">
-					<a class="siteTitle" href="http://notepad-plus-plus.org/download/v6.5.5.html">Notepad++</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://notepad-plus-plus.org/assets/images/favicon.ico">
+					<a class="linkTitle" href="http://notepad-plus-plus.org/download/v6.5.5.html">Notepad++</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="https://www.eclipse.org/favicon.ico">
-					<a class="siteTitle" href="https://www.eclipse.org/downloads/">Eclipse</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="https://www.eclipse.org/favicon.ico">
+					<a class="linkTitle" href="https://www.eclipse.org/downloads/">Eclipse</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="https://www.python.org/static/favicon.ico">
-					<a class="siteTitle" href="https://www.python.org/download/">Python</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="https://www.python.org/static/favicon.ico">
+					<a class="linkTitle" href="https://www.python.org/download/">Python</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.oracle.com/favicon.ico">
-					<a class="siteTitle" href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java Development Kit</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.oracle.com/favicon.ico">
+					<a class="linkTitle" href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java Development Kit</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://winscp.net/favicon.ico">
-					<a class="siteTitle" href="http://winscp.net/eng/download.php">WinSCP</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://winscp.net/favicon.ico">
+					<a class="linkTitle" href="http://winscp.net/eng/download.php">WinSCP</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.chiark.greenend.org.uk/~sgtatham/putty/putty.ico">
-					<a class="siteTitle" href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">PuTTY</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.chiark.greenend.org.uk/~sgtatham/putty/putty.ico">
+					<a class="linkTitle" href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">PuTTY</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://winmerge.org/favicon.ico">
-					<a class="siteTitle" href="http://winmerge.org/downloads">WinMerge</a></div>
-			</li>
-		</ol>
-		
-		<ol class="listWindow"><div class="title">Communication</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.skypeassets.com/i/common/images/icons/favicon.ico">
-					<a class="siteTitle" href="http://www.skype.com/en/download-skype">Skype</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.mozilla.org/favicon.ico">
-					<a class="siteTitle" href="http://www.mozilla.org/thunderbird">Mozilla Thunderbird</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/favicon.ico">
-					<a class="siteTitle" href="http://www.google.com/hangouts">Google Hangouts</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="https://pidgin.im/shared/img/favicon.png">
-					<a class="siteTitle" href="https://pidgin.im">Pidgin</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://img.digsby.com/favicon.ico">
-					<a class="siteTitle" href="http://www.digsby.com">Digsby</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="https://s.aolcdn.com/aimcom/static/2.38.0.6/common/images/favicon.ico">
-					<a class="siteTitle" href="http://www.aim.com">AIM</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://office.microsoft.com/favicon.ico">
-					<a class="siteTitle" href="https://messenger.yahoo.com/download">Yahoo! Messenger</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="https://www.trillian.im/favicon.ico">
-					<a class="siteTitle" href="https://www.trillian.im/download">Trillian</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://winmerge.org/favicon.ico">
+					<a class="linkTitle" href="http://winmerge.org/downloads">WinMerge</a></div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">File Sharing</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.utorrent.com/faviconUT.ico">
-					<a class="siteTitle" href="http://www.utorrent.com">µTorrent</a></div>
+		<ol class="listWindow" id="B13"><div class="listTitle">Communication</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.skypeassets.com/i/common/images/icons/favicon.ico">
+					<a class="linkTitle" href="http://www.skype.com/en/download-skype">Skype</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://jdownloader.org/lib/tpl/arctic/images/favicon.ico">
-					<a class="siteTitle" href="http://jdownloader.org">jDownloader</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.mozilla.org/favicon.ico">
+					<a class="linkTitle" href="http://www.mozilla.org/thunderbird">Mozilla Thunderbird</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.bittorrent.com/faviconNew.ico">
-					<a class="siteTitle" href="http://www.bittorrent.com">BitTorrent</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/favicon.ico">
+					<a class="linkTitle" href="http://www.google.com/hangouts">Google Hangouts</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.vuze.com/favicon.ico">
-					<a class="siteTitle" href="http://www.vuze.com">Vuze</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="https://pidgin.im/shared/img/favicon.png">
+					<a class="linkTitle" href="https://pidgin.im">Pidgin</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.emule-project.net/emule.ico">
-					<a class="siteTitle" href="http://www.emule-project.net">eMule</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://img.digsby.com/favicon.ico">
+					<a class="linkTitle" href="http://www.digsby.com">Digsby</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://www.ares.com">Ares</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="https://s.aolcdn.com/aimcom/static/2.38.0.6/common/images/favicon.ico">
+					<a class="linkTitle" href="http://www.aim.com">AIM</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://shareaza.sourceforge.net/favicon.ico">
-					<a class="siteTitle" href="http://shareaza.sourceforge.net/">Shareaza</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://office.microsoft.com/favicon.ico">
+					<a class="linkTitle" href="https://messenger.yahoo.com/download">Yahoo! Messenger</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.bearshare.com/images/favicon.ico">
-					<a class="siteTitle" href="http://www.bearshare.com">BearShare</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="https://www.trillian.im/favicon.ico">
+					<a class="linkTitle" href="https://www.trillian.im/download">Trillian</a></div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Online storage</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="https://ssl.gstatic.com/docs/doclist/images/infinite_arrow_favicon_4.ico">
-					<a class="siteTitle" href="https://tools.google.com/dlpage/drive/">Google Drive</a></div>
+		<ol class="listWindow" id="B14"><div class="listTitle">File Sharing</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.utorrent.com/faviconUT.ico">
+					<a class="linkTitle" href="http://www.utorrent.com">µTorrent</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="https://www.dropbox.com/static/images/favicon.ico">
-					<a class="siteTitle" href="https://www.dropbox.com">Dropbox</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://jdownloader.org/lib/tpl/arctic/images/favicon.ico">
+					<a class="linkTitle" href="http://jdownloader.org">jDownloader</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="https://p.sfx.ms/about/v6/en-us/img/chrome/favicon.ico">
-					<a class="siteTitle" href="https://onedrive.live.com">MS OneDrive</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.bittorrent.com/faviconNew.ico">
+					<a class="linkTitle" href="http://www.bittorrent.com">BitTorrent</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.bittorrent.com/faviconNew.ico">
-					<a class="siteTitle" href="http://www.bittorrent.com/sync">BitTorrent Sync</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.vuze.com/favicon.ico">
+					<a class="linkTitle" href="http://www.vuze.com">Vuze</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="https://mozy.com/favicon.ico">
-					<a class="siteTitle" href="https://mozy.com/product/download/sync">Mozy Sync</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.emule-project.net/emule.ico">
+					<a class="linkTitle" href="http://www.emule-project.net">eMule</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://www.ares.com">Ares</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://shareaza.sourceforge.net/favicon.ico">
+					<a class="linkTitle" href="http://shareaza.sourceforge.net/">Shareaza</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.bearshare.com/images/favicon.ico">
+					<a class="linkTitle" href="http://www.bearshare.com">BearShare</a></div>
+			</li>
+		</ol>
+		
+		<ol class="listWindow" id="B15"><div class="listTitle">Online storage</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="https://ssl.gstatic.com/docs/doclist/images/infinite_arrow_favicon_4.ico">
+					<a class="linkTitle" href="https://tools.google.com/dlpage/drive/">Google Drive</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="https://www.dropbox.com/static/images/favicon.ico">
+					<a class="linkTitle" href="https://www.dropbox.com">Dropbox</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="https://p.sfx.ms/about/v6/en-us/img/chrome/favicon.ico">
+					<a class="linkTitle" href="https://onedrive.live.com">MS OneDrive</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.bittorrent.com/faviconNew.ico">
+					<a class="linkTitle" href="http://www.bittorrent.com/sync">BitTorrent Sync</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="https://mozy.com/favicon.ico">
+					<a class="linkTitle" href="https://mozy.com/product/download/sync">Mozy Sync</a></div>
 			</li>
 		</ol>
 	</div>
 
 	<div class="footerContainer">
-		<div class="footerDefinition">dope ~
-			<p>1. information from a reliable source about something that is not commonly or immediately known.</p>
-			<p>2. something that is extremely cool.</p>
-		</div>
 
-		<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FDopelists&amp;width&amp;height=62&amp;colorscheme=dark&amp;show_faces=false&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:62px;" allowTransparency="true"></iframe>
+		<div class="footerDefinition">Dope ~
+			<p>1. Information from a reliable source about something that is not commonly or immediately known.</p>
+			<p>2. Something that is extremely cool.</p>
+		</div>
 
 		<div class="footerAbout">
-			<p>Dopelists.com categorizes websites and other cool things about various fields of interests from all over the internet.</p>
-			<p>If you have any problems, suggestions, inquiries or you want to add a link/category to the site please use dopelists@gmail.com.</p>
-			<p>You can find changelog on <a href="https://github.com/Dominikdsgnr/Dominikdsgnr.github.io/commits/master">Dopelists GitHub repository</a>.
-			<p>Design &amp; coding by <a href="http://www.dominikserafin.pl/en_index.html">Dominik Serafin</a> (that's me!) whom you can always <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=727DR9ZWZELQ2">buy a beer</a>.</p>
+			<p>DopeLists.com categorizes websites and other cool things about various fields of interests from all over the internet.</p>
+			<p>If you have any problems, suggestions or you want to add a link or category to the site please use <span class="emailFooter">DopeLists@gmail.com</span>.</p>
+			<p>This project is on <a href="https://github.com/Dominikdsgnr/Dominikdsgnr.github.io.git">GitHub</a> and also hosted on GitHub Pages.
+			It was created by <a href="http://www.dominikserafin.pl/en_index.html">Dominik Serafin</a> (that's me!).</p>
 		</div>
+		
 	</div>
-</div></body>
+
+</div>
+</body>
 </html>

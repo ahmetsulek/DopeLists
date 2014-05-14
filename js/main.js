@@ -8,7 +8,7 @@ $(document).ready(function(){
 	  ga('create', 'UA-49779109-1', 'dopelists.com');
 	  ga('send', 'pageview');
 	  
-	//Facebook Like
+	//Facebook API
 	(function(d, s, id) {
 	  var js, fjs = d.getElementsByTagName(s)[0];
 	  if (d.getElementById(id)) return;
@@ -17,56 +17,174 @@ $(document).ready(function(){
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));
 
-	//Twitter Follow
+	//Twitter API
 	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
-	//GooglePlus Follow
+	//GooglePlus API
 	(function() {
 	var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
 	po.src = 'https://apis.google.com/js/platform.js';
 	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
 	})();
 
-	//Navigation - category slider
-	$(".categoryContainer").click(function(){
-		$(".categorySlider").slideToggle(100);
+	//Navigation slider
+	$(".frankensteinHamburger").click(function(){
+		$(".navigationSliderWrapper").slideToggle(100);
 	});
 
-	$(".categoryHover").mouseenter(function(){
-		$(".currentCategory").fadeTo(100,1);
-		$(".hamburger").fadeTo(100,1);
+	$(".frankensteinHamburger").mouseleave(function(){
+		$(".navigationSliderWrapper").slideUp(100);
 	});
 
-	$(".categoryHover").mouseleave(function(){
-		$(".currentCategory").fadeTo(100,0);
-		$(".hamburger").fadeTo(100,0.5);
-		$(".categorySlider").slideUp(100);
+	//Highlighting categories
+	$("#A1").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B1").toggleClass("highlightListWindow");
+	});
+	$("#A2").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B2").toggleClass("highlightListWindow");
+	});
+	$("#A3").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B3").toggleClass("highlightListWindow");
+	});
+	$("#A4").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B4").toggleClass("highlightListWindow");
+	});
+	$("#A5").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B5").toggleClass("highlightListWindow");
+	});
+	$("#A6").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B6").toggleClass("highlightListWindow");
+	});
+	$("#A7").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B7").toggleClass("highlightListWindow");
+	});
+	$("#A8").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B8").toggleClass("highlightListWindow");
+	});
+	$("#A9").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B9").toggleClass("highlightListWindow");
+	});
+	$("#A10").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B10").toggleClass("highlightListWindow");
+	});
+	$("#A11").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B11").toggleClass("highlightListWindow");
+	});
+	$("#A12").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B12").toggleClass("highlightListWindow");
+	});
+	$("#A13").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B13").toggleClass("highlightListWindow");
+	});
+	$("#A14").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B14").toggleClass("highlightListWindow");
+	});
+	$("#A15").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B15").toggleClass("highlightListWindow");
+	});
+	$("#A16").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B16").toggleClass("highlightListWindow");
+	});
+	$("#A17").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B17").toggleClass("highlightListWindow");
+	});
+	$("#A18").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B18").toggleClass("highlightListWindow");
+	});
+	$("#A19").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B19").toggleClass("highlightListWindow");
+	});
+	$("#A20").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B20").toggleClass("highlightListWindow");
+	});
+	$("#A21").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B21").toggleClass("highlightListWindow");
+	});
+	$("#A22").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B22").toggleClass("highlightListWindow");
+	});
+	$("#A23").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B23").toggleClass("highlightListWindow");
+	});
+	$("#A24").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B24").toggleClass("highlightListWindow");
+	});
+	$("#A25").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B25").toggleClass("highlightListWindow");
+	});
+	$("#A26").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B26").toggleClass("highlightListWindow");
+	});
+	$("#A27").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B27").toggleClass("highlightListWindow");
+	});
+	$("#A28").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B28").toggleClass("highlightListWindow");
+	});
+	$("#A29").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B29").toggleClass("highlightListWindow");
+	});
+	$("#A30").click(function(){
+		$(".listWindow").removeClass("highlightListWindow");
+		$("#B30").toggleClass("highlightListWindow");
 	});
 
 	//Link description on hover
-	$(".accordionElement").mouseenter(function(){
-		$(this).children(".accordionExpander").slideDown(0);
+	$(".linkContainer").mouseenter(function(){
+		$(this).children(".linkInfo").slideDown(0);
 	});
-	$(".accordionHeader").mouseleave(function(){
-		$(".accordionExpander").slideUp(0);
+	
+	$(".linkContainerTwo").mouseleave(function(){
+		$(".linkInfo").slideUp(0);
 	});
-	$(".accordionExpander").mouseenter(function(){
+
+	$(".linkInfo").mouseenter(function(){
 		$(this).slideUp(0);
 	});
-	$(".accordionExpander").mouseleave(function(){
+
+	$(".linkInfo").mouseleave(function(){
 		$(this).slideUp(0);
 	});
 
 	//Swaps site icon to magnifier on hover
 	var originalImgSrc;
 
-	$(".accordionHeader").mouseenter(function(){
-		originalImgSrc = $(this).children(".siteIcon").attr('src');
-		$(this).children(".siteIcon").attr("src","../img/magnifier.png");
+	$(".linkContainerTwo").mouseenter(function(){
+		originalImgSrc = $(this).children(".linkIcon").attr('src');
+		$(this).children(".linkIcon").attr("src","../img/magnifier.png");
 	});
 
-	$(".accordionHeader").mouseleave(function(){
-		$(this).children(".siteIcon").attr("src",originalImgSrc);
+	$(".linkContainerTwo").mouseleave(function(){
+		$(this).children(".linkIcon").attr("src",originalImgSrc);
 	});
 
 	//Masonry - cascading grid - http://masonry.desandro.com/
@@ -79,24 +197,4 @@ $(document).ready(function(){
 	      });
 	   //});
 	});
-
-	/* Leftovers from accordion which doesn't work properly with Masonry
-	$(".accordionElement").each(function() {
-		var $dropdown = $(this);
-
-		$(".siteIcon", $dropdown).click(function(e) {
-			e.preventDefault();
-			$div = $(".accordionExpander", $dropdown);
-			$div.slideToggle(100);
-			$(".accordionExpander").not($div).slideUp(100);
-			return false;
-		});
-	});
-	$("html").click(function(){
-		$(".accordionExpander").slideUp(100);
-	});
-	$(".siteTitle").click(function(){
-		event.stopPropagation();
-	});
-	*/
 });

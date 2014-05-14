@@ -7,10 +7,11 @@
 <!--                         `-._ -  -  - |                                                  -->
 <!--                             `————————'                                                 -->
 <!--                                                                                       -->
-<!DOCTYPE html><html xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"><!--[if lte IE 9]><script src="../js/html5shiv.js"></script><![endif]-->
+<!DOCTYPE html><html><!--[if lte IE 9]><script src="../js/html5shiv.js"></script><![endif]-->
+
 <head>
 	<meta charset="utf-8">
-	<title>Dopelists.com — web design</title>
+	<title>DopeLists.com — Web Design</title>
 
 	<link rel="shortcut icon" href="../img/icon_blue/favicon.ico">
 	<link rel="apple-touch-icon" sizes="57x57" href="../img/icon_blue/apple-touch-icon-57x57.png">
@@ -30,62 +31,109 @@
 	<meta name="msapplication-TileImage" content="../img/icon_blue/mstile-144x144.png">
 	<meta name="msapplication-config" content="../img/icon_blue/browserconfig.xml">
 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link type="text/css" rel="stylesheet" href="../reset.css">
+	<link type="text/css" rel="stylesheet" href="../listStyle.css">
+
+	<style>
+	.linkTitle:hover {color: #0f79f1;}
+	.highlightElement:hover {background-color: #0f79f1;}
+	.headerWrapper {background-image: url('../img/headerbg_blue.png');}
+	</style>
+
 	<script src="../js/jquery.min.js"></script>
 	<script src="../js/masonry.pkgd.min.js"></script>
 	<script src="../js/main.js"></script>
 
-	<link type="text/css" rel="stylesheet" href="../stylesheet.css">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<meta name="author" content="dominikserafin.pl">
-	<meta name="copyright" content="dominikserafin.pl">
+	<meta name="author" content="DominikSerafin.pl">
+	<meta name="copyright" content="DominikSerafin.pl">
 	<meta name="description" content="Best things about webdesign, webdevelopment &amp; general design.">
 	<meta name="robots" content="all">
 
-	<meta property="og:site_name" content="Dopelists.com" />
-	<meta property="og:title" content="Dopelists.com — web design" />
-	<meta property="og:description" content="Best things about webdesign, webdevelopment &amp; general design." />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://Dopelists.com/webdesign/" />
-	<meta property="og:image" content="http://dopelists.com/img/ogImage.png" />
+	<meta property="og:site_name" content="DopeLists.com">
+	<meta property="og:title" content="Dopelists.com — web design">
+	<meta property="og:description" content="Best things about webdesign, webdevelopment &amp; general design.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://DopeLists.com/webdesign/">
+	<meta property="og:image" content="http://DopeLists.com/img/ogImage.png">
+	<!--<meta property="fb:admins" content="446985282103566">-->
 
-	<style>
-	.siteTitle:hover {
-		color: #0f79f1;
-	}
-	</style>
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@DopeLists">
+	<meta name="twitter:creator" content="@SerafinDominik">
+	<meta name="twitter:title" content="DopeLists.com">
+	<meta name="twitter:domain" content="http://DopeLists.com/">
+	<meta name="twitter:description" content="Best things about webdesign, webdevelopment &amp; general design.">
+	<meta name="twitter:image:src" content="http://DopeLists.com/img/ogImage.png">
 </head>
 
-<body style="background-image: url('../img/headerbg_blue.png');"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><div class="preload" style="display:none"><img src="../img/magnifier.png"></div>
-<div class="localGalaxyGroup">
+<body><div class="preload" style="display:none"><img src="../img/magnifier.png"><img src="../img/hamburgerActive.png"></div>
 
-	<div class="headerContainer">
-		<a href="http://dopelists.com" title="Dope websites and cool things categorized by various fields of interest.">
-			<div class="headerTitle">DOPELISTS<span class="headerTitleSmall">.COM</span></div>
-		</a>
+	<div class="topWrapper">
 
-		<div class="fbLike">
-			<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fdopelists&amp;width=130&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:130px; height:21px;" allowTransparency="true"></iframe>
-		</div>
-
-		<div class="categoryHover">
-			<div class="categoryContainer" title="Best things about webdesign, webdevelopment &amp; general design.">
-				<div class="currentCategory">web design</div><img src="../img/hamburger.png" class="hamburger">
-				<div class="categorySlider">
-					<a href="http://Dopelists.com" title="Curated repositories of high quality useful sites."><strong>Main Page</strong></a>
-					<a href="../webdesign" title="Best things about webdesign, webdevelopment &amp; general design.">web design</a>
-					<a href="../afterformat" title="Don't know what to install after format?">after format</a>	
-					<a href="../free2play" title="Games that are free to play." style="color: #eee;">free 2 play</a>
-					<a href="../indiegames" title="Indie gaming at its finest." style="color: #eee;">indie games</a>
-					<a href="../browsergames" title="Quite good games that you can play in your browser." style="color: #eee;">browser games</a>				
-					<a href="../stoner" title="High, I'm hi." style="color: #eee;">stoner</a>
+		<div class="topLeft">
+			<div class="socialFollows">
+				<div class="sFElementWrapper">
+					<a class="facebookPage" href="http://facebook.com/dopelists"></a>
+					<div class="facebookButton">
+						<div id="fb-root"></div><div class="fb-like" data-href="https://facebook.com/dopelists" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false">Like</div>
+					</div>
+				</div>
+				<div class="sFElementWrapper">
+					<a class="twitterPage" href="https://twitter.com/DopeLists"></a>
+					<div class="twitterButton">
+						<a href="https://twitter.com/DopeLists" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow</a>
+					</div>
+				</div>
+				<div class="sFElementWrapper">
+					<a class="googlePage" href="https://plus.google.com/111234662108402116360" rel="publisher"></a>
+					<div class="googleButton">
+						<div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/111234662108402116360" data-rel="publisher">Follow</div>
+					</div>
 				</div>
 			</div>
 		</div>
+		<div class="topRight">
+			<a class="donateText" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=727DR9ZWZELQ2" title="Help fund my coffee addiction" target="_blank">Donate</a> or
+			<div class="flattrButton">
+				<script id='fb3j3qm'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=Dominikdsgnr&button=compact&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fb3j3qm');</script>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="headerWrapper">
+
+		<a class="headerLeft" href="http://DopeLists.com/">
+			<div class="headerLogo" alt="DopeLists.com logo"></div>
+			<div class="headerCategoryName">web design</div>
+		</a>
+		<div class="headerRight">
+			<div class="navigationHover">
+				<div class="frankensteinHamburger">
+					<div class="navigationSliderWrapper">
+						<div class="navigationSliderTriangle"></div>
+						<div class="navigationSlider">
+							<a href="http://Dopelists.com" title="Curated repositories of high quality useful sites.">START</a>
+							<a href="../webdesign" title="Best things about webdesign, webdevelopment &amp; general design.">web design</a>
+							<a href="../afterformat" title="Don't know what to install after format?">after format</a>	
+							<a href="../indiegames" title="Indie gaming at its finest.">indie games</a>
+							<a href="../free2play" title="Games that are free to play.">free 2 play</a>
+							<a href="../browsergames" title="Quite good games that you can play in your browser.">browser games</a>				
+							<a href="../stoner" title="High, I'm hi.">stoner</a>
+							<a href="#1" title="Why I created this site.">ABOUT</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</div>
 
 	<div class="adContainer">
+
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- Responsive white -->
 		<ins class="adsbygoogle"
 		     style="display:block"
@@ -95,1470 +143,1499 @@
 		<script>
 		(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
+
+	</div>
+
+<div class="localGalaxyGroup">
+
+	<div class="highlightWrapper">
+		<div class="highlightTitle">GO TO CATEGORY —</div>
+		<a class="highlightElement" id="A1" href="#B1">Social Sites</a>
+		<a class="highlightElement" id="A2" href="#B2">Web Design Blogs</a>
+		<a class="highlightElement" id="A3" href="#B3">Design Blogs</a>
+		<a class="highlightElement" id="A4" href="#B4">Inspiration</a>
+		<a class="highlightElement" id="A5" href="#B5">Tools</a>
+		<a class="highlightElement" id="A6" href="#B6">Colors &amp; Patterns</a>
+		<a class="highlightElement" id="A7" href="#B7">Icons</a>
+		<a class="highlightElement" id="A8" href="#B8">Stock Images</a>
+		<a class="highlightElement" id="A9" href="#B9">Fonts</a>
+		<a class="highlightElement" id="A10" href="#B10">Freebies &amp; Other Resources</a>
+		<a class="highlightElement" id="A11" href="#B11">Software</a>
+		<a class="highlightElement" id="A12" href="#B12">Code Preprocessors</a>
+		<a class="highlightElement" id="A13" href="#B13">Code Playgrounds</a>
+		<a class="highlightElement" id="A14" href="#B14">Other Tools</a>
+		<a class="highlightElement" id="A15" href="#B15">Hosting</a>
+		<a class="highlightElement" id="A16" href="#B16">Analytics, SEO &amp; Ads</a>
+		<a class="highlightElement" id="A17" href="#B17">Content Management Systems</a>
+		<a class="highlightElement" id="A18" href="#B18">Front-End Frameworks</a>
+		<a class="highlightElement" id="A19" href="#B19">Learn Design</a>
+		<a class="highlightElement" id="A20" href="#B20">Learn Code</a>
+		<a class="highlightElement" id="A21" href="#B21">Tumblrs</a>
+		<a class="highlightElement" id="A22" href="#B22">Subreddits</a>
 	</div>
 
 	<div class="contentContainer">
 
-		<ol class="listWindow"><div class="title">Social Sites</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://www.behance.net">
-					<a class="siteTitle" href="https://www.behance.net">Behance</a></div>
+		<ol class="listWindow" id="B1"><div class="listTitle">Social Sites</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://www.behance.net">
+					<a class="linkTitle" href="https://www.behance.net">Behance</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://github.com">
-					<a class="siteTitle" href="https://github.com">GitHub</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://github.com">
+					<a class="linkTitle" href="https://github.com">GitHub</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://dribbble.com">
-					<a class="siteTitle" href="http://dribbble.com">Dribbble</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://dribbble.com">
+					<a class="linkTitle" href="http://dribbble.com">Dribbble</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>I think this site doesn't need description. You need to have invite to upload your own work.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://forrst.com">
-					<a class="siteTitle" href="https://forrst.com">Forrst</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://forrst.com">
+					<a class="linkTitle" href="https://forrst.com">Forrst</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://stackoverflow.com/">
-					<a class="siteTitle" href="http://stackoverflow.com/">StackOverflow</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://stackoverflow.com/">
+					<a class="linkTitle" href="http://stackoverflow.com/">StackOverflow</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>If you have any problem with your code then people on this site know the solution.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.deviantart.com">
-					<a class="siteTitle" href="http://www.deviantart.com">deviantArt</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.deviantart.com">
+					<a class="linkTitle" href="http://www.deviantart.com">deviantArt</a></div>
 			</li>
 		</ol>
 
-		<ol class="listWindow"><div class="title">Web Design Blogs</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.smashingmagazine.com">
-					<a class="siteTitle" href="http://www.smashingmagazine.com">Smashing Magazine</a></div>
+		<ol class="listWindow" id="B2"><div class="listTitle">Web Design Blogs</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.smashingmagazine.com">
+					<a class="linkTitle" href="http://www.smashingmagazine.com">Smashing Magazine</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://css-tricks.com/">
-					<a class="siteTitle" href="http://css-tricks.com/">CSS-Tricks</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://css-tricks.com/">
+					<a class="linkTitle" href="http://css-tricks.com/">CSS-Tricks</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://designmodo.com">
-					<a class="siteTitle" href="http://designmodo.com">Designmodo</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://designmodo.com">
+					<a class="linkTitle" href="http://designmodo.com">Designmodo</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.hongkiat.com">
-					<a class="siteTitle" href="http://www.hongkiat.com">Hongkiat</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.hongkiat.com">
+					<a class="linkTitle" href="http://www.hongkiat.com">Hongkiat</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.webdesignerdepot.com">
-					<a class="siteTitle" href="http://www.webdesignerdepot.com">Webdesigner Depot</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.webdesignerdepot.com">
+					<a class="linkTitle" href="http://www.webdesignerdepot.com">Webdesigner Depot</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme02/favicon.ico">
-					<a class="siteTitle" href="http://tympanus.net/codrops">Codrops</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme02/favicon.ico">
+					<a class="linkTitle" href="http://tympanus.net/codrops">Codrops</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://webdesignerwall.com">
-					<a class="siteTitle" href="http://webdesignerwall.com">Webdesigner Wall</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://webdesignerwall.com">
+					<a class="linkTitle" href="http://webdesignerwall.com">Webdesigner Wall</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.awwwards.com/blog">
-					<a class="siteTitle" href="http://www.awwwards.com/blog">Awwwards blog</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.awwwards.com/blog">
+					<a class="linkTitle" href="http://www.awwwards.com/blog">Awwwards blog</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.1stwebdesigner.com/blog">
-					<a class="siteTitle" href="http://www.1stwebdesigner.com/blog">1stwebdesigner</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.1stwebdesigner.com/blog">
+					<a class="linkTitle" href="http://www.1stwebdesigner.com/blog">1stwebdesigner</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://uxmovement.com">
-					<a class="siteTitle" href="http://uxmovement.com">UX Movement</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://uxmovement.com">
+					<a class="linkTitle" href="http://uxmovement.com">UX Movement</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://24ways.org/">
-					<a class="siteTitle" href="http://24ways.org/">24 Ways</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://24ways.org/">
+					<a class="linkTitle" href="http://24ways.org/">24 Ways</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Advent calendar about web design and development.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://99u.com/">
-					<a class="siteTitle" href="http://99u.com/">99U</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://99u.com/">
+					<a class="linkTitle" href="http://99u.com/">99U</a></div>
 			</li>
 		</ol>
 
-		<ol class="listWindow"><div class="title">Design Blogs</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://www.design-blogs.co.uk">Design-blogs.co.uk</a></div>
+		<ol class="listWindow" id="B3"><div class="listTitle">Design Blogs</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://www.design-blogs.co.uk">Design-blogs.co.uk</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://abduzeedo.com">
-					<a class="siteTitle" href="http://abduzeedo.com">Abduzeedo</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://abduzeedo.com">
+					<a class="linkTitle" href="http://abduzeedo.com">Abduzeedo</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.creativebloq.com/">
-					<a class="siteTitle" href="http://www.creativebloq.com/">Creative Bloq</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.creativebloq.com/">
+					<a class="linkTitle" href="http://www.creativebloq.com/">Creative Bloq</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://colourlovers.com/blog">
-					<a class="siteTitle" href="http://colourlovers.com/blog">COLOURlovers blog</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://colourlovers.com/blog">
+					<a class="linkTitle" href="http://colourlovers.com/blog">COLOURlovers blog</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://designtaxi.com">
-					<a class="siteTitle" href="http://designtaxi.com">Design Taxi</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://designtaxi.com">
+					<a class="linkTitle" href="http://designtaxi.com">Design Taxi</a></div>
 			</li>
 		</ol>
 
-		<ol class="listWindow"><div class="title">Inspiration</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://designspiration.net">
-					<a class="siteTitle" href="http://designspiration.net">Designspiration</a></div>
+		<ol class="listWindow" id="B4"><div class="listTitle">Inspiration</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://designspiration.net">
+					<a class="linkTitle" href="http://designspiration.net">Designspiration</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.awwwards.com">
-					<a class="siteTitle" href="http://www.awwwards.com">Awwwards</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.awwwards.com">
+					<a class="linkTitle" href="http://www.awwwards.com">Awwwards</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.thefwa.com">
-					<a class="siteTitle" href="http://www.thefwa.com">Favourite Website Awards</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.thefwa.com">
+					<a class="linkTitle" href="http://www.thefwa.com">Favourite Website Awards</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://logopond.com/">
-					<a class="siteTitle" href="http://logopond.com/">Logopond</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://logopond.com/">
+					<a class="linkTitle" href="http://logopond.com/">Logopond</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://cssdeck.com/assets/img/favicon.ico">
-					<a class="siteTitle" href="http://cssdeck.com/">CSSDeck</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://cssdeck.com/assets/img/favicon.ico">
+					<a class="linkTitle" href="http://cssdeck.com/">CSSDeck</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Collection of Awesome CSS and JS Creations to help out frontend developers and designers.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.uiparade.com/">
-					<a class="siteTitle" href="http://www.uiparade.com/">UI Parade</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.uiparade.com/">
+					<a class="linkTitle" href="http://www.uiparade.com/">UI Parade</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://patterntap.com">
-					<a class="siteTitle" href="http://patterntap.com">Pattern Tap</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://patterntap.com">
+					<a class="linkTitle" href="http://patterntap.com">Pattern Tap</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://tabpatterns.com/wp-content/uploads/2013/09/favicon.png">
-					<a class="siteTitle" href="http://tabpatterns.com">TabPatters</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://tabpatterns.com/wp-content/uploads/2013/09/favicon.png">
+					<a class="linkTitle" href="http://tabpatterns.com">TabPatterns</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Tablet UI Patterns.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://ui-cloud.com">
-					<a class="siteTitle" href="http://ui-cloud.com">UI Cloud</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://ui-cloud.com">
+					<a class="linkTitle" href="http://ui-cloud.com">UI Cloud</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://useyourinterface.com/">
-					<a class="siteTitle" href="http://useyourinterface.com/">Use Your Interface</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://useyourinterface.com/">
+					<a class="linkTitle" href="http://useyourinterface.com/">Use Your Interface</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Growing library of transitional interface and interaction design patterns.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.niice.co">
-					<a class="siteTitle" href="http://www.niice.co">Niice</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.niice.co">
+					<a class="linkTitle" href="http://www.niice.co">Niice</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.fromupnorth.com/">
-					<a class="siteTitle" href="http://www.fromupnorth.com/">From up North</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.fromupnorth.com/">
+					<a class="linkTitle" href="http://www.fromupnorth.com/">From up North</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://dribbbleboard.com">
-					<a class="siteTitle" href="http://dribbbleboard.com">Dribbbleboard</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://dribbbleboard.com">
+					<a class="linkTitle" href="http://dribbbleboard.com">Dribbbleboard</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.thebestdesigns.com">
-					<a class="siteTitle" href="http://www.thebestdesigns.com">The Best Designs</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.thebestdesigns.com">
+					<a class="linkTitle" href="http://www.thebestdesigns.com">The Best Designs</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.cssdsgn.com">
-					<a class="siteTitle" href="http://www.cssdsgn.com">CSSDSGN</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.cssdsgn.com">
+					<a class="linkTitle" href="http://www.cssdsgn.com">CSSDSGN</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://brandcolors.net/">BrandColors</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://brandcolors.net/">BrandColors</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Get inspiration from what other major companies are doing with their color schemes.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://creattica.com/assets/favicon-b0258ece6f0d3e75e2a7dddab97089c2.ico">
-					<a class="siteTitle" href="http://creattica.com/">Creatica</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://creattica.com/assets/favicon-b0258ece6f0d3e75e2a7dddab97089c2.ico">
+					<a class="linkTitle" href="http://creattica.com/">Creatica</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://httpster.net/">
-					<a class="siteTitle" href="http://httpster.net/">HTTPster</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://httpster.net/">
+					<a class="linkTitle" href="http://httpster.net/">HTTPster</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://line25.com/category/inspiration">
-					<a class="siteTitle" href="http://line25.com/category/inspiration">Line25 Inspiration</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://line25.com/category/inspiration">
+					<a class="linkTitle" href="http://line25.com/category/inspiration">Line25 Inspiration</a></div>
 			</li>
 		</ol>
 
-		<ol class="listWindow"><div class="title">Tools</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.browserstack.com">
-					<a class="siteTitle" href="http://www.browserstack.com">Browser Stack</a></div>
-				<div class="accordionExpander" style="display: none;">
+		<ol class="listWindow" id="B5"><div class="listTitle">Tools</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.browserstack.com">
+					<a class="linkTitle" href="http://www.browserstack.com">Browser Stack</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Paid live, web-based browser testing. It has free feature where you can test online websites and generate screenshots in various environments.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.cssmatic.com">
-					<a class="siteTitle" href="http://www.cssmatic.com">CSSMatic</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.cssmatic.com">
+					<a class="linkTitle" href="http://www.cssmatic.com">CSSMatic</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>CSS generators containing: Gradient Generator, Border Radius, Noise Texture, Box Shadow.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://browsershots.org">
-					<a class="siteTitle" href="http://browsershots.org">Browser Shots</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://browsershots.org">
+					<a class="linkTitle" href="http://browsershots.org">Browser Shots</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Take screenshots of online website in various environments.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://modernizr.com/favicon.ico">
-					<a class="siteTitle" href="http://modernizr.com">Modernizr</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://modernizr.com/favicon.ico">
+					<a class="linkTitle" href="http://modernizr.com">Modernizr</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>JavaScript library that detects HTML5 and CSS3 features in the user’s browser.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://necolas.github.io/normalize.css/">
-					<a class="siteTitle" href="http://necolas.github.io/normalize.css/">Normalize.css</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://necolas.github.io/normalize.css/">
+					<a class="linkTitle" href="http://necolas.github.io/normalize.css/">Normalize.css</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Normalize.css makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing. Alternative to CSS resets.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=https://tinypng.com">
-					<a class="siteTitle" href="https://tinypng.com">Tiny PNG</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=https://tinypng.com">
+					<a class="linkTitle" href="https://tinypng.com">Tiny PNG</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Shrink PNG files while preserving quality and transparency. They even have transparency in IE6!</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://realfavicongenerator.net">
-					<a class="siteTitle" href="http://realfavicongenerator.net">Real Favicon Generator</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://realfavicongenerator.net">
+					<a class="linkTitle" href="http://realfavicongenerator.net">Real Favicon Generator</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://caniuse.com">
-					<a class="siteTitle" href="http://caniuse.com">Can I use...</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://caniuse.com">
+					<a class="linkTitle" href="http://caniuse.com">Can I use...</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Really useful tool which shows browser compatiblity for HTML, CSS &amp; SVG elements/attributes.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://html5please.com/">
-					<a class="siteTitle" href="http://html5please.com/">HTML5 Please</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://html5please.com/">
+					<a class="linkTitle" href="http://html5please.com/">HTML5 Please</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Look up HTML5, CSS3, etc features, know if they are ready for use, and if so find out how you should use them – with polyfills, fallbacks or as they are.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://masonry.desandro.com/">
-					<a class="siteTitle" href="http://masonry.desandro.com/">Masonry</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://masonry.desandro.com/">
+					<a class="linkTitle" href="http://masonry.desandro.com/">Masonry</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Just resize horizontally this site and see what Masonry does with categories ;D.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=https://cloudconvert.org">
-					<a class="siteTitle" href="https://cloudconvert.org">Cloud Convert</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=https://cloudconvert.org">
+					<a class="linkTitle" href="https://cloudconvert.org">Cloud Convert</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Convert anything to anything.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://html5boilerplate.com/">
-					<a class="siteTitle" href="http://html5boilerplate.com/">HTML5 Boilerplate</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://html5boilerplate.com/">
+					<a class="linkTitle" href="http://html5boilerplate.com/">HTML5 Boilerplate</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Boilerplate meant to help you with starting new project and save on time without repetitive tasks when creating new website.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://yeoman.io/">Yeoman</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://yeoman.io/">Yeoman</a></div>
 			</li>
 		</ol>
 
-		<ol class="listWindow"><div class="title">Colors &amp; Patterns</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://colourlovers.com">
-					<a class="siteTitle" href="http://colourlovers.com">COLOURlovers</a></div>
-				<div class="accordionExpander" style="display: none;">
+		<ol class="listWindow" id="B6"><div class="listTitle">Colors &amp; Patterns</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://colourlovers.com">
+					<a class="linkTitle" href="http://colourlovers.com">COLOURlovers</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Browse color palettes, make patterns and more.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://subtlepatterns.com">
-					<a class="siteTitle" href="http://subtlepatterns.com">Subtle Patterns</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://subtlepatterns.com">
+					<a class="linkTitle" href="http://subtlepatterns.com">Subtle Patterns</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>High quality patterns that you can use everywhere if you credit Subtle Patterns. They are so awesome that this site is using one of the patterns from there!</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://thepatternlibrary.com">
-					<a class="siteTitle" href="http://thepatternlibrary.com">The Pattern Library</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://thepatternlibrary.com">
+					<a class="linkTitle" href="http://thepatternlibrary.com">The Pattern Library</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>All patterns are free &amp; for commercial use.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://colorschemedesigner.com">
-					<a class="siteTitle" href="http://colorschemedesigner.com">Color Scheme Designer</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://colorschemedesigner.com">
+					<a class="linkTitle" href="http://colorschemedesigner.com">Color Scheme Designer</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Create color palette.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=https://kuler.adobe.com">
-					<a class="siteTitle" href="https://kuler.adobe.com">Adobe Kuler</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=https://kuler.adobe.com">
+					<a class="linkTitle" href="https://kuler.adobe.com">Adobe Kuler</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Create color palette or search for existing.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://color.hailpixel.com/static/favicon.ico">
-					<a class="siteTitle" href="http://color.hailpixel.com">Color.hailpixel.com</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://color.hailpixel.com/static/favicon.ico">
+					<a class="linkTitle" href="http://color.hailpixel.com">Color.hailpixel.com</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Really simple tool for creating color palettes.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.design-seeds.com">
-					<a class="siteTitle" href="http://www.design-seeds.com">Design Seeds</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.design-seeds.com">
+					<a class="linkTitle" href="http://www.design-seeds.com">Design Seeds</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Browse color palettes based on images.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://www.pictaculous.com">Pictaculous</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://www.pictaculous.com">Pictaculous</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Create color palette based on your own uploaded image.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://colourco.de/favicon.ico">
-					<a class="siteTitle" href="http://colourco.de">CoulourCode</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://colourco.de/favicon.ico">
+					<a class="linkTitle" href="http://colourco.de">CoulourCode</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Simple tool for creating color palettes with nice saving options.</span>
 				</div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Icons</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://www.iconfinder.com/">
-					<a class="siteTitle" href="https://www.iconfinder.com/">IconFinder</a></div>
+		<ol class="listWindow" id="B7"><div class="listTitle">Icons</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://www.iconfinder.com/">
+					<a class="linkTitle" href="https://www.iconfinder.com/">IconFinder</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://glyphsearch.com/favicon.ico">
-					<a class="siteTitle" href="http://glyphsearch.com/">GlyphSearch</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://glyphsearch.com/favicon.ico">
+					<a class="linkTitle" href="http://glyphsearch.com/">GlyphSearch</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.flaticon.com/">
-					<a class="siteTitle" href="http://www.flaticon.com/">FlatIcon</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.flaticon.com/">
+					<a class="linkTitle" href="http://www.flaticon.com/">FlatIcon</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://livicons.com/">
-					<a class="siteTitle" href="http://livicons.com/">LivIcons</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://livicons.com/">
+					<a class="linkTitle" href="http://livicons.com/">LivIcons</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Animated icons font.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://fontello.com/">
-					<a class="siteTitle" href="http://fontello.com/">Fontello</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://fontello.com/">
+					<a class="linkTitle" href="http://fontello.com/">Fontello</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Icons font generator.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://iconmonstr.com/">
-					<a class="siteTitle" href="http://iconmonstr.com/">IconMonstr</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://iconmonstr.com/">
+					<a class="linkTitle" href="http://iconmonstr.com/">IconMonstr</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Free &amp; for commercial use without attribution icons in .png and .svg.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://iconmelon.com/">
-					<a class="siteTitle" href="http://iconmelon.com/">IconMelon</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://iconmelon.com/">
+					<a class="linkTitle" href="http://iconmelon.com/">IconMelon</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://ikons.piotrkwiatkowski.co.uk/">IKONS</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://ikons.piotrkwiatkowski.co.uk/">IKONS</a></div>
 			</li>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://useiconic.com/">
-					<a class="siteTitle" href="https://useiconic.com/">Iconic</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://useiconic.com/">
+					<a class="linkTitle" href="https://useiconic.com/">Iconic</a></div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Stock Images</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://unsplash.com">
-					<a class="siteTitle" href="http://unsplash.com">Unsplash</a></div>
-				<div class="accordionExpander" style="display: none;">
+		<ol class="listWindow" id="B8"><div class="listTitle">Stock Images</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://unsplash.com">
+					<a class="linkTitle" href="http://unsplash.com">Unsplash</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>10 high quality free &amp; for commercial use photos every 10 days.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.gratisography.com">
-					<a class="siteTitle" href="http://www.gratisography.com">Gratisography</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.gratisography.com">
+					<a class="linkTitle" href="http://www.gratisography.com">Gratisography</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Free &amp; for commercial use high quality pictures.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://www.imcreator.com/free">IM Free</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://www.imcreator.com/free">IM Free</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>A curated collection of free resources, all for commercial use.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://search.creativecommons.org">
-					<a class="siteTitle" href="http://search.creativecommons.org">Creative Commons Search</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://search.creativecommons.org">
+					<a class="linkTitle" href="http://search.creativecommons.org">Creative Commons Search</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://picjumbo.com/">
-					<a class="siteTitle" href="http://picjumbo.com/">Pic Jumbo</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://picjumbo.com/">
+					<a class="linkTitle" href="http://picjumbo.com/">Pic Jumbo</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Free &amp; for commercial use high quality pictures.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://nos.twnsnd.co">
-					<a class="siteTitle" href="http://nos.twnsnd.co">New Old Stock</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://nos.twnsnd.co">
+					<a class="linkTitle" href="http://nos.twnsnd.co">New Old Stock</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Vintage photos from the public archives free of known copyright restrictions.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://littlevisuals.co">
-					<a class="siteTitle" href="http://littlevisuals.co">Little Visuals</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://littlevisuals.co">
+					<a class="linkTitle" href="http://littlevisuals.co">Little Visuals</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>7 high resolution images zipped up in your inbox every 7 days. Free for commercial use.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://join.deathtothestockphoto.com">
-					<a class="siteTitle" href="http://join.deathtothestockphoto.com">Death to the Stock Photo</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://join.deathtothestockphoto.com">
+					<a class="linkTitle" href="http://join.deathtothestockphoto.com">Death to the Stock Photo</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Free monthly photos e-mailed to you for all your creative needs. Free for commercial use.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://superfamous.com">
-					<a class="siteTitle" href="http://superfamous.com">Superfamous</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://superfamous.com">
+					<a class="linkTitle" href="http://superfamous.com">Superfamous</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>High quality free for commercial use pictures - as long as credit is provided.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=https://creativemarket.com/photos">
-					<a class="siteTitle" href="https://creativemarket.com/photos">Creative Market Photos</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=https://creativemarket.com/photos">
+					<a class="linkTitle" href="https://creativemarket.com/photos">Creative Market Photos</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>High quality paid stock photos.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.stocksy.com">
-					<a class="siteTitle" href="http://www.stocksy.com">Stocksy</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.stocksy.com">
+					<a class="linkTitle" href="http://www.stocksy.com">Stocksy</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>High quality paid stock photos.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://getrefe.com">Refe</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://getrefe.com">Refe</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Marketplace for photos created with mobile phones. They are suprisingly good.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=https://app.snapwi.re">
-					<a class="siteTitle" href="https://app.snapwi.re">Snapwire</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=https://app.snapwi.re">
+					<a class="linkTitle" href="https://app.snapwi.re">Snapwire</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Order custom photos from community of thousands of photographers.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.filterandformat.com">
-					<a class="siteTitle" href="http://www.filterandformat.com">Filter and Format</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.filterandformat.com">
+					<a class="linkTitle" href="http://www.filterandformat.com">Filter and Format</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Limited stock photos for 100$ each.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.freeimages.com">
-					<a class="siteTitle" href="http://www.freeimages.com">Free Images (old SXC.HU)</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.freeimages.com">
+					<a class="linkTitle" href="http://www.freeimages.com">Free Images (old SXC.HU)</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.deviantart.com/resources/stockart">
-					<a class="siteTitle" href="http://www.deviantart.com/resources/stockart/">deviantArt stock images</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.deviantart.com/resources/stockart">
+					<a class="linkTitle" href="http://www.deviantart.com/resources/stockart/">deviantArt stock images</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=https://placeit.net">
-					<a class="siteTitle" href="https://placeit.net">Place It</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=https://placeit.net">
+					<a class="linkTitle" href="https://placeit.net">Place It</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Generate product screenshots in real environments. It's paid service but you can generate free images that are 400x400px and non-commercial.</span>
 				</div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Fonts</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.fontsquirrel.com/favicon.ico">
-					<a class="siteTitle" href="http://www.fontsquirrel.com">Font Squirrel</a></div>
-				<div class="accordionExpander" style="display: none;">
+		<ol class="listWindow" id="B9"><div class="listTitle">Fonts</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.fontsquirrel.com/favicon.ico">
+					<a class="linkTitle" href="http://www.fontsquirrel.com">Font Squirrel</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>All fonts are free for commercial use.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.dafont.com">
-					<a class="siteTitle" href="http://www.dafont.com">Dafont</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.dafont.com">
+					<a class="linkTitle" href="http://www.dafont.com">Dafont</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>In order to find free fonts for commercial use - pick category, click "More options", tick relevant boxes and click "Submit".</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.1001fonts.com">
-					<a class="siteTitle" href="http://www.1001fonts.com">1001 Fonts</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.1001fonts.com">
+					<a class="linkTitle" href="http://www.1001fonts.com">1001 Fonts</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://edgewebfonts.adobe.com/fonts">
-					<a class="siteTitle" href="https://edgewebfonts.adobe.com/fonts">Adobe Edge Web Fonts</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://edgewebfonts.adobe.com/fonts">
+					<a class="linkTitle" href="https://edgewebfonts.adobe.com/fonts">Adobe Edge Web Fonts</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.fontspace.com">
-					<a class="siteTitle" href="http://www.fontspace.com">Font Space</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.fontspace.com">
+					<a class="linkTitle" href="http://www.fontspace.com">Font Space</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>In order to find free fonts for commercial use - pick category, click "Filter options", tick relevant boxes and click "Update".</span>
 				</div>
 			</li>				
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.google.com/fonts">
-					<a class="siteTitle" href="http://www.google.com/fonts">Google Fonts</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.google.com/fonts">
+					<a class="linkTitle" href="http://www.google.com/fonts">Google Fonts</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>All fonts are open source and free for commercial use.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.fontspring.com">
-					<a class="siteTitle" href="http://www.fontspring.com">Font Spring</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.fontspring.com">
+					<a class="linkTitle" href="http://www.fontspring.com">Font Spring</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://www.losttype.com">Lost Type</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://www.losttype.com">Lost Type</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>"Pay what you want" for high quality fonts.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://tendollarfonts.com">
-					<a class="siteTitle" href="http://tendollarfonts.com">Ten Dollar Fonts</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://tendollarfonts.com">
+					<a class="linkTitle" href="http://tendollarfonts.com">Ten Dollar Fonts</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.fontstruct.com">
-					<a class="siteTitle" href="http://www.fontstruct.com">Fontstruct</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.fontstruct.com">
+					<a class="linkTitle" href="http://www.fontstruct.com">Fontstruct</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Create you own font.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.1001freefonts.com">
-					<a class="siteTitle" href="http://www.1001freefonts.com">1001 Free Fonts</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.1001freefonts.com">
+					<a class="linkTitle" href="http://www.1001freefonts.com">1001 Free Fonts</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.myfonts.com">
-					<a class="siteTitle" href="http://www.myfonts.com">MyFonts</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.myfonts.com">
+					<a class="linkTitle" href="http://www.myfonts.com">MyFonts</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Paid fonts.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.adobe.com/products/type.html">
-					<a class="siteTitle" href="http://www.adobe.com/products/type.html">Adobe Type</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.adobe.com/products/type.html">
+					<a class="linkTitle" href="http://www.adobe.com/products/type.html">Adobe Type</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Paid fonts.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.fonthaus.com">
-					<a class="siteTitle" href="http://www.fonthaus.com">Font Haus</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.fonthaus.com">
+					<a class="linkTitle" href="http://www.fonthaus.com">Font Haus</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Paid fonts.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.fonts.com">
-					<a class="siteTitle" href="http://www.fonts.com">Fonts.com</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.fonts.com">
+					<a class="linkTitle" href="http://www.fonts.com">Fonts.com</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Paid fonts.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.linotype.com">
-					<a class="siteTitle" href="http://www.linotype.com">Linotype</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.linotype.com">
+					<a class="linkTitle" href="http://www.linotype.com">Linotype</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Paid fonts.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.fontshop.com">
-					<a class="siteTitle" href="http://www.fontshop.com">Font Shop</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.fontshop.com">
+					<a class="linkTitle" href="http://www.fontshop.com">Font Shop</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Paid fonts.</span>
 				</div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Freebies &amp; Other Resources</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.webdesignrepo.com/">
-					<a class="siteTitle" href="http://www.webdesignrepo.com/">WebdesignRepo</a></div>
-				<div class="accordionExpander" style="display: none;">
+		<ol class="listWindow" id="B10"><div class="listTitle">Freebies &amp; Other Resources</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.webdesignrepo.com/">
+					<a class="linkTitle" href="http://www.webdesignrepo.com/">WebdesignRepo</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Didn't know about this when I was creating this site. It's another website which lists links about webdesign. Check it out it's really cool!</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://www.codelium.com/">Codelium</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://www.codelium.com/">Codelium</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Working &amp; Free resources for web designers and developers.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.designshock.com">
-					<a class="siteTitle" href="http://www.designshock.com">Design Shock</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.designshock.com">
+					<a class="linkTitle" href="http://www.designshock.com">Design Shock</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.pixeden.com/">
-					<a class="siteTitle" href="http://www.pixeden.com/">Pixeden</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.pixeden.com/">
+					<a class="linkTitle" href="http://www.pixeden.com/">Pixeden</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://planetozh.com/projects/lightbox-clones/">
-					<a class="siteTitle" href="http://planetozh.com/projects/lightbox-clones/">Lightbox Clones Matrix</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://planetozh.com/projects/lightbox-clones/">
+					<a class="linkTitle" href="http://planetozh.com/projects/lightbox-clones/">Lightbox Clones Matrix</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Comparison of various scripts that display images and other objects in somehow cool CSS popups.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://css-tricks.com/snippets/">
-					<a class="siteTitle" href="http://css-tricks.com/snippets/">CSS-Tricks Code Snippets</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://css-tricks.com/snippets/">
+					<a class="linkTitle" href="http://css-tricks.com/snippets/">CSS-Tricks Code Snippets</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://snipplr.com/">
-					<a class="siteTitle" href="http://snipplr.com/">Snipplr Code Snippets</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://snipplr.com/">
+					<a class="linkTitle" href="http://snipplr.com/">Snipplr Code Snippets</a></div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Software</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.sublimetext.com">
-					<a class="siteTitle" href="http://www.sublimetext.com">Sublime Text</a></div>
-				<div class="accordionExpander" style="display: none;">
+		<ol class="listWindow" id="B11"><div class="listTitle">Software</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.sublimetext.com">
+					<a class="linkTitle" href="http://www.sublimetext.com">Sublime Text</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>This site was written in this! Best to use with Package Control - sublime.wbond.net.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://brackets.io/favicon.ico">
-					<a class="siteTitle" href="http://brackets.io">Brackets</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://brackets.io/favicon.ico">
+					<a class="linkTitle" href="http://brackets.io">Brackets</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Really cool free and open source code editor with nice features.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.adobe.com/pl/products/photoshop.html">
-					<a class="siteTitle" href="http://www.adobe.com/pl/products/photoshop.html">Photoshop</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.adobe.com/pl/products/photoshop.html">
+					<a class="linkTitle" href="http://www.adobe.com/pl/products/photoshop.html">Photoshop</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Best paid software for image editing and designing websites.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.adobe.com/pl/products/fireworks.html">
-					<a class="siteTitle" href="http://www.adobe.com/pl/products/fireworks.html">Fireworks</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.adobe.com/pl/products/fireworks.html">
+					<a class="linkTitle" href="http://www.adobe.com/pl/products/fireworks.html">Fireworks</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>It may not be most popular but it's primarily for webdesign so it has some nice features in that department.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=https://filezilla-project.org">
-					<a class="siteTitle" href="https://filezilla-project.org">FileZilla</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=https://filezilla-project.org">
+					<a class="linkTitle" href="https://filezilla-project.org">FileZilla</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Best free open source FTP client/server.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://gruntjs.com/img/favicon.ico">
-					<a class="siteTitle" href="http://gruntjs.com">Grunt</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://gruntjs.com/img/favicon.ico">
+					<a class="linkTitle" href="http://gruntjs.com">Grunt</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>The JavaScript Task Runner.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://alphapixels.com/prepros">Prepros</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://alphapixels.com/prepros">Prepros</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>"Preprocessing, Live Browser Refreshing, Multi Device Testing and Much More."</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://livereload.com">LiveReload</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://livereload.com">LiveReload</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>"CSS edits and image changes apply live. CoffeeScript, SASS, LESS and others just work."</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.gimp.org">
-					<a class="siteTitle" href="http://www.gimp.org">Gimp</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.gimp.org">
+					<a class="linkTitle" href="http://www.gimp.org">Gimp</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Best free image editing software.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.pixelmator.com">
-					<a class="siteTitle" href="http://www.pixelmator.com">Pixelmator</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.pixelmator.com">
+					<a class="linkTitle" href="http://www.pixelmator.com">Pixelmator</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Cool image editing app for Mac.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://www.google.com/chrome">
-					<a class="siteTitle" href="https://www.google.com/chrome">Google Chrome</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://www.google.com/chrome">
+					<a class="linkTitle" href="https://www.google.com/chrome">Google Chrome</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://mozorg.cdn.mozilla.net/media/img/firefox/favicon.ico?2013-08">
-					<a class="siteTitle" href="http://www.mozilla.org/firefox">Mozilla Firefox</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://mozorg.cdn.mozilla.net/media/img/firefox/favicon.ico?2013-08">
+					<a class="linkTitle" href="http://www.mozilla.org/firefox">Mozilla Firefox</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.opera.com">
-					<a class="siteTitle" href="http://www.opera.com">Opera</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.opera.com">
+					<a class="linkTitle" href="http://www.opera.com">Opera</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://windows.microsoft.com/en-us/internet-explorer/download-ie">
-					<a class="siteTitle" href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">Internet Explorer</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+					<a class="linkTitle" href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">Internet Explorer</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://www.apple.com/safari">
-					<a class="siteTitle" href="https://www.apple.com/safari">Safari</a></div>
-			</li>
-		</ol>
-		
-		<ol class="listWindow"><div class="title">Code Preprocessors</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://coffeescript.org/documentation/images/favicon.ico">
-					<a class="siteTitle" href="http://coffeescript.org">CoffeeScript</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://livescript.net/images/icon.png">
-					<a class="siteTitle" href="http://livescript.net">LiveScript</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://sass-lang.com">
-					<a class="siteTitle" href="http://sass-lang.com">SASS</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://lesscss.org/public/ico/favicon.ico">
-					<a class="siteTitle" href="http://lesscss.org">LESS</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://learnboost.github.io/stylus">Stylus</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://www.apple.com/safari">
+					<a class="linkTitle" href="https://www.apple.com/safari">Safari</a></div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Code Playgrounds</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://jsfiddle.net/">
-					<a class="siteTitle" href="http://jsfiddle.net/">JSFiddle</a></div>
+		<ol class="listWindow" id="B12"><div class="listTitle">Code Preprocessors</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://coffeescript.org/documentation/images/favicon.ico">
+					<a class="linkTitle" href="http://coffeescript.org">CoffeeScript</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://codepen.io/">
-					<a class="siteTitle" href="http://codepen.io/">CodePen</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://livescript.net/images/icon.png">
+					<a class="linkTitle" href="http://livescript.net">LiveScript</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://jsbin.com/">
-					<a class="siteTitle" href="http://jsbin.com/">JS Bin</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://sass-lang.com">
+					<a class="linkTitle" href="http://sass-lang.com">SASS</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://dabblet.com/" style="margin: 4px 0 0 4px; padding: 1px; background:#999; border-radius: 20px;">
-					<a class="siteTitle" href="http://dabblet.com/">Dabblet</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://lesscss.org/public/ico/favicon.ico">
+					<a class="linkTitle" href="http://lesscss.org">LESS</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://gist.github.com/">
-					<a class="siteTitle" href="https://gist.github.com/">GitHub Gists</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://thimble.webmaker.org">
-					<a class="siteTitle" href="https://thimble.webmaker.org">Mozilla Thimble</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://learnboost.github.io/stylus">Stylus</a></div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Other Tools</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.initializr.com">
-					<a class="siteTitle" href="http://www.initializr.com">Initializr</a></div>
-				<div class="accordionExpander" style="display: none;">
+		<ol class="listWindow" id="B13"><div class="listTitle">Code Playgrounds</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://jsfiddle.net/">
+					<a class="linkTitle" href="http://jsfiddle.net/">JSFiddle</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://codepen.io/">
+					<a class="linkTitle" href="http://codepen.io/">CodePen</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://jsbin.com/">
+					<a class="linkTitle" href="http://jsbin.com/">JS Bin</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://dabblet.com/" style="margin: 4px 0 0 4px; padding: 1px; background:#999; border-radius: 20px;">
+					<a class="linkTitle" href="http://dabblet.com/">Dabblet</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://gist.github.com/">
+					<a class="linkTitle" href="https://gist.github.com/">GitHub Gists</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://thimble.webmaker.org">
+					<a class="linkTitle" href="https://thimble.webmaker.org">Mozilla Thimble</a></div>
+			</li>
+		</ol>
+		
+		<ol class="listWindow" id="B14"><div class="listTitle">Other Tools</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.initializr.com">
+					<a class="linkTitle" href="http://www.initializr.com">Initializr</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>HTML5 templates generator to help you getting started with a new project based on HTML5 Boilerplate.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://avocode.com/">
-					<a class="siteTitle" href="http://avocode.com/">Avocode</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://avocode.com/">
+					<a class="linkTitle" href="http://avocode.com/">Avocode</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Preview and inspect PSDs.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://qrohlf.com/lair/favicon.png">
-					<a class="siteTitle" href="http://qrohlf.com/trianglify">Trianglify</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://qrohlf.com/lair/favicon.png">
+					<a class="linkTitle" href="http://qrohlf.com/trianglify">Trianglify</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Generate colorful triangle meshes that can be used as SVG images and CSS backgrounds.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://projectnaptha.com/">
-					<a class="siteTitle" href="http://projectnaptha.com/">Project Naptha</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://projectnaptha.com/">
+					<a class="linkTitle" href="http://projectnaptha.com/">Project Naptha</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Chrome extension which lets you highlight, copy and even change text on images. Really cool.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://paperkit.net">
-					<a class="siteTitle" href="http://paperkit.net">Paper Kit</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://paperkit.net">
+					<a class="linkTitle" href="http://paperkit.net">Paper Kit</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Generate blank graph paper templates.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://kurtnoble.com/labs/rrssb/media/favicon.png">
-					<a class="siteTitle" href="http://kurtnoble.com/labs/rrssb/">RRSSB</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://kurtnoble.com/labs/rrssb/media/favicon.png">
+					<a class="linkTitle" href="http://kurtnoble.com/labs/rrssb/">RRSSB</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Ridiculously Responsive Social Sharing Buttons.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://snapsvg.io/assets/favicon.ico">
-					<a class="siteTitle" href="http://snapsvg.io/">Snap.svg</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://snapsvg.io/assets/favicon.ico">
+					<a class="linkTitle" href="http://snapsvg.io/">Snap.svg</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://daneden.github.io/animate.css/">Animate.css</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://daneden.github.io/animate.css/">Animate.css</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.justinaguilar.com/animations/scrolling.html">
-					<a class="siteTitle" href="http://www.justinaguilar.com/animations/scrolling.html">CSS3 Animation Cheat Sheet</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.justinaguilar.com/animations/scrolling.html">
+					<a class="linkTitle" href="http://www.justinaguilar.com/animations/scrolling.html">CSS3 Animation Cheat Sheet</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=https://layervault.com/">
-					<a class="siteTitle" href="https://layervault.com/">LayerVault</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=https://layervault.com/">
+					<a class="linkTitle" href="https://layervault.com/">LayerVault</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Simple version control for designers.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://html5blank.com/">Blank WordPress Theme</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://html5blank.com/">Blank WordPress Theme</a></div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Hosting</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://aws.amazon.com">Amazon Web Services</a></div>
+		<ol class="listWindow" id="B15"><div class="listTitle">Hosting</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://aws.amazon.com">Amazon Web Services</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=https://pages.github.com/">
-					<a class="siteTitle" href="https://pages.github.com/">GitHub Pages</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=https://pages.github.com/">
+					<a class="linkTitle" href="https://pages.github.com/">GitHub Pages</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>You can't do any back-end like PHP/Python/etc. But it rocks for simple sites!</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.dreamhost.com">
-					<a class="siteTitle" href="http://www.dreamhost.com">DreamHost</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.dreamhost.com">
+					<a class="linkTitle" href="http://www.dreamhost.com">DreamHost</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.bluehost.com">
-					<a class="siteTitle" href="http://www.bluehost.com">Bluehost</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.bluehost.com">
+					<a class="linkTitle" href="http://www.bluehost.com">Bluehost</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.hostgator.com">
-					<a class="siteTitle" href="http://www.hostgator.com">HostGator</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.hostgator.com">
+					<a class="linkTitle" href="http://www.hostgator.com">HostGator</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=https://www.nearlyfreespeech.net">
-					<a class="siteTitle" href="https://www.nearlyfreespeech.net">Nearly Free Speech</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=https://www.nearlyfreespeech.net">
+					<a class="linkTitle" href="https://www.nearlyfreespeech.net">Nearly Free Speech</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Pay incrementally with usage.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://asmallorange.com">
-					<a class="siteTitle" href="http://asmallorange.com">A Small Orange</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://asmallorange.com">
+					<a class="linkTitle" href="http://asmallorange.com">A Small Orange</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://mediatemple.net">
-					<a class="siteTitle" href="http://mediatemple.net">Media Temple</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://mediatemple.net">
+					<a class="linkTitle" href="http://mediatemple.net">Media Temple</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://www.digitalocean.com">
-					<a class="siteTitle" href="https://www.digitalocean.com">Digital Ocean</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://www.digitalocean.com">
+					<a class="linkTitle" href="https://www.digitalocean.com">Digital Ocean</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.rackspace.com">
-					<a class="siteTitle" href="http://www.rackspace.com">Rackspace</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.rackspace.com">
+					<a class="linkTitle" href="http://www.rackspace.com">Rackspace</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://www.linode.com">
-					<a class="siteTitle" href="https://www.linode.com">Linode</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://www.linode.com">
+					<a class="linkTitle" href="https://www.linode.com">Linode</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://ipage.com">
-					<a class="siteTitle" href="http://ipage.com">iPage</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://ipage.com">
+					<a class="linkTitle" href="http://ipage.com">iPage</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.000webhost.com">
-					<a class="siteTitle" href="http://www.000webhost.com">000webhost</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.000webhost.com">
+					<a class="linkTitle" href="http://www.000webhost.com">000webhost</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>If you can't afford hosting (like me) then this might help.</span>
 				</div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Analytics, SEO &amp; Ads</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.google.com/analytics">
-					<a class="siteTitle" href="http://www.google.com/analytics">Google Analytics</a></div>
+		<ol class="listWindow" id="B16"><div class="listTitle">Analytics, SEO &amp; Ads</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.google.com/analytics">
+					<a class="linkTitle" href="http://www.google.com/analytics">Google Analytics</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.google.com/trends">
-					<a class="siteTitle" href="http://www.google.com/trends">Google Trends</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.google.com/trends">
+					<a class="linkTitle" href="http://www.google.com/trends">Google Trends</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://www.google.com">
-					<a class="siteTitle" href="https://www.google.com/adsense">Google AdSense</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://www.google.com">
+					<a class="linkTitle" href="https://www.google.com/adsense">Google AdSense</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.google.com/adwords">
-					<a class="siteTitle" href="http://www.google.com/adwords">Google AdWords</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.google.com/adwords">
+					<a class="linkTitle" href="http://www.google.com/adwords">Google AdWords</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.google.com/webmasters/">
-					<a class="siteTitle" href="http://www.google.com/webmasters/">Google Webmasters</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.google.com/webmasters/">
+					<a class="linkTitle" href="http://www.google.com/webmasters/">Google Webmasters</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Get data, tools and diagnostics for a healthy, Google-friendly site.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.sharedcount.com">
-					<a class="siteTitle" href="http://www.sharedcount.com">Shared Count</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.sharedcount.com">
+					<a class="linkTitle" href="http://www.sharedcount.com">Shared Count</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Track URL shares, likes, tweets, and etc.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=https://en.mention.com">
-					<a class="siteTitle" href="https://en.mention.com">Mention</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=https://en.mention.com">
+					<a class="linkTitle" href="https://en.mention.com">Mention</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Paid real time media monitoring application.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.alexa.com">
-					<a class="siteTitle" href="http://www.alexa.com">Alexa</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.alexa.com">
+					<a class="linkTitle" href="http://www.alexa.com">Alexa</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://www.quantcast.com">
-					<a class="siteTitle" href="https://www.quantcast.com">Quantcast</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://www.quantcast.com">
+					<a class="linkTitle" href="https://www.quantcast.com">Quantcast</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://seositecheckup.com/">
-					<a class="siteTitle" href="http://seositecheckup.com/">SEO Site Checkup</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://seositecheckup.com/">
+					<a class="linkTitle" href="http://seositecheckup.com/">SEO Site Checkup</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.internetmarketingninjas.com/tools">
-					<a class="siteTitle" href="http://www.internetmarketingninjas.com/tools">Net Marketing Ninjas Tools</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.internetmarketingninjas.com/tools">
+					<a class="linkTitle" href="http://www.internetmarketingninjas.com/tools">Net Marketing Ninjas Tools</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.wordstream.com/keyword-niche-finder">
-					<a class="siteTitle" href="http://www.wordstream.com/keyword-niche-finder">Niche Keyword Finder</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.wordstream.com/keyword-niche-finder">
+					<a class="linkTitle" href="http://www.wordstream.com/keyword-niche-finder">Niche Keyword Finder</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.google.com/alerts">
-					<a class="siteTitle" href="http://www.google.com/alerts">Google Alerts</a></div>
-			</li>
-		</ol>
-		
-		<ol class="listWindow"><div class="title">Content Management Systems</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://wordpress.org">
-					<a class="siteTitle" href="http://wordpress.org">WordPress</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://drupal.org">
-					<a class="siteTitle" href="https://drupal.org">Drupal</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.joomla.org">
-					<a class="siteTitle" href="http://www.joomla.org">Joomla!</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.silverstripe.org">
-					<a class="siteTitle" href="http://www.silverstripe.org">SilverStripe</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.madebyfrog.com">
-					<a class="siteTitle" href="http://www.madebyfrog.com">Frog CMS</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://www.cushycms.com">
-					<a class="siteTitle" href="https://www.cushycms.com">CushyCMS</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.concrete5.org">
-					<a class="siteTitle" href="http://www.concrete5.org">Concrete5</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.statamic.com/">
-					<a class="siteTitle" href="http://www.statamic.com/">Statamic</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://buildwithcraft.com/">
-					<a class="siteTitle" href="https://buildwithcraft.com/">Craft</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.secretarycms.com/">
-					<a class="siteTitle" href="http://www.secretarycms.com/">The Secretary</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://modx.com">
-					<a class="siteTitle" href="http://modx.com">MODX</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://dotcms.com">
-					<a class="siteTitle" href="http://dotcms.com">Dotcms</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://contao.org">
-					<a class="siteTitle" href="https://contao.org">Contao</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://ellislab.com/expressionengine">
-					<a class="siteTitle" href="http://ellislab.com/expressionengine">Expression Engine</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://radiantcms.org">Radiant CMS</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.google.com/alerts">
+					<a class="linkTitle" href="http://www.google.com/alerts">Google Alerts</a></div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Front-End Frameworks</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://foundation.zurb.com">
-					<a class="siteTitle" href="http://foundation.zurb.com">Foundation</a></div>
+		<ol class="listWindow" id="B17"><div class="listTitle">Content Management Systems</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://wordpress.org">
+					<a class="linkTitle" href="http://wordpress.org">WordPress</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://getbootstrap.com/assets/ico/favicon.ico">
-					<a class="siteTitle" href="http://getbootstrap.com">Bootstrap</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://drupal.org">
+					<a class="linkTitle" href="https://drupal.org">Drupal</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://backbonejs.org/favicon.ico">
-					<a class="siteTitle" href="http://backbonejs.org/">Backbone.js</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.joomla.org">
+					<a class="linkTitle" href="http://www.joomla.org">Joomla!</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://semantic-ui.com/favicon.ico">
-					<a class="siteTitle" href="http://semantic-ui.com">Semantic UI</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.silverstripe.org">
+					<a class="linkTitle" href="http://www.silverstripe.org">SilverStripe</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.unsemantic.com">
-					<a class="siteTitle" href="http://www.unsemantic.com">Unsemantic</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.madebyfrog.com">
+					<a class="linkTitle" href="http://www.madebyfrog.com">Frog CMS</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://neat.bourbon.io/favicon.ico">
-					<a class="siteTitle" href="http://neat.bourbon.io">Bourbon Neat</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://www.cushycms.com">
+					<a class="linkTitle" href="https://www.cushycms.com">CushyCMS</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://jeet.gs/">
-					<a class="siteTitle" href="http://jeet.gs/">Jeet</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.concrete5.org">
+					<a class="linkTitle" href="http://www.concrete5.org">Concrete5</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://purecss.io/">
-					<a class="siteTitle" href="http://purecss.io/">Pure</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.statamic.com/">
+					<a class="linkTitle" href="http://www.statamic.com/">Statamic</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://gumbyframework.com">
-					<a class="siteTitle" href="http://gumbyframework.com">Gumby</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://buildwithcraft.com/">
+					<a class="linkTitle" href="https://buildwithcraft.com/">Craft</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://ink.sapo.pt/">
-					<a class="siteTitle" href="http://ink.sapo.pt/">Ink Interface Kit</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.secretarycms.com/">
+					<a class="linkTitle" href="http://www.secretarycms.com/">The Secretary</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://susy.oddbird.net/favicon.ico">
-					<a class="siteTitle" href="http://susy.oddbird.net">Susy</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://modx.com">
+					<a class="linkTitle" href="http://modx.com">MODX</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://imperavi.com/kube">
-					<a class="siteTitle" href="http://imperavi.com/kube">Kube</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://dotcms.com">
+					<a class="linkTitle" href="http://dotcms.com">Dotcms</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.blueprintcss.org">
-					<a class="siteTitle" href="http://www.blueprintcss.org">Blueprint</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://contao.org">
+					<a class="linkTitle" href="https://contao.org">Contao</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://groundworkcss.github.io">GroundworkCSS</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://ellislab.com/expressionengine">
+					<a class="linkTitle" href="http://ellislab.com/expressionengine">Expression Engine</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.getskeleton.com/src/images/favicon.ico">
-					<a class="siteTitle" href="http://www.getskeleton.com/">Skeleton</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.yaml.de/">
-					<a class="siteTitle" href="http://www.yaml.de/">YAML</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://responsive.gs/">
-					<a class="siteTitle" href="http://responsive.gs/">Responsive Grid Sys. #1</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.responsivegridsystem.com/">
-					<a class="siteTitle" href="http://www.responsivegridsystem.com/">Responsive Grid Sys. #2</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://matthewhartman.github.io/base/">
-					<a class="siteTitle" href="http://matthewhartman.github.io/base/">Base</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://piira.se/projects/ingrid/">Ingrid</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://daneden.github.io/Toast/">Toast</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://lessframework.com/">
-					<a class="siteTitle" href="http://lessframework.com/">Less Framework</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://muellergridsystem.com/">
-					<a class="siteTitle" href="http://muellergridsystem.com/">Mueller Grid System</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://goldengridsystem.com/">
-					<a class="siteTitle" href="http://goldengridsystem.com/">Golden Grid System</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://960.gs/">
-					<a class="siteTitle" href="http://960.gs/">960 Grid System</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://tuktuk.tapquo.com/">Tuktuk</a></div>
-			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://newaeonweb.com.br/responsiveaeon/images/favicon.ico">
-					<a class="siteTitle" href="http://newaeonweb.com.br/responsiveaeon/">Responsive Aeon</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://radiantcms.org">Radiant CMS</a></div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Learn Design</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.rocket-design.fr/color-template">
-					<a class="siteTitle" href="http://www.rocket-design.fr/color-template">Color Template</a></div>
-				<div class="accordionExpander" style="display: none;">
+		<ol class="listWindow" id="B18"><div class="listTitle">Front-End Frameworks</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://foundation.zurb.com">
+					<a class="linkTitle" href="http://foundation.zurb.com">Foundation</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://getbootstrap.com/assets/ico/favicon.ico">
+					<a class="linkTitle" href="http://getbootstrap.com">Bootstrap</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://backbonejs.org/favicon.ico">
+					<a class="linkTitle" href="http://backbonejs.org/">Backbone.js</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://semantic-ui.com/favicon.ico">
+					<a class="linkTitle" href="http://semantic-ui.com">Semantic UI</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.unsemantic.com">
+					<a class="linkTitle" href="http://www.unsemantic.com">Unsemantic</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://neat.bourbon.io/favicon.ico">
+					<a class="linkTitle" href="http://neat.bourbon.io">Bourbon Neat</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://jeet.gs/">
+					<a class="linkTitle" href="http://jeet.gs/">Jeet</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://purecss.io/">
+					<a class="linkTitle" href="http://purecss.io/">Pure</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://gumbyframework.com">
+					<a class="linkTitle" href="http://gumbyframework.com">Gumby</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://ink.sapo.pt/">
+					<a class="linkTitle" href="http://ink.sapo.pt/">Ink Interface Kit</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://susy.oddbird.net/favicon.ico">
+					<a class="linkTitle" href="http://susy.oddbird.net">Susy</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://imperavi.com/kube">
+					<a class="linkTitle" href="http://imperavi.com/kube">Kube</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.blueprintcss.org">
+					<a class="linkTitle" href="http://www.blueprintcss.org">Blueprint</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://groundworkcss.github.io">GroundworkCSS</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.getskeleton.com/src/images/favicon.ico">
+					<a class="linkTitle" href="http://www.getskeleton.com/">Skeleton</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.yaml.de/">
+					<a class="linkTitle" href="http://www.yaml.de/">YAML</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://responsive.gs/">
+					<a class="linkTitle" href="http://responsive.gs/">Responsive Grid Sys. #1</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.responsivegridsystem.com/">
+					<a class="linkTitle" href="http://www.responsivegridsystem.com/">Responsive Grid Sys. #2</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://matthewhartman.github.io/base/">
+					<a class="linkTitle" href="http://matthewhartman.github.io/base/">Base</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://piira.se/projects/ingrid/">Ingrid</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://daneden.github.io/Toast/">Toast</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://lessframework.com/">
+					<a class="linkTitle" href="http://lessframework.com/">Less Framework</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://muellergridsystem.com/">
+					<a class="linkTitle" href="http://muellergridsystem.com/">Mueller Grid System</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://goldengridsystem.com/">
+					<a class="linkTitle" href="http://goldengridsystem.com/">Golden Grid System</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://960.gs/">
+					<a class="linkTitle" href="http://960.gs/">960 Grid System</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://tuktuk.tapquo.com/">Tuktuk</a></div>
+			</li>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://newaeonweb.com.br/responsiveaeon/images/favicon.ico">
+					<a class="linkTitle" href="http://newaeonweb.com.br/responsiveaeon/">Responsive Aeon</a></div>
+			</li>
+		</ol>
+		
+		<ol class="listWindow" id="B19"><div class="listTitle">Learn Design</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.rocket-design.fr/color-template">
+					<a class="linkTitle" href="http://www.rocket-design.fr/color-template">Color Template</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Learn how to choose right colors for design.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://hackdesign.org">
-					<a class="siteTitle" href="https://hackdesign.org">Hack Design</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://hackdesign.org">
+					<a class="linkTitle" href="https://hackdesign.org">Hack Design</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://goodui.org/">
-					<a class="siteTitle" href="http://goodui.org/">GoodUI</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://goodui.org/">
+					<a class="linkTitle" href="http://goodui.org/">GoodUI</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://webdesign.tutsplus.com/">
-					<a class="siteTitle" href="http://webdesign.tutsplus.com/">Tuts+ Webdesign</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://webdesign.tutsplus.com/">
+					<a class="linkTitle" href="http://webdesign.tutsplus.com/">Tuts+ Webdesign</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://design.tutsplus.com/">
-					<a class="siteTitle" href="http://design.tutsplus.com/">Tuts+ Design</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://design.tutsplus.com/">
+					<a class="linkTitle" href="http://design.tutsplus.com/">Tuts+ Design</a></div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Learn Code</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://www.bentobox.io">
-					<a class="siteTitle" href="http://www.bentobox.io">Bento</a></div>
-				<div class="accordionExpander" style="display: none;">
+		<ol class="listWindow" id="B20"><div class="listTitle">Learn Code</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://www.bentobox.io">
+					<a class="linkTitle" href="http://www.bentobox.io">Bento</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Learn frontend, backend, database, api, mobile and etc. categorized with cool boxes which tell you what to learn next.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://devdocs.io/">
-					<a class="siteTitle" href="http://devdocs.io/">DevDocs</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://devdocs.io/">
+					<a class="linkTitle" href="http://devdocs.io/">DevDocs</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>DevDocs combines multiple API documentations in a fast, organized, and searchable interface.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.codecademy.com/">
-					<a class="siteTitle" href="http://www.codecademy.com/">Codecademy</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.codecademy.com/">
+					<a class="linkTitle" href="http://www.codecademy.com/">Codecademy</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://teamtreehouse.com/">
-					<a class="siteTitle" href="http://teamtreehouse.com/">Team Treehouse</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://teamtreehouse.com/">
+					<a class="linkTitle" href="http://teamtreehouse.com/">Team Treehouse</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://dash.generalassemb.ly/">
-					<a class="siteTitle" href="https://dash.generalassemb.ly/">Dash</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://dash.generalassemb.ly/">
+					<a class="linkTitle" href="https://dash.generalassemb.ly/">Dash</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.codeavengers.com/">
-					<a class="siteTitle" href="http://www.codeavengers.com/">Code Avengers</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.codeavengers.com/">
+					<a class="linkTitle" href="http://www.codeavengers.com/">Code Avengers</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://www.khanacademy.org/computing/cs">
-					<a class="siteTitle" href="https://www.khanacademy.org/computing/cs">Khan Academy</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://www.khanacademy.org/computing/cs">
+					<a class="linkTitle" href="https://www.khanacademy.org/computing/cs">Khan Academy</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=https://www.codeschool.com/">
-					<a class="siteTitle" href="https://www.codeschool.com/">Code School</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=https://www.codeschool.com/">
+					<a class="linkTitle" href="https://www.codeschool.com/">Code School</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://code.tutsplus.com/">
-					<a class="siteTitle" href="http://code.tutsplus.com/">Tuts+ Code</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://code.tutsplus.com/">
+					<a class="linkTitle" href="http://code.tutsplus.com/">Tuts+ Code</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="http://www.google.com/s2/favicons?domain=http://flukeout.github.io/">
-					<a class="siteTitle" href="http://flukeout.github.io/">CSS Diner</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="http://www.google.com/s2/favicons?domain=http://flukeout.github.io/">
+					<a class="linkTitle" href="http://flukeout.github.io/">CSS Diner</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Practice your CSS selectors skills.</span>
 				</div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIcon" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://tevko.github.io/practice/random.html">Build Something Random</a></div>
-				<div class="accordionExpander" style="display: none;">
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIcon" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://tevko.github.io/practice/random.html">Build Something Random</a></div>
+				<div class="linkInfo" style="display: none;">
 					<span>Practice your front-end coding skills with random challenges.</span>
 				</div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Tumblrs</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://littlebigdetails.com">
-					<a class="siteTitle" href="http://littlebigdetails.com">Little Big Details</a></div>
+		<ol class="listWindow" id="B21"><div class="listTitle">Tumblrs</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://littlebigdetails.com">
+					<a class="linkTitle" href="http://littlebigdetails.com">Little Big Details</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://baunau.com" style="margin: 4px 0 0 4px; padding: 1px; background:#999; border-radius: 20px;">
-					<a class="siteTitle" href="http://baunau.com">Baunau</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://baunau.com" style="margin: 4px 0 0 4px; padding: 1px; background:#999; border-radius: 20px;">
+					<a class="linkTitle" href="http://baunau.com">Baunau</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://houseofbuttons.tumblr.com">
-					<a class="siteTitle" href="http://houseofbuttons.tumblr.com">House of Buttons</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://houseofbuttons.tumblr.com">
+					<a class="linkTitle" href="http://houseofbuttons.tumblr.com">House of Buttons</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="../img/blankfavicon.png">
-					<a class="siteTitle" href="http://uxquotes.tumblr.com">UX Quotes</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="../img/blankfavicon.png">
+					<a class="linkTitle" href="http://uxquotes.tumblr.com">UX Quotes</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://startupquote.com">
-					<a class="siteTitle" href="http://startupquote.com">Startup Quote</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://startupquote.com">
+					<a class="linkTitle" href="http://startupquote.com">Startup Quote</a></div>
 			</li>		
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://prettifyit.com">
-					<a class="siteTitle" href="http://prettifyit.com">Prettify*</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://prettifyit.com">
+					<a class="linkTitle" href="http://prettifyit.com">Prettify*</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://psdturtle.tumblr.com">
-					<a class="siteTitle" href="http://psdturtle.tumblr.com">PSD Turtle</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://psdturtle.tumblr.com">
+					<a class="linkTitle" href="http://psdturtle.tumblr.com">PSD Turtle</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://thedsgnblog.com">
-					<a class="siteTitle" href="http://thedsgnblog.com">The Design Blog</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://thedsgnblog.com">
+					<a class="linkTitle" href="http://thedsgnblog.com">The Design Blog</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://reformrevolution.com">
-					<a class="siteTitle" href="http://reformrevolution.com">Reform &amp; Revolution</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://reformrevolution.com">
+					<a class="linkTitle" href="http://reformrevolution.com">Reform &amp; Revolution</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://gather.georgpetschnigg.com">
-					<a class="siteTitle" href="http://gather.georgpetschnigg.com">Gather</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://gather.georgpetschnigg.com">
+					<a class="linkTitle" href="http://gather.georgpetschnigg.com">Gather</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://visualgraphc.com">
-					<a class="siteTitle" href="http://visualgraphc.com">Visualgraphc</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://visualgraphc.com">
+					<a class="linkTitle" href="http://visualgraphc.com">Visualgraphc</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://serialthriller.com">
-					<a class="siteTitle" href="http://serialthriller.com">SerialThriller™</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://serialthriller.com">
+					<a class="linkTitle" href="http://serialthriller.com">SerialThriller™</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://daily.youandsaturation.com">
-					<a class="siteTitle" href="http://daily.youandsaturation.com">Daily Showturation</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://daily.youandsaturation.com">
+					<a class="linkTitle" href="http://daily.youandsaturation.com">Daily Showturation</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://ashortinspiration.tumblr.com">
-					<a class="siteTitle" href="http://ashortinspiration.tumblr.com">Short Inspiration</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://ashortinspiration.tumblr.com">
+					<a class="linkTitle" href="http://ashortinspiration.tumblr.com">Short Inspiration</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://ethankociela.tumblr.com">
-					<a class="siteTitle" href="http://ethankociela.tumblr.com">Inspiring Ethan</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://ethankociela.tumblr.com">
+					<a class="linkTitle" href="http://ethankociela.tumblr.com">Inspiring Ethan</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://typostrate.com">
-					<a class="siteTitle" href="http://typostrate.com">Typostrate</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://typostrate.com">
+					<a class="linkTitle" href="http://typostrate.com">Typostrate</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://fuckyeahtypography.tumblr.com">
-					<a class="siteTitle" href="http://fuckyeahtypography.tumblr.com">F*** Yeah, Typograhy</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://fuckyeahtypography.tumblr.com">
+					<a class="linkTitle" href="http://fuckyeahtypography.tumblr.com">F*** Yeah, Typograhy</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://typeverything.com">
-					<a class="siteTitle" href="http://typeverything.com">Typeverything</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://typeverything.com">
+					<a class="linkTitle" href="http://typeverything.com">Typeverything</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://clientsfromhell.net">
-					<a class="siteTitle" href="http://clientsfromhell.net">Clients From Hell</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://clientsfromhell.net">
+					<a class="linkTitle" href="http://clientsfromhell.net">Clients From Hell</a></div>
 			</li>
 		</ol>
 		
-		<ol class="listWindow"><div class="title">Subreddits</div>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/web_design">Web_Design</a></div>
+		<ol class="listWindow" id="B22"><div class="listTitle">Subreddits</div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/web_design">Web_Design</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/design">Design</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/design">Design</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/webdev">WebDev</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/webdev">WebDev</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/CrappyDesign">CrappyDesign</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/CrappyDesign">CrappyDesign</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/graphic_design">Graphic_Design</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/graphic_design">Graphic_Design</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/DesignPorn">DesignPorn</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/DesignPorn">DesignPorn</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/typography">Typography</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/typography">Typography</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/Design_Critiques">Design_Critiques</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/Design_Critiques">Design_Critiques</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/frontend">FrontEnd</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/frontend">FrontEnd</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/talesfromdesigners">TalesFromDesigners</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/talesfromdesigners">TalesFromDesigners</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/52weeksofdesign">52WeeksOfDesign</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/52weeksofdesign">52WeeksOfDesign</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/criticaldesign">CriticalDesign</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/criticaldesign">CriticalDesign</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/userexperience">UserExperience</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/userexperience">UserExperience</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/usability">Usability</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/usability">Usability</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/webhosting">WebHosting</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/webhosting">WebHosting</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/webmarketing">WebMarketing</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/webmarketing">WebMarketing</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/learndesign">LearnDesign</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/learndesign">LearnDesign</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/dotcom">DotCom</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/dotcom">DotCom</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/somebodymakethis">SomebodyMakeThis</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/somebodymakethis">SomebodyMakeThis</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/designjobs">DesignJobs</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/designjobs">DesignJobs</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/css">CSS</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/css">CSS</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/javascript">JavaScript</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/javascript">JavaScript</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/jquery">jQuery</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/jquery">jQuery</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/php">PHP</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/php">PHP</a></div>
 			</li>
-			<li class="accordionElement">
-				<div class="accordionHeader"><img class="siteIconNoExpander" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
-					<a class="siteTitle" href="http://www.reddit.com/r/wordpress">WordPress</a></div>
+			<li class="linkContainer">
+				<div class="linkContainerTwo"><img class="linkIconNoInfo" src="http://www.google.com/s2/favicons?domain=http://www.reddit.com">
+					<a class="linkTitle" href="http://www.reddit.com/r/wordpress">WordPress</a></div>
 			</li>			
 		</ol>
 
 	</div>
 
 	<div class="footerContainer">
-		<div class="footerDefinition">dope ~
-			<p>1. information from a reliable source about something that is not commonly or immediately known.</p>
-			<p>2. something that is extremely cool.</p>
-		</div>
 
-		<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FDopelists&amp;width&amp;height=62&amp;colorscheme=dark&amp;show_faces=false&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:62px;" allowTransparency="true"></iframe>
+		<div class="footerDefinition">Dope ~
+			<p>1. Information from a reliable source about something that is not commonly or immediately known.</p>
+			<p>2. Something that is extremely cool.</p>
+		</div>
 
 		<div class="footerAbout">
-			<p>Dopelists.com categorizes websites and other cool things about various fields of interests from all over the internet.</p>
-			<p>If you have any problems, suggestions, inquiries or you want to add a link/category to the site please use dopelists@gmail.com.</p>
-			<p>You can find changelog on <a href="https://github.com/Dominikdsgnr/Dominikdsgnr.github.io/commits/master">Dopelists GitHub repository</a>.
-			<p>Design &amp; coding by <a href="http://www.dominikserafin.pl/en_index.html">Dominik Serafin</a> (that's me!) whom you can always <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=727DR9ZWZELQ2">buy a beer</a>.</p>
+			<p>DopeLists.com categorizes websites and other cool things about various fields of interests from all over the internet.</p>
+			<p>If you have any problems, suggestions or you want to add a link or category to the site please use <span class="emailFooter">DopeLists@gmail.com</span>.</p>
+			<p>This project is on <a href="https://github.com/Dominikdsgnr/Dominikdsgnr.github.io.git">GitHub</a> and also hosted on GitHub Pages.
+			It was created by <a href="http://www.dominikserafin.pl/en_index.html">Dominik Serafin</a> (that's me!).</p>
 		</div>
+		
 	</div>
 
 </div>
