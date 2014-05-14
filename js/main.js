@@ -39,123 +39,123 @@ $(document).ready(function(){
 	//Highlighting categories
 	$("#A1").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B1").toggleClass("highlightListWindow");
+		$("#C1").toggleClass("highlightListWindow");
 	});
 	$("#A2").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B2").toggleClass("highlightListWindow");
+		$("#C2").toggleClass("highlightListWindow");
 	});
 	$("#A3").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B3").toggleClass("highlightListWindow");
+		$("#C3").toggleClass("highlightListWindow");
 	});
 	$("#A4").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B4").toggleClass("highlightListWindow");
+		$("#C4").toggleClass("highlightListWindow");
 	});
 	$("#A5").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B5").toggleClass("highlightListWindow");
+		$("#C5").toggleClass("highlightListWindow");
 	});
 	$("#A6").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B6").toggleClass("highlightListWindow");
+		$("#C6").toggleClass("highlightListWindow");
 	});
 	$("#A7").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B7").toggleClass("highlightListWindow");
+		$("#C7").toggleClass("highlightListWindow");
 	});
 	$("#A8").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B8").toggleClass("highlightListWindow");
+		$("#C8").toggleClass("highlightListWindow");
 	});
 	$("#A9").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B9").toggleClass("highlightListWindow");
+		$("#C9").toggleClass("highlightListWindow");
 	});
 	$("#A10").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B10").toggleClass("highlightListWindow");
+		$("#C10").toggleClass("highlightListWindow");
 	});
 	$("#A11").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B11").toggleClass("highlightListWindow");
+		$("#C11").toggleClass("highlightListWindow");
 	});
 	$("#A12").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B12").toggleClass("highlightListWindow");
+		$("#C12").toggleClass("highlightListWindow");
 	});
 	$("#A13").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B13").toggleClass("highlightListWindow");
+		$("#C13").toggleClass("highlightListWindow");
 	});
 	$("#A14").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B14").toggleClass("highlightListWindow");
+		$("#C14").toggleClass("highlightListWindow");
 	});
 	$("#A15").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B15").toggleClass("highlightListWindow");
+		$("#C15").toggleClass("highlightListWindow");
 	});
 	$("#A16").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B16").toggleClass("highlightListWindow");
+		$("#C16").toggleClass("highlightListWindow");
 	});
 	$("#A17").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B17").toggleClass("highlightListWindow");
+		$("#C17").toggleClass("highlightListWindow");
 	});
 	$("#A18").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B18").toggleClass("highlightListWindow");
+		$("#C18").toggleClass("highlightListWindow");
 	});
 	$("#A19").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B19").toggleClass("highlightListWindow");
+		$("#C19").toggleClass("highlightListWindow");
 	});
 	$("#A20").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B20").toggleClass("highlightListWindow");
+		$("#C20").toggleClass("highlightListWindow");
 	});
 	$("#A21").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B21").toggleClass("highlightListWindow");
+		$("#C21").toggleClass("highlightListWindow");
 	});
 	$("#A22").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B22").toggleClass("highlightListWindow");
+		$("#C22").toggleClass("highlightListWindow");
 	});
 	$("#A23").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B23").toggleClass("highlightListWindow");
+		$("#C23").toggleClass("highlightListWindow");
 	});
 	$("#A24").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B24").toggleClass("highlightListWindow");
+		$("#C24").toggleClass("highlightListWindow");
 	});
 	$("#A25").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B25").toggleClass("highlightListWindow");
+		$("#C25").toggleClass("highlightListWindow");
 	});
 	$("#A26").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B26").toggleClass("highlightListWindow");
+		$("#C26").toggleClass("highlightListWindow");
 	});
 	$("#A27").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B27").toggleClass("highlightListWindow");
+		$("#C27").toggleClass("highlightListWindow");
 	});
 	$("#A28").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B28").toggleClass("highlightListWindow");
+		$("#C28").toggleClass("highlightListWindow");
 	});
 	$("#A29").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B29").toggleClass("highlightListWindow");
+		$("#C29").toggleClass("highlightListWindow");
 	});
 	$("#A30").click(function(){
 		$(".listWindow").removeClass("highlightListWindow");
-		$("#B30").toggleClass("highlightListWindow");
+		$("#C30").toggleClass("highlightListWindow");
 	});
 
 	//Link description on hover
