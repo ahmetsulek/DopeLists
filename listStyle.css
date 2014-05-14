@@ -544,11 +544,11 @@ a:hover {
 
 @media (max-width: 1220px) {
 .topLeft {
-	width: 480px;
+	width: 610px;
 }
 
 .topRight {
-	width: 480px;
+	width: 350px;
 }
 
 .localGalaxyGroup {
