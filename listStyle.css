@@ -226,7 +226,7 @@ sup {
 	width: 100%;
 	height: 85px;
 	text-align: center;
-	background: url('./img/headerbg_gray.png');
+	background: url('./img/headerbg_gray.png') top left repeat-x;
 }
 
 .headerLeft {
@@ -633,10 +633,15 @@ sup {
 	width: 100%;
 }
 
+.headerWrapper {
+	height: 170px;
+}
+
 .headerRight {
 	display: block;
 	margin-top: 30px;
 	width: 100%;
+	height: auto;
 	text-align: center;
 }
 
