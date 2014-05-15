@@ -303,7 +303,7 @@ body {
 #boxIndiegames {background-color: #a88827} #boxIndiegames:hover {background-color: #dbb132}
 #boxFree2play {background-color: #009066} #boxFree2play:hover {background-color: #00c288}
 #boxBrowsergames {background-color: #105c13} #boxBrowsergames:hover {background-color: #188f1c}
-#boxStoner {background-color: #4c355e} #boxStoner:hover {background-color: #765191}
+#boxOther {background-color: #4c355e} #boxOther:hover {background-color: #765191}
 
 .lastUpdate {
 	margin: 8px 0 0 0;
