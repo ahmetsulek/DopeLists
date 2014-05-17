@@ -306,12 +306,12 @@ sup {
 	font-size: 17px;
 }
 
-.navigationSlider > *:last-of-type {
+/*.navigationSlider > *:last-of-type {
 	border-top: 1px solid #888;
 	border-bottom: none;
 	padding-left: 15px;
 	font-size: 19px;
-}
+}*/
 
 .navigationSlider > *:hover {
 	text-decoration: none;
