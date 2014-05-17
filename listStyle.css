@@ -148,18 +148,6 @@ sup {
     -o-transition: all 0.1s ease-out;
 }
 
-.googlePage {
-	display: inline-block;
-	width: 30px;
-	height: 29px;
-	background: url(./img/social_googleplus.png) 50% no-repeat;
-	background-size: 20px 20px;
-	transition: all 0.1s ease-out;
-    -moz-transition: all 0.1s ease-out;
-    -webkit-transition: all 0.1s ease-out;
-    -o-transition: all 0.1s ease-out;
-}
-
 .facebookPage:hover {
 	background: #e74c3c url(./img/social_facebookWhite.png) 50% no-repeat;
 	background-size: 10px 20px;
@@ -168,22 +156,6 @@ sup {
 .twitterPage:hover {
 	background: #e74c3c url(./img/social_twitterWhite.png) 50% no-repeat;
 	background-size: 20px 20px;
-}
-
-.googlePage:hover {
-	background: #e74c3c url(./img/social_googleplusWhite.png) 50% no-repeat;
-	background-size: 20px 20px;
-}
-
-.facebookButton {
-	margin-right: 31px;
-}
-
-@-moz-document url-prefix() {
-.facebookButton {
-	position: relative;
-	bottom: 2px;
-}
 }
 
 .topRight {
@@ -235,7 +207,6 @@ sup {
 	display: inline-block;
 	text-align: right;
 }
-
 
 .headerLogo {
 	display: block;
@@ -572,18 +543,12 @@ sup {
 }
 
 @media (max-width: 980px) {
-.topWrapper {
-	height: 60px;
-}
-
 .topLeft {
-	width: 100%;
-	text-align: center;
+	width: 360px;
 }
 
 .topRight {
-	width: 100%;
-	text-align: center;
+	width: 360px;
 }
 
 .localGalaxyGroup {
@@ -597,12 +562,12 @@ sup {
 
 @media (max-width: 740px) {
 .topWrapper {
-	height: 110px;
+	height: 90px;
 }
 
 .topLeft {
 	width: 100%;
-	height: 80px;
+	height: 60px;
 	text-align: center;
 }
 
