@@ -86,6 +86,11 @@ sup {
 	font-family: clear_sansbold;
 }
 
+.linkTitle sup {
+	border: 1px solid black;
+	color: black;
+}
+
 .linkContainerTwo:focus {
 	outline: none;
 }
@@ -438,7 +443,7 @@ sup {
 }
 
 .linkTitle {
-	width: 180px;
+	width: 175px;
 	height: 22px;
 	overflow: hidden;
 	font-size: 14px;
