@@ -1,4 +1,19 @@
 $(document).ready(function(){
+
+	/*Includes from localhost
+		$(".preload").load("http://localhost/DopeLists/include_preload.html");
+		$(".topWrapper").load("http://localhost/DopeLists/include_top.html");
+		$(".frankensteinHamburger").load("http://localhost/DopeLists/include_menu.html");
+		$(".adContainer").load("http://localhost/DopeLists/include_ad.html");
+		$(".footerContainer").load("http://localhost/DopeLists/include_footer.html");
+	*/
+
+	//Includes from dopelists.com
+		$(".preload").load("http://dopelists.com/include_preload.html");
+		$(".topWrapper").load("http://dopelists.com/include_top.html");
+		$(".frankensteinHamburger").load("http://dopelists.com/include_menu.html");
+		$(".adContainer").load("http://dopelists.com/include_ad.html");
+		$(".footerContainer").load("http://dopelists.com/include_footer.html");
 	
 	//Google Analytics
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

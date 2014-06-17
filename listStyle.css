@@ -97,6 +97,10 @@ sup {
 
 /* TOP */
 
+.preload {
+	display: none;
+}
+
 .topWrapper {
 	width: 100%;
 	height: 29px;
