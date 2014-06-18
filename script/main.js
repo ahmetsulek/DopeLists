@@ -33,7 +33,7 @@ $(document).ready(function(){
 	//Includes from dopelists.com
 		$(".preload").load("http://dopelists.com/include_preload.html");
 		$(".topWrapper").load("http://dopelists.com/include_top.html");
-		$(".frankensteinHamburger").load("http://dopelists.com/include_menu.html");
+		$(".headerRight").load("http://dopelists.com/include_menu.html");
 		$(".adContainer").load("http://dopelists.com/include_ad.html");
 		$(".footerContainer").load("http://dopelists.com/include_footer.html");
 
