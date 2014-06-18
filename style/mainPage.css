@@ -139,7 +139,7 @@ body {
 	display: inline-block;
 	width: 30px;
 	height: 29px;
-	background: url(./img/social_facebookWhite.png) 50% no-repeat;
+	background: url(../img/social_facebookWhite.png) 50% no-repeat;
 	background-size: 10px 20px;
 	transition: all 0.1s ease-out;
     -moz-transition: all 0.1s ease-out;
@@ -151,7 +151,7 @@ body {
 	display: inline-block;
 	width: 30px;
 	height: 29px;
-	background: url(./img/social_twitterWhite.png) 50% no-repeat;
+	background: url(../img/social_twitterWhite.png) 50% no-repeat;
 	background-size: 20px 20px;
 	transition: all 0.1s ease-out;
     -moz-transition: all 0.1s ease-out;
@@ -160,12 +160,12 @@ body {
 }
 
 .facebookPage:hover {
-	background: #f1c40f url(./img/social_facebook.png) 50% no-repeat;
+	background: #f1c40f url(../img/social_facebook.png) 50% no-repeat;
 	background-size: 10px 20px;
 }
 
 .twitterPage:hover {
-	background: #f1c40f url(./img/social_twitter.png) 50% no-repeat;
+	background: #f1c40f url(../img/social_twitter.png) 50% no-repeat;
 	background-size: 20px 20px;
 }
 
@@ -214,7 +214,7 @@ body {
 .headerLogo {
 	margin: 0 auto;
 	margin-top: 50px;
-	background: url('./img/logoBlack.png');
+	background: url('../img/logoBlack.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 1000px;
@@ -295,7 +295,7 @@ body {
 	display: inline-block;
 	margin: 0 5px 0 0;
 	opacity: 0.6; 
-	background-image: url('./img/lastUpdate.png'); 
+	background-image: url('../img/lastUpdate.png'); 
 	width: 12px;
 	height: 12px;
 }
@@ -336,14 +336,14 @@ body {
 	display: inline-block;
 	width: 12px;
 	height: 12px;
-	background-image: url('./img/linkIcon.png');
+	background-image: url('../img/linkIcon.png');
 }
 
 .categoryStatsIcon2 {
 	display: inline-block;
 	width: 12px;
 	height: 12px;
-	background-image: url('./img/categoriesIcon.png');
+	background-image: url('../img/categoriesIcon.png');
 	margin-left: 10px;
 }
 

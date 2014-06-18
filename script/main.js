@@ -1,20 +1,24 @@
+$(document).ajaxComplete(function() {
+
+	//Navigation slider
+	$(".frankensteinHamburger").off();    
+	$(".frankensteinHamburger").click(function(){
+		$(".navigationSliderWrapper").slideToggle(100);
+		event.stopPropagation();
+	});
+
+	$(".frankensteinHamburger").mouseleave(function(){
+		event.stopPropagation();
+		$(".navigationSliderWrapper").slideUp(100);
+	});
+
+	//Twitter API
+	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+});
+
 $(document).ready(function(){
 
-	/*Includes from localhost
-		$(".preload").load("http://localhost/DopeLists/include_preload.html");
-		$(".topWrapper").load("http://localhost/DopeLists/include_top.html");
-		$(".frankensteinHamburger").load("http://localhost/DopeLists/include_menu.html");
-		$(".adContainer").load("http://localhost/DopeLists/include_ad.html");
-		$(".footerContainer").load("http://localhost/DopeLists/include_footer.html");
-	*/
-
-	//Includes from dopelists.com
-		$(".preload").load("http://dopelists.com/include_preload.html");
-		$(".topWrapper").load("http://dopelists.com/include_top.html");
-		$(".frankensteinHamburger").load("http://dopelists.com/include_menu.html");
-		$(".adContainer").load("http://dopelists.com/include_ad.html");
-		$(".footerContainer").load("http://dopelists.com/include_footer.html");
-	
 	//Google Analytics
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -23,17 +27,15 @@ $(document).ready(function(){
 	  ga('create', 'UA-49779109-1', 'dopelists.com');
 	  ga('send', 'pageview');
 
-	//Twitter API
-	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+	//Includes from localhost
+	//	$(".preload").load("http://localhost/DopeLists/include_preload.html"); $(".topWrapper").load("http://localhost/DopeLists/include_top.html"); $(".headerRight").load("http://localhost/DopeLists/include_menu.html"); $(".adContainer").load("http://localhost/DopeLists/include_ad.html"); $(".footerContainer").load("http://localhost/DopeLists/include_footer.html");
 
-	//Navigation slider
-	$(".frankensteinHamburger").click(function(){
-		$(".navigationSliderWrapper").slideToggle(100);
-	});
-
-	$(".frankensteinHamburger").mouseleave(function(){
-		$(".navigationSliderWrapper").slideUp(100);
-	});
+	//Includes from dopelists.com
+		$(".preload").load("http://dopelists.com/include_preload.html");
+		$(".topWrapper").load("http://dopelists.com/include_top.html");
+		$(".frankensteinHamburger").load("http://dopelists.com/include_menu.html");
+		$(".adContainer").load("http://dopelists.com/include_ad.html");
+		$(".footerContainer").load("http://dopelists.com/include_footer.html");
 
 	//Highlighting categories
 	$("#A1").click(function(){
@@ -164,14 +166,6 @@ $(document).ready(function(){
 	
 	$(".linkContainerTwo").mouseleave(function(){
 		$(".linkInfo").slideUp(0);
-	});
-
-	$(".linkInfo").mouseenter(function(){
-		$(this).slideUp(0);
-	});
-
-	$(".linkInfo").mouseleave(function(){
-		$(this).slideUp(0);
 	});
 
 	//Swaps site icon to magnifier on hover
