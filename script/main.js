@@ -4,11 +4,9 @@ $(document).ajaxComplete(function() {
 	$(".frankensteinHamburger").off();    
 	$(".frankensteinHamburger").click(function(){
 		$(".navigationSliderWrapper").slideToggle(100);
-		event.stopPropagation();
 	});
 
 	$(".frankensteinHamburger").mouseleave(function(){
-		event.stopPropagation();
 		$(".navigationSliderWrapper").slideUp(100);
 	});
 
