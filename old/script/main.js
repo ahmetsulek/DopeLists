@@ -30,10 +30,10 @@ $(document).ready(function(){
 
 	//Includes from dopelists.com
 		$(".preload").load("http://dopelists.com/old/include_preload.html");
-		$(".topWrapper").load("http://dopelists.com/old/include_top.html");
+		$(".topWrapper").load("http://dopelists.com/old/oldinclude_top.html");
 		$(".headerRight").load("http://dopelists.com/old/include_menu.html");
 		$(".adContainer").load("http://dopelists.com/old/include_ad.html");
-		$(".footerContainer").load("http://dopelists.com/old/include_footer.html");
+		$(".footerContainer").load("http://dopelists.com/old/oldinclude_footer.html");
 
 	//Highlighting categories
 	$("#A1").click(function(){
