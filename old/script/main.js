@@ -29,11 +29,11 @@ $(document).ready(function(){
 	//	$(".preload").load("http://localhost/DopeLists/include_preload.html"); $(".topWrapper").load("http://localhost/DopeLists/include_top.html"); $(".headerRight").load("http://localhost/DopeLists/include_menu.html"); $(".adContainer").load("http://localhost/DopeLists/include_ad.html"); $(".footerContainer").load("http://localhost/DopeLists/include_footer.html");
 
 	//Includes from dopelists.com
-		$(".preload").load("http://dopelists.com/include_preload.html");
-		$(".topWrapper").load("http://dopelists.com/include_top.html");
-		$(".headerRight").load("http://dopelists.com/include_menu.html");
-		$(".adContainer").load("http://dopelists.com/include_ad.html");
-		$(".footerContainer").load("http://dopelists.com/include_footer.html");
+		$(".preload").load("http://dopelists.com/old/include_preload.html");
+		$(".topWrapper").load("http://dopelists.com/old/include_top.html");
+		$(".headerRight").load("http://dopelists.com/old/include_menu.html");
+		$(".adContainer").load("http://dopelists.com/old/include_ad.html");
+		$(".footerContainer").load("http://dopelists.com/old/include_footer.html");
 
 	//Highlighting categories
 	$("#A1").click(function(){

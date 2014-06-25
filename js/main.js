@@ -27,10 +27,10 @@ $(document).ready(function(){
 	//----------------------------------------------------------------------------------//
 
 	//from localhost
-	$(".top").load("http://localhost/DopeLists/include_top.html"); $(".footer").load("http://localhost/DopeLists/include_footer.html");
+	//$(".top").load("http://localhost/DopeLists/include_top.html"); $(".footer").load("http://localhost/DopeLists/include_footer.html");
 
 	//from dominikserafin.pl
-	$(".top").load("http://dominikserafin.pl/dope/include_top.html"); $(".footer").load("http://dominikserafin.pl/dope/include_footer.html");
+	//$(".top").load("http://dominikserafin.pl/dope/include_top.html"); $(".footer").load("http://dominikserafin.pl/dope/include_footer.html");
 
 	//from dopelists.com
 	$(".top").load("http://dopelists.com/include_top.html"); $(".footer").load("http://dopelists.com/include_footer.html");
