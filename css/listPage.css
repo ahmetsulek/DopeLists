@@ -1,0 +1,567 @@
+/*----------------------------------------------------------------------------------*/
+/* GENERAL */
+/*----------------------------------------------------------------------------------*/
+
+body {
+	width: 100%;
+	font: 14px "Open Sans", sans-serif;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+/* draw any selected text yellow on red background */
+*::-moz-selection { color: black;  background: yellow; }
+*::selection      { color: black;  background: yellow; } 
+
+a {
+	text-decoration: none;
+}
+
+sup {
+	vertical-align: super;
+	line-height: 0;
+}
+
+/*----------------------------------------------------------------------------------*/
+/* TOP */
+/*----------------------------------------------------------------------------------*/
+/*------------------------------------------*/
+/* TOP CONTAINER */
+/*------------------------------------------*/
+
+.top {
+	width: 100%;
+	color: white;
+	border-top: 10px solid rgba(0,0,0,0.7);
+
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/*------------------------------------------*/
+/* TOP CONTENT */
+/*------------------------------------------*/
+
+.top > a {
+	float: left;
+	width: calc(100%/4);
+	overflow: hidden;
+	height: 40px;
+	cursor: pointer;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+
+.top > a > h1 {
+	font-weight: bold;
+	white-space: nowrap;
+	line-height: 40px;
+}
+
+.top > a:nth-of-type(1) {
+	background: url("../img/logoWhite.png") top center no-repeat;
+	background-color: rgba(0,0,0,0.7);
+	background-size: 160px;
+}
+
+.top > a:nth-of-type(1):hover {
+	background-color: rgba(0,0,0,0.5);
+}
+
+.top > a:nth-of-type(2) {
+	background-color: #2378A8;
+}
+
+.top > a:nth-of-type(3) {
+	background-color: #A0522D;
+}
+
+.top > a:nth-of-type(4) {
+	background-color: rgba(0,0,0,0.7);
+}
+
+.top > a:nth-of-type(4):hover {
+	cursor: default;
+}
+
+
+/*------------------------------------------*/
+/* NAVIGATION */
+/*------------------------------------------*/
+
+.navigation {
+	clear: both;
+	color: white;
+}
+
+.navigation > .buttons {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box; 
+	float: left;
+	width: 100%;
+	background-color: rgba(0,0,0,0.1);
+	padding: 15px 0 5px 15px;
+}
+
+.navigation > .buttons > div, span {
+	float: left;
+	padding: 4px 10px 4px 10px;
+	float: left;
+	margin: 0 10px 10px 0;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.1);
+	color: #eee;
+	-webkit-transition: 0.1s all ease-in-out;
+	   -moz-transition: 0.1s all ease-in-out;
+	   	-ms-transition: 0.1s all ease-in-out;
+	     -o-transition: 0.1s all ease-in-out;
+	        transition: 0.1s all ease-in-out;
+}
+
+
+/* Pressed state */
+.navigation > .buttons > div.pressed {
+	background-color: rgba(0,0,0,0.3);
+}
+
+.navigation > .buttons > div:hover {
+	background-color: rgba(0,0,0,0.5);
+}
+
+/* SHOW/CLEAR buttons */
+.navigation > .buttons > .show {
+	font-weight: bold;
+	border: 1px solid;
+	border-color: rgba(0,255,0,0.2);
+	padding: 3px 18px;
+}
+
+.navigation > .buttons > .show.pressed {
+	background-color: rgba(0,255,0,0.3);
+}
+
+.navigation > .buttons > .show:hover {
+	background-color: rgba(0,255,0,0.3);
+}
+
+/*------------------------------------------*/
+/* NAVIGATION INPUT */
+/*------------------------------------------*/
+
+.navigation > input#livesearch {
+	-webkit-transition: 0.1s all ease-in-out;
+	   -moz-transition: 0.1s all ease-in-out;
+	   	-ms-transition: 0.1s all ease-in-out;
+	     -o-transition: 0.1s all ease-in-out;
+	        transition: 0.1s all ease-in-out;
+
+	font-family: 'Open Sans', sans-serif;
+	padding: 8px 0 8px 20px;
+	font-size: 15px;
+	color: white;
+	background-color: rgba(0,0,0,0.4);
+	border: 0;
+	height: 25px;
+	width: calc(100% - 20px);
+	font-weight: bold;
+	text-transform: uppercase;
+	opacity: 0.7;
+}
+
+.navigation > input#livesearch:focus {
+	outline: none;
+	border: 0;
+	opacity: 1;
+}
+
+*::-webkit-input-placeholder {
+	color: white;
+	opacity: 0.7;
+}
+*:-moz-placeholder {
+	color: white;
+	opacity: 0.7;
+}
+*::-moz-placeholder {
+	color: white;
+	opacity: 0.7;
+}
+*:-ms-input-placeholder {
+	color: white;
+	opacity: 0.7;
+}
+
+/*----------------------------------------------------------------------------------*/
+/* ADVERTISEMENT */
+/*----------------------------------------------------------------------------------*/
+
+.advertisement {
+	background-color: #FFEDD2;
+	padding-right: 100px;
+}
+
+/* Needs to be this way for ad block to hide padding too */
+.adTop > * {
+	padding: 37px 0 0 50px;
+}
+
+.adBottom > * {
+}
+
+/*----------------------------------------------------------------------------------*/
+/* LISTS */
+/*----------------------------------------------------------------------------------*/
+/*------------------------------------------*/
+/* LISTS CONTAINER */
+/*------------------------------------------*/
+
+.lists {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 0 70px 0;
+	background-color: #FFEDD2;
+}
+
+/*------------------------------------------*/
+/* LISTS CONTENT */
+/*------------------------------------------*/
+
+.listsInfo {
+	font-size: 50px;
+	font-weight: bold;
+	padding: 60px 0 0 60px;
+	background-color: #FFEDD2;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+
+/* listWindow */
+.listWindow {
+	width: 294px;
+	margin: 30px 0 0 60px;
+	padding-top: 20px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+}
+
+/* anchor/hash link styling */
+.listWindow:target {
+	background-color: yellow;
+}
+
+.listWindow:target > div > li > a, .listWindow:target > div > li:last-of-type > a {
+	border-color: gold;
+}
+
+/* Anchor links next to titles */
+.listWindow > .anchor {
+	opacity: 0;
+
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	font-weight: bold;
+	color: rgba(0,0,0,0.3);
+	font-size: 13px;
+	cursor: pointer;
+	width: 100%;
+	display: block;
+	height: 20px;
+}
+
+/* Category title */
+.listWindow > h2 {
+	font-size: 22px;
+	line-height: 22px;
+	font-weight: bold;
+	color: rgba(0,0,0,0.8);
+	position: relative;
+	z-index: 200;
+}
+
+/* Wraps lists and descriptions also sub-categories */
+.listWindow > div {
+	counter-reset: dopeCounter;
+	position: relative;
+}
+
+/* Sub-category title */
+.listWindow > div > h3 {
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: bold;
+	margin-top: 12px;
+	color: rgba(0,0,0,0.8);
+	/*margin-left: 18px;*/
+	position: relative;
+	z-index: 100;
+}
+
+/* Site container */
+.listWindow > div > li {
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+/* Site link (contains img favicon) */
+.listWindow > div > li > a {
+	width: 100%;
+	padding: 2px 0;
+	padding-top: 3px;
+	border-top: 1px solid rgba(0,0,0,0.07);
+	color: #000;
+	display: inline-block;
+}
+
+.listWindow > div > li:last-of-type > a {
+	border-bottom: 1px solid rgba(0,0,0,0.07);
+}
+
+.listWindow > div > li > a:visited {
+	color: #696156;
+}
+
+.listWindow > div > li > a:hover {
+	font-weight: bold;
+	color: #111;
+	background-color: yellow;
+	border-top: 1px solid #eddcc3;
+	padding-top: 3px;
+}
+
+/* Site icon */
+.listWindow > div > li > a > img {
+	width: 16px;
+	height: 16px;
+	margin-right: 4px;
+	margin-top: 2px;
+	float: left;
+}
+
+/* Site [new] sup */
+.listWindow > div > li > a > sup {
+	font-size: 8px;
+	font-weight: bold;
+	background-color: #5d3902;
+	padding: 0 3px;
+	color: white;
+	text-transform: UPPERCASE;
+	margin-left: 5px;
+}
+
+/* Site [new] sup */
+.listWindow > h2 > sup {
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #5d3902;
+	padding: 0 3px;
+	color: white;
+	text-transform: UPPERCASE;
+	margin-left: 5px;
+}
+
+/* Site [new] sup */
+.listWindow > div > h3 > sup {
+	font-size: 10px;
+	font-weight: bold;
+	background-color: #5d3902;
+	padding: 0 3px;
+	color: white;
+	text-transform: UPPERCASE;
+	margin-left: 5px;
+}
+
+/* Site description */
+.listWindow > div > li > div {
+	opacity: 0.95;
+
+	display: none;
+	position: absolute;
+	left: -25px;
+	white-space: normal;
+	word-wrap: break-word;
+	z-index: 500;
+
+	width: 312px;
+	font-size: 12px;
+	margin: 7px 0 0 0;
+	padding: 6px 9px;
+	background: #5d3902;
+	color: #ffedd2;
+}
+
+/* Site description arrow */
+.listWindow > div > li > div:before {
+	position: absolute;
+	left: 27px;
+
+	-webkit-top: -13px;
+	-moz-top: -13px;
+	top: -12px;
+
+	color: #5d3902;
+	content: "▲";
+}
+
+/* Counter */
+.listWindow > div > li::before {
+	counter-increment: dopeCounter 1;
+	content: counter(dopeCounter, decimal-leading-zero);
+
+	position: absolute;
+	left: -20px;
+
+	font-size: 13px;
+	padding-top: 5px;
+	width: 25px;
+	height: 25px;
+	color: rgba(0,0,0,0.2);
+}
+
+/*----------------------------------------------------------------------------------*/
+/* FOOTER */
+/*----------------------------------------------------------------------------------*/
+/*------------------------------------------*/
+/* FOOTER CONTAINER */
+/*------------------------------------------*/
+
+.footer {
+	color: rgba(255,255,255,0.8);
+	padding-bottom: 75px;
+}
+
+/*------------------------------------------*/
+/* FOOTER CONTENT */
+/*------------------------------------------*/
+
+.footer > .bordertop {
+	display: block;
+	background-color: rgba(0,0,0,0.2);
+	height: 30px;
+}
+
+.footer a {
+	color: rgba(255,255,255,0.8);
+	background-color: rgba(0,0,0,0.2);
+	padding: 0 5px;
+}
+
+.footer a:hover {
+	background-color: rgba(0,0,0,0.4);
+}
+
+.footer > .definition, .follows, .siteinfo, .social {
+	display: block;
+	padding-left: 40px;
+	padding-right: 20px;
+}
+
+.footer > .social {
+	margin-top: 15px;
+}
+
+.footer > .social > a {
+	font-size: 15px;
+	padding: 3px 7px;
+	font-weight: bold;
+	display: inline-block;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+.footer > .definition {
+	margin-top: 30px;
+}
+
+.footer > .follows {
+	margin-top: 10px;
+}
+
+.footer > .siteinfo {
+	margin-top: 20px;
+}
+
+.footer > a {
+	float: normal;
+	display: inline;
+}
+
+.footer > .definition > div {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.footer > .definition > p {
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+.footer > .follows > div {
+	display: inline-block;
+}
+
+.footer > .siteinfo > p:last-of-type {
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+.footer > .siteinfo > div:last-of-type {
+	float: left;
+	margin-top: 4px;
+}
+
+/*----------------------------------------------------------------------------------*/
+/* RESPONSIVE */
+/*----------------------------------------------------------------------------------*/
+@media (max-width: 700px) {
+	.top > a > h1 {
+		font-size: 12px;
+	}
+	.top > a:nth-of-type(1) {
+		background: url("../img/logoWhite.png") 50% no-repeat;
+		background-color: rgba(0,0,0,0.7);
+		background-size: 100px;
+	}
+}
+
+@media (max-width: 430px) {
+	.advertisement {
+		padding-right: 0;
+	}
+	.adTop > * {
+		padding: 0;
+	}
+	.listWindow {
+		margin-left: 20px;
+		width: 250px;
+	}
+	.listWindow > div > li > div {
+		width: 270px;
+	}
+	.top > a > h1 {
+		font-size: 9px;
+	}
+	.top > a:nth-of-type(1) {
+		background: url("../img/logoWhite.png") 50% no-repeat;
+		background-color: rgba(0,0,0,0.7);
+		background-size: 70px;
+	}
+}
