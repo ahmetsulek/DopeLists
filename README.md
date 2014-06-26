@@ -1,8 +1,10 @@
 http://DopeLists.com/
 ======================
 
-Dope websites and cool things categorized by various fields of interest.
+Personally chosen websites in nice organized lists, the best are on top.
 
 http://facebook.com/Dopelists
 
 http://twitter.com/DopeLists
+
+http://plus.google.com/+Dopelistscom
