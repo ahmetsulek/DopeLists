@@ -9,7 +9,6 @@ body {
 	overflow-x: hidden;
 }
 
-/* draw any selected text yellow on red background */
 *::-moz-selection { color: black;  background: yellow; }
 *::selection      { color: black;  background: yellow; } 
 
@@ -50,6 +49,8 @@ sup {
 .top > a {
 	float: left;
 	width: calc(100%/4);
+	width: -moz-calc(100%/4);
+	width: -webkit-calc(100%/4);
 	overflow: hidden;
 	height: 40px;
 	cursor: pointer;
@@ -170,6 +171,8 @@ sup {
 	border: 0;
 	height: 25px;
 	width: calc(100% - 20px);
+	width: -moz-calc(100% - 20px);
+	width: -webkit-calc(100% - 20px);
 	font-weight: bold;
 	text-transform: uppercase;
 	opacity: 0.7;
