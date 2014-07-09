@@ -24,7 +24,7 @@
 	<link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96">
 	<link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16">
 	<link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32">
-	<meta name="msapplication-TileColor" content="#ffedd2">
+	<meta name="msapplication-TileColor" content="#707070">
 	<meta name="msapplication-TileImage" content="./mstile-144x144.png">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -75,6 +75,7 @@
 			text-align: center;
 			font: 14px "Open Sans", sans-serif;
 		}
+		
 		.logo {
 			display: table;
 			height: 40%;
@@ -83,13 +84,12 @@
 			background-size: 600px;
 		}
 
-
 		a {
 			text-decoration: none;
 			color: inherit;
 			display: table;
 			float: left;
-			width: calc(100%/3);
+			width: 25%;
 			height: 60%;
 		}
 
@@ -101,15 +101,20 @@
 			opacity: 1;
 		}
 
-		a:first-of-type {
-			background-color: #2378A8;
+		a:nth-of-type(1) {
+			background-color: #5e8d3e;
 		}
 
 		a:nth-of-type(2) {
 			background-color: #A0522D;
+
 		}
 
 		a:nth-of-type(3) {
+			background-color: #2378A8;
+		}
+
+		a:nth-of-type(4) {
 			background-color: #333;
 		}
 
@@ -155,14 +160,18 @@
 <body>
 	<div class="logo"></div>
 
-	<a href="./webdesign">
-		<div class="title">Web Design</div>
+	<a href="./general">
+		<div class="title">General</div>
 	</a>
 
 	<a href="./afterformat">
 		<div class="title">After Format</div>
 	</a>
-	
+
+	<a href="./webdesign">
+		<div class="title">Web Design</div>
+	</a>
+
 	<a>
 		<div class="title">+ under construction</div>
 	</a>

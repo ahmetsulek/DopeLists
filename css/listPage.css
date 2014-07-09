@@ -21,6 +21,11 @@ sup {
 	line-height: 0;
 }
 
+strong {
+	font-weight: bolder;
+	line-height: inherit;
+}
+
 /*----------------------------------------------------------------------------------*/
 /* TOP */
 /*----------------------------------------------------------------------------------*/
@@ -47,10 +52,9 @@ sup {
 /*------------------------------------------*/
 
 .top > a {
+	display: block;
 	float: left;
-	width: calc(100%/4);
-	width: -moz-calc(100%/4);
-	width: -webkit-calc(100%/4);
+	width: 20%;
 	overflow: hidden;
 	height: 40px;
 	cursor: pointer;
@@ -76,19 +80,36 @@ sup {
 }
 
 .top > a:nth-of-type(2) {
-	background-color: #2378A8;
+	background-color: #5e8d3e;
 }
 
 .top > a:nth-of-type(3) {
 	background-color: #A0522D;
+
 }
 
 .top > a:nth-of-type(4) {
+	background-color: #2378A8;
+}
+
+.top > a:nth-of-type(5) {
 	background-color: rgba(0,0,0,0.7);
 }
 
-.top > a:nth-of-type(4):hover {
+.top > a:nth-of-type(5):hover {
 	cursor: default;
+}
+
+/* Site [new] sup */
+h1 sup {
+	font-size: 10px;
+	font-weight: bold;
+	background-color: rgba(0,0,0,0.1);
+	padding: 0 3px;
+	color: white;
+	text-transform: UPPERCASE;
+	margin-left: 5px;
+	z-index: 10;
 }
 
 
@@ -108,14 +129,15 @@ sup {
 	float: left;
 	width: 100%;
 	background-color: rgba(0,0,0,0.1);
-	padding: 15px 0 5px 15px;
+	padding: 17px 0 5px 20px;
 }
 
-.navigation > .buttons > div, span {
+.navigation > .buttons > div, .navigation > .buttons > span {
+	border-radius: 2px;
 	float: left;
 	padding: 4px 10px 4px 10px;
 	float: left;
-	margin: 0 10px 10px 0;
+	margin: 0 13px 11px 0;
 	cursor: pointer;
 	background-color: rgba(0,0,0,0.1);
 	color: #eee;
@@ -125,7 +147,6 @@ sup {
 	     -o-transition: 0.1s all ease-in-out;
 	        transition: 0.1s all ease-in-out;
 }
-
 
 /* Pressed state */
 .navigation > .buttons > div.pressed {
@@ -164,15 +185,15 @@ sup {
 	        transition: 0.1s all ease-in-out;
 
 	font-family: 'Open Sans', sans-serif;
-	padding: 8px 0 8px 20px;
+	padding: 8px 0 8px 0;
 	font-size: 15px;
+	text-indent: 20px;
 	color: white;
 	background-color: rgba(0,0,0,0.4);
 	border: 0;
 	height: 25px;
-	width: calc(100% - 20px);
-	width: -moz-calc(100% - 20px);
-	width: -webkit-calc(100% - 20px);
+	display: inline-block;
+	width: 100%;
 	font-weight: bold;
 	text-transform: uppercase;
 	opacity: 0.7;
@@ -206,13 +227,13 @@ sup {
 /*----------------------------------------------------------------------------------*/
 
 .advertisement {
-	background-color: #FFEDD2;
-	padding-right: 100px;
+	background-color: #EEEEEE;
+
 }
 
 /* Needs to be this way for ad block to hide padding too */
 .adTop > * {
-	padding: 37px 0 0 50px;
+	padding: 37px 0 0 40px;
 }
 
 .adBottom > * {
@@ -231,7 +252,7 @@ sup {
 	box-sizing: border-box;
 	width: 100%;
 	padding: 0 0 70px 0;
-	background-color: #FFEDD2;
+	background-color: #EEEEEE;
 }
 
 /*------------------------------------------*/
@@ -242,7 +263,8 @@ sup {
 	font-size: 50px;
 	font-weight: bold;
 	padding: 60px 0 0 60px;
-	background-color: #FFEDD2;
+	background-color: #EEEEEE;
+
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -255,29 +277,45 @@ sup {
 /* listWindow */
 .listWindow {
 	width: 294px;
-	margin: 30px 0 0 60px;
+	margin: 40px 0 0 40px;
 	padding-top: 20px;
-	padding-left: 3px;
-	padding-right: 3px;
-	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	background-color: rgba(255,255,255,0.6);
+	border: 1px solid rgba(0,0,0,0.07);
+	border-bottom: 2px solid rgba(0,0,0,0.1);
+	border-radius: 3px;
 }
+
+#sponsored {
+	background-color: rgba(255,255,240,0.4);
+	border: 1px solid #e8e8d8;
+	border-bottom: 3px solid #e8e8d8;
+}
+
 
 /* anchor/hash link styling */
 .listWindow:target {
-	background-color: yellow;
+	background-color: #e2e2e2;
 }
 
-.listWindow:target > div > li > a, .listWindow:target > div > li:last-of-type > a {
-	border-color: gold;
+.listWindow:target > div > li > a, .listWindow:target > div > h3 {
+	border-color: #d4d4d4;
 }
+
+.listWindow:target > h2 {
+	border-color: #d4d4d4;
+}
+
 
 /* Anchor links next to titles */
 .listWindow > .anchor {
 	opacity: 0;
 
 	position: absolute;
-	left: 0;
-	top: 0;
+	left: 10px;
+	top: 3px;
 
 	font-weight: bold;
 	color: rgba(0,0,0,0.3);
@@ -296,6 +334,7 @@ sup {
 	color: rgba(0,0,0,0.8);
 	position: relative;
 	z-index: 200;
+	border-bottom: 2px solid #d7d7d7;
 }
 
 /* Wraps lists and descriptions also sub-categories */
@@ -314,6 +353,7 @@ sup {
 	/*margin-left: 18px;*/
 	position: relative;
 	z-index: 100;
+	border-bottom: 1px solid #e3e3e3;
 }
 
 /* Site container */
@@ -325,26 +365,20 @@ sup {
 /* Site link (contains img favicon) */
 .listWindow > div > li > a {
 	width: 100%;
-	padding: 2px 0;
-	padding-top: 3px;
-	border-top: 1px solid rgba(0,0,0,0.07);
+	padding: 3px 0 3px 3px;
+	border-bottom: 1px solid #e3e3e3;
 	color: #000;
 	display: inline-block;
 }
 
-.listWindow > div > li:last-of-type > a {
-	border-bottom: 1px solid rgba(0,0,0,0.07);
-}
 
 .listWindow > div > li > a:visited {
 	color: #696156;
 }
 
 .listWindow > div > li > a:hover {
-	font-weight: bold;
 	color: #111;
-	background-color: yellow;
-	border-top: 1px solid #eddcc3;
+	background-color: rgba(0,0,0,0.07);
 	padding-top: 3px;
 }
 
@@ -361,64 +395,79 @@ sup {
 .listWindow > div > li > a > sup {
 	font-size: 8px;
 	font-weight: bold;
-	background-color: #5d3902;
+	background-color: #222222;
 	padding: 0 3px;
 	color: white;
 	text-transform: UPPERCASE;
 	margin-left: 5px;
+	z-index: 8;
+}
+
+/* Site [new] sup */
+.listWindow > div > li > a > sup.nsfw {
+	font-size: 8px;
+	font-weight: bold;
+	background-color: red;
+	padding: 0 3px;
+	color: white;
+	text-transform: UPPERCASE;
+	margin-left: 5px;
+	z-index: 8;
 }
 
 /* Site [new] sup */
 .listWindow > h2 > sup {
 	font-size: 12px;
 	font-weight: bold;
-	background-color: #5d3902;
+	background-color: #222222;
 	padding: 0 3px;
 	color: white;
 	text-transform: UPPERCASE;
 	margin-left: 5px;
+	z-index: 9;
 }
 
 /* Site [new] sup */
 .listWindow > div > h3 > sup {
 	font-size: 10px;
 	font-weight: bold;
-	background-color: #5d3902;
+	background-color: #222222;
 	padding: 0 3px;
 	color: white;
 	text-transform: UPPERCASE;
 	margin-left: 5px;
+	z-index: 10;
 }
 
-/* Site description */
+/* Sites descriptions */
 .listWindow > div > li > div {
 	opacity: 0.95;
 
 	display: none;
 	position: absolute;
-	left: -25px;
+	left: -20px;
 	white-space: normal;
 	word-wrap: break-word;
 	z-index: 500;
 
-	width: 312px;
+	width: 315px;
 	font-size: 12px;
 	margin: 7px 0 0 0;
 	padding: 6px 9px;
-	background: #5d3902;
-	color: #ffedd2;
+	background: #d3d3d3;
+	color: white;
 }
 
 /* Site description arrow */
 .listWindow > div > li > div:before {
 	position: absolute;
-	left: 27px;
+	left: 25px;
 
 	-webkit-top: -13px;
 	-moz-top: -13px;
 	top: -12px;
 
-	color: #5d3902;
+	color: #d3d3d3;
 	content: "▲";
 }
 
@@ -428,13 +477,15 @@ sup {
 	content: counter(dopeCounter, decimal-leading-zero);
 
 	position: absolute;
-	left: -20px;
+	right: 0;
+	z-index: 5;
 
 	font-size: 13px;
-	padding-top: 5px;
-	width: 25px;
+	font-weight: bold;
+	padding-top: 3px;
+	width: 18px;
 	height: 25px;
-	color: rgba(0,0,0,0.2);
+	color: rgba(0,0,0,0.12);
 }
 
 /*----------------------------------------------------------------------------------*/
@@ -469,7 +520,7 @@ sup {
 	background-color: rgba(0,0,0,0.4);
 }
 
-.footer > .definition, .follows, .siteinfo, .social {
+.footer > .definition, .footer > .follows, .footer > .siteinfo, .footer > .social {
 	display: block;
 	padding-left: 40px;
 	padding-right: 20px;
@@ -492,10 +543,6 @@ sup {
 	margin-top: 30px;
 }
 
-.footer > .follows {
-	margin-top: 10px;
-}
-
 .footer > .siteinfo {
 	margin-top: 20px;
 }
@@ -516,8 +563,19 @@ sup {
 	margin-left: 15px;
 }
 
+.footer > .follows {
+	margin-top: 10px;
+}
+
+.footer > .follows span {
+	background-color: transparent;
+	padding: 0;
+	margin: 0;
+}
+
 .footer > .follows > div {
 	display: inline-block;
+	vertical-align: top;
 }
 
 .footer > .siteinfo > p:last-of-type {
@@ -543,18 +601,22 @@ sup {
 		background-color: rgba(0,0,0,0.7);
 		background-size: 100px;
 	}
+	h1 sup {
+		font-size: 8px;
+	}
 }
 
 @media (max-width: 430px) {
 	.advertisement {
 		padding-right: 0;
+		padding-top: 35px;
 	}
 	.adTop > * {
 		padding: 0;
 	}
 	.listWindow {
 		margin-left: 20px;
-		width: 250px;
+		width: 80%;
 	}
 	.listWindow > div > li > div {
 		width: 270px;
@@ -566,5 +628,8 @@ sup {
 		background: url("../img/logoWhite.png") 50% no-repeat;
 		background-color: rgba(0,0,0,0.7);
 		background-size: 70px;
+	}
+	h1 sup {
+		font-size: 7px;
 	}
 }

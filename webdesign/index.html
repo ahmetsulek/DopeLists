@@ -24,7 +24,7 @@
 	<link rel="icon" type="image/png" href="../favicon-96x96.png" sizes="96x96">
 	<link rel="icon" type="image/png" href="../favicon-16x16.png" sizes="16x16">
 	<link rel="icon" type="image/png" href="../favicon-32x32.png" sizes="32x32">
-	<meta name="msapplication-TileColor" content="#ffc40d">
+	<meta name="msapplication-TileColor" content="#707070">
 	<meta name="msapplication-TileImage" content="../mstile-144x144.png">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,7 +33,24 @@
 	<link href="../css/reset.css" rel="stylesheet" type="text/css">
 	<link href="../css/listPage.css" rel="stylesheet" type="text/css">
 
-	<style> body { background-color: #2378A8; } </style>
+	<style>
+		body, .listWindow > div > li > a > sup {
+			background-color: rgba(35,120,168,1);
+		}
+
+		.listWindow > h2 {
+			border-color: rgba(35,120,168,0.4);
+		}
+
+		/*Sites descriptions*/
+ 		.listWindow > div > li > div:before {
+ 			color: rgba(35,120,168,1);
+ 		}
+
+		.listWindow > div > li > div {
+			background-color: rgba(35,120,168,1);
+		}
+	</style>
 
 	<script src="../js/jquery.min.js"></script>
 	<script src="../js/masonry.pkgd.min.js"></script>
@@ -79,7 +96,15 @@
 	</div>
 
 	<div class="lists">
-	
+
+		<!--<ol class="listWindow" id="sponsored"><h2>Sponsored</h2>
+			<div>
+				<li>
+					<a href="mailto:dopelists@gmail.com"><img src="../img/plusfavicon.png">Advertise here</a>
+					<div></div></li>
+			</div>
+		</ol>-->
+
 		<ol class="listWindow" id="social"><h2>Social Sites</h2>
 			<div>
 				<li>
@@ -154,7 +179,7 @@
 					<a href="http://uxmovement.com">UX Movement</a>
 					<div></div></li>
 				<li>
-					<a href="http://blog.usabilla.com/">Usabilla Blog<sup>new</sup></a>
+					<a href="http://blog.usabilla.com/">Usabilla Blog</a>
 					<div></div></li>
 				<li>
 					<a href="http://alistapart.com/">A List Apart</a>
@@ -175,7 +200,7 @@
 					<a href="http://www.instantshift.com/">Instant Shift</a>
 					<div></div></li>
 				<li>
-					<a href="http://blog.teamtreehouse.com/">Blog TeamTreehouse</a>
+					<a href="http://blog.teamtreehouse.com/"><img src="../img/blankfavicon.png">Blog TeamTreehouse</a>
 					<div></div></li>
 				<li>
 					<a href="http://99u.com/">99U</a>
@@ -221,7 +246,7 @@
 					<a href="http://patterntap.com">Pattern Tap</a>
 					<div></div></li>
 				<li>
-					<a href="http://calltoidea.com/">Call To Idea<sup>new</sup></a>
+					<a href="http://calltoidea.com/">Call To Idea</a>
 					<div>User interface library (with nice user interface).</div></li>
 				<li>
 					<a href="http://tabpatterns.com">TabPatterns</a>
@@ -259,7 +284,7 @@
 					<a href="http://thedesigninspiration.com/">The Design Inspiration</a>
 					<div></div></li>
 				<li>
-					<a href="http://theinspirationgrid.com/">The Inspiration Grid<sup>new</sup></a>
+					<a href="http://theinspirationgrid.com/">The Inspiration Grid</a>
 					<div></div></li>
 				<li>
 					<a href="http://designspiration.net">Designspiration</a>
@@ -300,10 +325,10 @@
 					<a href="http://www.typographicposters.com/">Typo/Graphic Posters</a>
 					<div></div></li>
 				<li>
-					<a href="http://www.posterama.co/"><img src="../img/blankfavicon.png">Posterama<sup>new</sup></a>
+					<a href="http://www.posterama.co/"><img src="../img/blankfavicon.png">Posterama</a>
 					<div>Inspirational quotes typographic posters.</div></li>
 				<li>
-					<a href="http://fontsinuse.com/">Fonts In Use</a>
+					<a href="http://fontsinuse.com/"><img src="http://fontsinuse.com/favicon.ico">Fonts In Use</a>
 					<div></div></li>
 				<li>
 					<a href="http://www.typographyserved.com/">Typography Served</a>
@@ -312,20 +337,18 @@
 					<a href="http://wrdbnr.com/">Wrdbnr</a>
 					<div></div></li>
 			</div>
-			<div><h3>Photography<sup>new</sup></h3>
-
-
+			<div><h3>Photography</h3>
 				<li>
-					<a href="http://photography.nationalgeographic.com/photography/photo-of-the-day/">National Geographic POTD<sup>new</sup></a>
+					<a href="http://photography.nationalgeographic.com/photography/photo-of-the-day/">National Geographic POTD</a>
 					<div></div></li>
 				<li>
-					<a href="http://www.boston.com/bigpicture/">Boston Big Picture<sup>new</sup></a>
+					<a href="http://www.boston.com/bigpicture/">Boston Big Picture</a>
 					<div></div></li>
 				<li>
-					<a href="http://onebigphoto.com/">OneBigPhoto<sup>new</sup></a>
+					<a href="http://onebigphoto.com/">OneBigPhoto</a>
 					<div></div></li>
 				<li>
-					<a href="http://500px.com/popular">500px<sup>new</sup></a>
+					<a href="http://500px.com/popular">500px</a>
 					<div></div></li>
 			</div>
 		</ol>
@@ -354,7 +377,7 @@
 					<a href="http://www.cssmatic.com">CSSMatic</a>
 					<div>CSS generators containing: Gradient Generator, Border Radius, Noise Texture, Box Shadow.</div></li>
 				<li>
-					<a href="http://tools.maxcdn.com/procssor/">ProCSSor<sup>new</sup></a>
+					<a href="http://tools.maxcdn.com/procssor/">ProCSSor</a>
 					<div>Procssor cleans and organizes your css the way you want it.</div></li>
 				<li>
 					<a href="https://tinypng.com">Tiny PNG</a>
@@ -389,33 +412,15 @@
 				<li>
 					<a href="http://html5blank.com/"><img src="../img/blankfavicon.png">Blank WordPress Theme</a>
 					<div></div></li>
-			</div>
-
-			<div><h3>Other</h3>
-				<li>
-					<a href="https://cloudconvert.org">Cloud Convert</a>
-					<div>Convert anything to anything.</div></li>
-				<li>
-					<a href="http://avocode.com/">Avocode</a>
-					<div>Preview and inspect PSDs.</div></li>
-				<li>
-					<a href="http://getcoldturkey.com/">Cold Turkey</a>
-					<div>Temporarily block websites and applications if you find yourself procrastinating instead designing.</div></li>
-				<li>
-					<a href="http://qrohlf.com/trianglify">Trianglify</a>
-					<div>Generate colorful triangle meshes that can be used as SVG images and CSS backgrounds.</div></li>
-				<li>
-					<a href="http://projectnaptha.com/">Project Naptha</a>
-					<div>Chrome extension which lets you highlight, copy and even change text on images. Really cool.</div></li>
-				<li>
-					<a href="http://paperkit.net">Paper Kit</a>
-					<div>Generate blank graph paper templates.</div></li>
 				<li>
 					<a href="https://layervault.com/">LayerVault</a>
 					<div>Simple version control for designers.</div></li>
 				<li>
-					<a href="http://www.fontstruct.com">Fontstruct</a>
-					<div>Create you own font.</div></li>
+					<a href="http://qrohlf.com/trianglify">Trianglify</a>
+					<div>Generate colorful triangle meshes that can be used as SVG images and CSS backgrounds.</div></li>
+				<li>
+					<a href="http://avocode.com/">Avocode</a>
+					<div>Preview and inspect PSDs.</div></li>
 			</div>
 		</ol>
 
@@ -495,10 +500,10 @@
 					<a href="https://useiconic.com/">Iconic</a>
 					<div></div></li>
 				<li>
-					<a href="http://thenounproject.com/">NounProject<sup>new</sup></a>
+					<a href="http://thenounproject.com/">NounProject</a>
 					<div></div></li>
 				<li>
-					<a href="http://octicons.github.com/">Octicons<sup>new</sup></a>
+					<a href="http://octicons.github.com/">Octicons</a>
 					<div>Offical GitHub icons font.</div></li>
 			</div>
 		</ol>
@@ -585,7 +590,7 @@
 					<a href="http://www.1001freefonts.com">1001 Free Fonts</a>
 					<div></div></li>
 				<li>
-					<a href="http://typecast.com/preview">Typecast<sup>new</sup></a>
+					<a href="http://typecast.com/preview">Typecast</a>
 					<div>Test drive Google Fonts.</div></li>
 			</div>
 			<div><h3>Paid</h3>
@@ -622,7 +627,7 @@
 		<ol class="listWindow" id="resources"><h2>Other Resources</h2>
 			<div>
 				<li>
-					<a href="https://github.com/dypsilon/frontend-dev-bookmarks">Dypsilon Frontend Dev Bookmarks<sup>new</sup></a>
+					<a href="https://github.com/dypsilon/frontend-dev-bookmarks">Dypsilon Frontend Bookmarks</a>
 					<div>"A huge list of frontend development resources I collected over time. Sorted from general knowledge at the top to concrete problems at the bottom."</div></li>
 				<li>
 					<a href="http://www.webdesignrepo.com/">WebdesignRepo</a>
@@ -631,13 +636,13 @@
 					<a href="http://www.designerslist.info/">Designers List</a>
 					<div>Really similar site to DopeLists (I found it after creating this repository). Worth checking.</div></li>
 				<li>
-					<a href="http://webcomponents.org/">Web Components<sup>new</sup></a>
+					<a href="http://webcomponents.org/">Web Components</a>
 					<div>WebComponents.org is where pioneers and community-members of the Web Components ecosystem (like Polymer, X-tags, and other interested parties) document web components best practices so that others can follow the same path instead of needlessly striking out on their own.</div></li>
 				<li>
-					<a href="http://www.pileofpixels.com/"><img src="../img/blankfavicon.png">Pile of Pixels<sup>new</sup></a>
+					<a href="http://www.pileofpixels.com/"><img src="../img/blankfavicon.png">Pile of Pixels</a>
 					<div>Lists of best designers around the world.</div></li>
 				<li>
-					<a href="http://www.unheap.com/">Unheap<sup>new</sup></a>
+					<a href="http://www.unheap.com/">Unheap</a>
 					<div>A tidy repository of jQuery plugins.</div></li>
 				<li>
 					<a href="http://www.codelium.com/"><img src="../img/blankfavicon.png">Codelium</a>
@@ -649,7 +654,7 @@
 					<a href="http://www.designshock.com">Design Shock</a>
 					<div></div></li>
 				<li>
-					<a href="http://www.cssauthor.com/">CSS Author<sup>new</sup></a>
+					<a href="http://www.cssauthor.com/">CSS Author</a>
 					<div>Quality resources for Web/UI Designing.</div></li>
 				<li>
 					<a href="http://www.pixeden.com/">Pixeden</a>
@@ -658,7 +663,7 @@
 					<a href="http://planetozh.com/projects/lightbox-clones/">Lightbox Clones Matrix</a>
 					<div>Comparison of various scripts that display images and other objects in somehow cool CSS popups.</div></li>
 				<li>
-					<a href="https://github.com/darcyclarke/Front-end-Developer-Interview-Questions">Frontend Job Interview Questions<sup>new</sup></a>
+					<a href="https://github.com/darcyclarke/Front-end-Developer-Interview-Questions">Frontend Job Interview Questions</a>
 					<div>This repo contains a number of front-end interview questions that can be used when vetting potential candidates.</div></li>
 			</div>
 		</ol>
@@ -678,7 +683,7 @@
 					<a href="http://www.adobe.com/pl/products/fireworks.html">Fireworks</a>
 					<div>It may not be most popular but it's primarily for webdesign so it has some nice features in that department.</div></li>
 				<li>
-					<a href="http://bohemiancoding.com/sketch/">Sketch 3<sup>new</sup></a>
+					<a href="http://bohemiancoding.com/sketch/">Sketch 3</a>
 					<div>Professional digital design for Mac.</div></li>
 				<li>
 					<a href="https://filezilla-project.org">FileZilla</a>
@@ -810,10 +815,10 @@
 		<ol class="listWindow" id="marketing"><h2>Analytics &amp; Marketing</h2>
 			<div>
 				<li>
-					<a href="http://www.google.com/analytics">Google Analytics</a>
+					<a href="http://www.google.com/analytics"><img src="http://www.google.com/analytics/images/favicon.ico">Google Analytics</a>
 					<div></div></li>
 				<li>
-					<a href="http://www.google.com/trends">Google Trends</a>
+					<a href="http://www.google.com/trends"><img src="http://www.google.com/favicon.ico">Google Trends</a>
 					<div></div></li>
 				<li>
 					<a href="http://www.sharedcount.com">Shared Count</a>
@@ -823,53 +828,55 @@
 					<div>Paid real time media monitoring application.</div></li>
 				<li>
 					<a href="http://www.alexa.com">Alexa</a>
-					<div></div></li>
+					<div>Analytics and website rankings.</div></li>
 				<li>
 					<a href="https://www.quantcast.com">Quantcast</a>
+					<div>Websites statistics and advertising.</div></li>
+				<li>
+					<a href="http://www.wordstream.com/keyword-niche-finder"><img src="http://www.wordstream.com/sites/all/themes/qc_ws/favicon.ico">Niche Keyword Finder</a>
 					<div></div></li>
 				<li>
-					<a href="http://www.wordstream.com/keyword-niche-finder">Niche Keyword Finder</a>
-					<div></div></li>
-				<li>
-					<a href="http://www.google.com/alerts">Google Alerts</a>
+					<a href="http://www.google.com/alerts"><img src="http://www.google.com/favicon.ico">Google Alerts</a>
 					<div></div></li>
 			</div>
 			<div><h3>SEO</h3>
+				<li>
+					<a href="http://www.google.com/webmasters/"><img src="http://www.google.com/favicon.ico">Google Webmasters</a>
+					<div>Get data, tools and diagnostics for a healthy, Google-friendly site.</div></li>
+				<li>
+					<a href="http://www.woorank.com/">Woo Rank<sup>new</sup></a>
+					<div>SEO tools.</div></li>
 				<li>
 					<a href="http://seositecheckup.com/">SEO Site Checkup</a>
 					<div></div></li>
 				<li>
 					<a href="http://www.internetmarketingninjas.com/tools">Net Marketing Ninjas Tools</a>
 					<div></div></li>
-				<li>
-					<a href="http://www.google.com/webmasters/">Google Webmasters</a>
-					<div>Get data, tools and diagnostics for a healthy, Google-friendly site.</div></li>
-
 			</div>
 			<div><h3>Ads</h3>
 				<li>
 					<a href="https://www.google.com/adsense"><img src="http://www.google.com/favicon.ico">Google AdSense</a>
 					<div></div></li>
 				<li>
-					<a href="http://www.google.com/adwords">Google AdWords</a>
+					<a href="http://www.google.com/adwords"><img src="http://www.google.com/favicon.ico">Google AdWords</a>
 					<div></div></li>
 				<li>
 					<a href="https://buysellads.com/">BuySellAds</a>
 					<div>Most leading design blogs use this service. You can buy or publish display ads, tweets and also email or RSS ads.</div></li>
 				<li>
-					<a href="http://decknetwork.net/"><img src="../img/blankfavicon.png">The DECK<sup>new</sup></a>
+					<a href="http://decknetwork.net/"><img src="../img/blankfavicon.png">The DECK</a>
 					<div></div></li>
 				<li>
-					<a href="http://www.yoggrt.com/">Yoggrt<sup>new</sup></a>
+					<a href="http://www.yoggrt.com/">Yoggrt</a>
 					<div></div></li>
 				<li>
-					<a href="http://carbonads.net/"><img src="../img/blankfavicon.png">Carbon Ads<sup>new</sup></a>
+					<a href="http://carbonads.net/"><img src="../img/blankfavicon.png">Carbon Ads</a>
 					<div>Invite only.</div></li>
 				<li>
-					<a href="http://adpacks.com/">Ad Packs<sup>new</sup></a>
+					<a href="http://adpacks.com/">Ad Packs</a>
 					<div>Invite only.</div></li>
 				<li>
-					<a href="http://influads.com/">InfluAds<sup>new</sup></a>
+					<a href="http://influads.com/">InfluAds</a>
 					<div>Invite only.</div></li>
 
 			</div>
@@ -890,7 +897,7 @@
 					<a href="http://www.silverstripe.org">SilverStripe</a>
 					<div></div></li>
 				<li>
-					<a href="http://anchorcms.com/">Anchor<sup>new</sup></a>
+					<a href="http://anchorcms.com/">Anchor</a>
 					<div></div></li>
 				<li>
 					<a href="http://www.madebyfrog.com">Frog</a>
@@ -934,7 +941,7 @@
 					<a href="http://foundation.zurb.com">Foundation</a>
 					<div></div></li>
 				<li>
-					<a href="http://getbootstrap.com"><img src="http://getbootstrap.com/assets/ico/favicon.ico">Bootstrap</a>
+					<a href="http://getbootstrap.com"><img src="http://getbootstrap.com/favicon.ico">Bootstrap</a>
 					<div></div></li>
 				<li>
 					<a href="http://backbonejs.org/">Backbone.js</a>
@@ -1017,16 +1024,19 @@
 		<ol class="listWindow" id="learning"><h2>Learning</h2>
 			<div>
 				<li>
-					<a href="http://www.lynda.com/">Lynda<sup>new</sup></a>
+					<a href="http://www.lynda.com/">Lynda</a>
 					<div>Online video tutorials to help you learn software, creative, and business skills.</div></li>
 				<li>
-					<a href="https://www.udemy.com/">Udemy<sup>new</sup></a>
+					<a href="https://www.udemy.com/">Udemy</a>
 					<div>You can practically learn everything here. Most lessons aren't free.</div></li>
 			</div>
 			<div><h3>Design</h3>
 				<li>
-					<a href="http://webstyleguide.com/index.html"><img src="../img/blankfavicon.png">Web Style Guide<sup>new</sup></a>
+					<a href="http://webstyleguide.com/index.html"><img src="../img/blankfavicon.png">Web Style Guide</a>
 					<div>Consistently praised as the best volume on classic elements of web site design, Web Style Guide, now in its third edition, maintains an emphasis on fundamentals while bringing every chapter topic up-to-date.</div></li>
+				<li>
+					<a href="http://practicaltypography.com/"><img src="../img/blankfavicon.png">Practical Typography<sup>new</sup></a>
+					<div>Learn all about typography: key rules, why typography matters, type composition, text formatting, etc.</div></li>
 				<li>
 					<a href="http://www.rocket-design.fr/color-template">Color Template</a>
 					<div>Learn how to choose right colors for design.</div></li>
@@ -1054,7 +1064,7 @@
 					<a href="http://devdocs.io/">DevDocs</a>
 					<div>DevDocs combines multiple API documentations in a fast, organized, and searchable interface.</div></li>
 				<li>
-					<a href="http://beta.theexpressiveweb.com/">The Expressive Web<sup>new</sup></a>
+					<a href="http://beta.theexpressiveweb.com/">The Expressive Web</a>
 					<div>HTML5 and CSS3 bring loads of new features and functionality to the modern web. This site is a resource and showcase of some of the newest, and most expressive features being added to the web today.</div></li>
 				<li>
 					<a href="http://www.codecademy.com/">Codecademy</a>
@@ -1066,7 +1076,7 @@
 					<a href="https://dash.generalassemb.ly/">Dash</a>
 					<div></div></li>
 				<li>
-					<a href="http://learnlayout.com/">Learn CSS Layout<sup>new</sup></a>
+					<a href="http://learnlayout.com/">Learn CSS Layout</a>
 					<div>This site teaches the CSS fundamentals that are used in any website's layout.</div></li>
 				<li>
 					<a href="http://www.codeavengers.com/">Code Avengers</a>
@@ -1095,19 +1105,19 @@
 		<ol class="listWindow" id="jobs"><h2>Jobs</h2>
 			<div>
 				<li>
-					<a href="http://careers.stackoverflow.com/"><img src="http://cdn-careers.sstatic.net/careers/Img/logos/favicon.ico">StackOverflow Careers 2.0<sup>new</sup></a>
+					<a href="http://careers.stackoverflow.com/"><img src="http://cdn-careers.sstatic.net/careers/Img/logos/favicon.ico">StackOverflow Careers 2.0</a>
 					<div></div></li>
 				<li>
-					<a href="http://jobs.smashingmagazine.com/">Smashing Magazine Jobs<sup>new</sup></a>
+					<a href="http://jobs.smashingmagazine.com/">Smashing Magazine Jobs</a>
 					<div></div></li>
 				<li>
-					<a href="https://weworkremotely.com/"><img src="../img/blankfavicon.png">We Work Remotely<sup>new</sup></a>
+					<a href="https://weworkremotely.com/"><img src="../img/blankfavicon.png">We Work Remotely</a>
 					<div>We Work Remotely is the best place to find and list jobs that aren’t restricted by commutes or a particular geographic area.</div></li>
 				<li>
-					<a href="http://www.authenticjobs.com/">Authentic Jobs<sup>new</sup></a>
+					<a href="http://www.authenticjobs.com/">Authentic Jobs</a>
 					<div></div></li>
 				<li>
-					<a href="https://jobs.github.com/">GitHub Jobs<sup>new</sup></a>
+					<a href="https://jobs.github.com/">GitHub Jobs</a>
 					<div></div></li>
 			</div>
 		</ol>

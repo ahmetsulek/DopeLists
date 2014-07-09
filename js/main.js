@@ -8,6 +8,7 @@ $(document).ready(function(){
 	//----------------------------------------------------------------------------------//
 	// GOOGLE ANALYTICS
 	//----------------------------------------------------------------------------------//
+
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -19,6 +20,7 @@ $(document).ready(function(){
 	//----------------------------------------------------------------------------------//
 	// TWITTER API
 	//----------------------------------------------------------------------------------//
+
 	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
 
@@ -27,10 +29,7 @@ $(document).ready(function(){
 	//----------------------------------------------------------------------------------//
 
 	//from localhost
-	//$(".top").load("http://localhost/DopeLists/include_top.html"); $(".footer").load("http://localhost/DopeLists/include_footer.html");
-
-	//from dominikserafin.pl
-	//$(".top").load("http://dominikserafin.pl/dope/include_top.html"); $(".footer").load("http://dominikserafin.pl/dope/include_footer.html");
+	//$(".top").load("http://localhost/Dev_DopeLists/include_top.html"); $(".footer").load("http://localhost/Dev_DopeLists/include_footer.html");
 
 	//from dopelists.com
 	$(".top").load("http://dopelists.com/include_top.html"); $(".footer").load("http://dopelists.com/include_footer.html");
@@ -132,7 +131,7 @@ $(document).ajaxStop(function() {
 
 	$(function(){        
 		$(".lists").masonry({
-			columnWidth: 200,
+			columnWidth: 10,
 			itemSelector: '.listWindow',
 			transitionDuration: '0'
 		});
@@ -161,7 +160,7 @@ $(document).ajaxStop(function() {
 	$(".listWindow").each(function() {
 
 		$(".navigation > .buttons").append(
-			"<div class='pressed' value='" + $(this).attr("id") + "'>" + $(this).children("h2").text() + "</div>"
+			"<div class='pressed' value='" + $(this).attr("id") + "'>" + $(this).children("h2").html() + "</div>"
 		);
 
 	}); 

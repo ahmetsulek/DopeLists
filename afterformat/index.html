@@ -24,7 +24,7 @@
 	<link rel="icon" type="image/png" href="../favicon-96x96.png" sizes="96x96">
 	<link rel="icon" type="image/png" href="../favicon-16x16.png" sizes="16x16">
 	<link rel="icon" type="image/png" href="../favicon-32x32.png" sizes="32x32">
-	<meta name="msapplication-TileColor" content="#ffc40d">
+	<meta name="msapplication-TileColor" content="#707070">
 	<meta name="msapplication-TileImage" content="../mstile-144x144.png">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,7 +33,24 @@
 	<link href="../css/reset.css" rel="stylesheet" type="text/css">
 	<link href="../css/listPage.css" rel="stylesheet" type="text/css">
 
-	<style> body { background-color: #A0522D; } </style>
+	<style>
+		body, .listWindow > div > li > a > sup {
+			background-color: rgba(160,82,45,1);
+		}
+
+		.listWindow > h2 {
+			border-color: rgba(160,82,45,0.4);
+		}
+
+		/*Sites descriptions*/
+ 		.listWindow > div > li > div:before {
+ 			color: rgba(160,82,45,1);
+ 		}
+
+		.listWindow > div > li > div {
+			background-color: rgba(160,82,45,1);
+		}
+	</style>
 
 	<script src="../js/jquery.min.js"></script>
 	<script src="../js/masonry.pkgd.min.js"></script>
@@ -79,6 +96,14 @@
 	</div>
 
 	<div class="lists">
+
+		<!--<ol class="listWindow" id="sponsored"><h2>Sponsored</h2>
+			<div>
+				<li>
+					<a href="mailto:dopelists@gmail.com"><img src="../img/plusfavicon.png">Advertise here</a>
+					<div></div></li>
+			</div>
+		</ol>-->
 
 		<ol class="listWindow" id="sites"><h2>Useful Sites</h2>
 			<div>
@@ -149,8 +174,8 @@
 					<a href="http://www.imgburn.com/index.php?act=download">ImgBurn</a>
 					<div>Free disc burner with good features.</div></li>
 				<li>
-					<a href="https://cdburnerxp.se/en/download">CDBurnerXP</a>
-					<div>Disc burner.</div></li>
+					<a href="http://www.slysoft.com/en/virtual-clonedrive.html">Virtual CloneDrive<sup>new</sup></a>
+					<div>Easily mount disk images.</div></li>
 				<li>
 					<a href="http://infrarecorder.org/?page_id=5">InfraRecorder</a>
 					<div>Disc burner.</div></li>
