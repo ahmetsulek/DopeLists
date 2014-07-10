@@ -407,9 +407,10 @@ h1 sup {
 .listWindow > div > li > a > sup.nsfw {
 	font-size: 8px;
 	font-weight: bold;
-	background-color: red;
+	background-color: transparent;
 	padding: 0 3px;
-	color: white;
+	color: black;
+	border: 1px solid rgba(255,0,0,0.2);
 	text-transform: UPPERCASE;
 	margin-left: 5px;
 	z-index: 8;
